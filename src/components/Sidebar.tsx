@@ -25,8 +25,8 @@ interface SidebarProps {
 const sidebarItems: SidebarItem[] = [
   {
     id: 'dashboard',
-    label: 'Dashboard',
-    description: 'Draft Board',
+    label: 'Live Draft Pick',
+    description: 'Live 5v5 Draft Board',
     icon: LayoutDashboard,
   },
   {
