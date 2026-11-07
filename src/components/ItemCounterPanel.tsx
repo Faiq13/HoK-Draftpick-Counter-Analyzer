@@ -17,6 +17,7 @@ export const ItemCounterPanel: React.FC<ItemCounterPanelProps> = ({
   const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const enemyPickedIds = draftState.redTeam.filter((id): id is string => id !== null);
   const allyPickedIds = draftState.blueTeam.filter((id): id is string => id !== null);
+  const allyRoles = [...new Set(allyPickedIds.map(id => HOK_HEROES.find(hero => hero.id === id)?.role).filter(Boolean))].join(', ');
 
   if (enemyPickedIds.length === 0) {
     return (
@@ -168,7 +169,7 @@ export const ItemCounterPanel: React.FC<ItemCounterPanelProps> = ({
 
                   {/* Row 2: Tactical description — why this item counters the enemy comp */}
                   <p className="text-[11px] text-white/55 leading-relaxed" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                    {desc || `${item.triggerConditions?.[0] ?? 'Efek khusus'} melawan ${item.targetHeroes?.slice(0, 3).join(', ') ?? 'komposisi musuh'}.`}
+                    {desc || `${item.triggerConditions?.[0] ?? 'Efek khusus'} melawan ${item.targetHeroes?.slice(0, 3).join(', ') ?? 'komposisi musuh'}.`}<span className="mt-1 block text-[10px] text-cyan-200/70">Role cocok: {allyRoles || 'sesuaikan dengan komposisi tim'}</span>
                   </p>
 
                   {/* Priority indicator */}
