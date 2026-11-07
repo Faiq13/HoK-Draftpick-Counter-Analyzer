@@ -1,3 +1,5 @@
 node_modules/
 dist/
-sesi_opencode.json
+venv/
+.git/
+*.zip
