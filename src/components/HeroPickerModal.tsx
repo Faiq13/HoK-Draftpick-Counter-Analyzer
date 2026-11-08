@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { DraftHero, DraftSlot } from '../types/draft';
 
-interface HeroPickerModalProps { slot: DraftSlot; heroes: DraftHero[]; usedIds: Set<number>; onClose: () => void; onSelect: (hero: DraftHero) => void; }
+interface HeroPickerModalProps { slot: DraftSlot; heroes: DraftHero[]; usedIds: Set<any>; onClose: () => void; onSelect: (hero: DraftHero) => void; }
 
 export function HeroPickerModal({ slot, heroes, usedIds, onClose, onSelect }: HeroPickerModalProps) {
   const [search, setSearch] = useState('');
@@ -10,7 +10,7 @@ export function HeroPickerModal({ slot, heroes, usedIds, onClose, onSelect }: He
   const dialogRef = useRef<HTMLElement>(null);
   const roles = useMemo(() => [...new Set(heroes.flatMap(hero => String(hero.roles || '').split(',').map(value => value.trim()).filter(Boolean)))].sort(), [heroes]);
   const lanes = useMemo(() => [...new Set(heroes.map(hero => hero.recommended_lane).filter(Boolean))].sort(), [heroes]);
-  const filtered = useMemo(() => heroes.filter(hero => !usedIds.has(hero.id) && `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(search.toLowerCase()) && (role === 'all' || (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).includes(role)) && (lane === 'all' || hero.recommended_lane === lane)), [heroes, usedIds, search, role, lane]);
+  const filtered = useMemo(() => heroes.filter(hero => !usedIds.has(String(hero.id)) && `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(search.toLowerCase()) && (role === 'all' || (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).includes(role)) && (lane === 'all' || hero.recommended_lane === lane)), [heroes, usedIds, search, role, lane]);
 
   useEffect(() => {
     const handleEscape = (event: KeyboardEvent) => event.key === 'Escape' && onClose();

@@ -11,7 +11,7 @@ export function TeamDraftPanel({ team, state, onOpenSlot }: TeamDraftPanelProps)
   const isBlue = team === 'blue';
   const renderSlots = (phase: 'pick' | 'ban', heroes: Array<DraftHero | null>) => (
     <div className="grid gap-2 px-3 pb-4">
-      {heroes.map((hero, index) => <DraftSlotButton key={`${phase}-${index}`} slot={{ team, phase, index }} hero={hero} onOpen={onOpenSlot} />)}
+      {heroes.map((hero, index) => <DraftSlotButton key={`${phase}-${index}`} slot={{ id: `${team}-${phase}-${index}`, team, phase, side: team, type: phase, index }} hero={hero} onOpen={onOpenSlot} />)}
     </div>
   );
 

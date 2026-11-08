@@ -16,7 +16,7 @@ interface TeamSynergyPanelProps {
 
 const ROLES: Hero['role'][] = ['Roam', 'Clash', 'Mid', 'Farm', 'Jungle'];
 
-function getLocalizedReason(t: (key: string, options?: any) => string, heroId: string, targetId: string, type: string, fallback?: string) {
+function getLocalizedReason(t: any, heroId: string, targetId: string, type: string, fallback?: string) {
   const path = `tactical.${type}s.${heroId}.${targetId}`;
   const localized = t(path, { defaultValue: '' });
   if (localized) return localized;
