@@ -19,6 +19,11 @@ export interface DraftSlot {
   team: DraftTeam;
   phase: DraftPhase;
   index: number;
+  hero?: DraftHero | string | null;
+  heroId?: string | null;
+  side?: 'blue' | 'red' | string;
+  type?: 'pick' | 'ban' | string;
+  [key: string]: any;
 }
 
 export interface DraftTeamState {
