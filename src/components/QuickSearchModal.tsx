@@ -21,12 +21,12 @@ export function QuickSearchModal({ heroes, items, onClose, onNavigate }: QuickSe
   const results = useMemo<SearchResult[]>(() => {
     if (!query) return [];
     return [
-      ...heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name} ${hero.roles} ${hero.popularity}`.toLowerCase().includes(query)).map(hero => ({
+      ...heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name} ${Array.isArray(hero.roles) ? hero.roles.join(' ') : hero.roles ?? ''} ${hero.popularity ?? ''}`.toLowerCase().includes(query)).map(hero => ({
         type: 'hero' as const,
         id: String(hero.id),
-        name: hero.english_hero_name || hero.chinese_hero_name,
-        role: hero.roles,
-        tier: hero.popularity,
+        name: hero.english_hero_name || hero.chinese_hero_name || '',
+        role: Array.isArray(hero.roles) ? hero.roles.join(', ') : hero.roles || '',
+        tier: String(hero.popularity ?? ''),
         avatar: hero.image_url,
       })),
       ...items.filter(item => `${item.name} ${item.category}`.toLowerCase().includes(query)).map(item => ({ ...item, type: 'item' as const, id: String(item.id) })),
