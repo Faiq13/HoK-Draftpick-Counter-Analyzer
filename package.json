@@ -11,9 +11,12 @@
     "@gsap/react": "^2.1.2",
     "@vitejs/plugin-react": "latest",
     "gsap": "^3.15.1",
+    "i18next": "^27.0.1",
+    "i18next-browser-languagedetector": "^8.3.0",
     "lucide-react": "^1.70.0",
     "react": "latest",
     "react-dom": "latest",
+    "react-i18next": "^18.0.0",
     "typescript": "latest",
     "vite": "latest"
   },

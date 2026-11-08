@@ -44,14 +44,14 @@ function App() {
   const selectedHeroes = useMemo(() => Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter(Boolean) as DraftHero[], [teams]);
   const recommendations = useMemo(() => {
     const score = (hero: DraftHero) => parsePercent(hero.win_rate) + parsePercent(hero.pick_rate) * 0.25 + selectedHeroes.reduce((total, target) => {
-      const sharedRole = hero.roles.split(',').some(role => target.roles.includes(role.trim()));
+      const sharedRole = (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).some(role => (Array.isArray(target.roles) ? target.roles : (target.roles ?? '').split(',')).includes(role.trim()));
       return total + (sharedRole ? 0.05 : 0);
     }, 0);
     return heroes.filter(hero => !usedIds.has(hero.id)).sort((a, b) => score(b) - score(a)).slice(0, 5);
   }, [heroes, usedIds, selectedHeroes]);
   const roles = useMemo(() => [...new Set(heroes.flatMap(hero => String(hero.roles || '').split(',').map(role => role.trim()).filter(Boolean)))].sort(), [heroes]);
   const lanes = useMemo(() => [...new Set(heroes.map(hero => hero.recommended_lane).filter(Boolean))].sort(), [heroes]);
-  const filteredDatabase = useMemo(() => heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(databaseSearch.toLowerCase()) && (roleFilter === 'all' || hero.roles.includes(roleFilter)) && (laneFilter === 'all' || hero.recommended_lane === laneFilter)), [heroes, databaseSearch, roleFilter, laneFilter]);
+  const filteredDatabase = useMemo(() => heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(databaseSearch.toLowerCase()) && (roleFilter === 'all' || (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).includes(roleFilter)) && (laneFilter === 'all' || hero.recommended_lane === laneFilter)), [heroes, databaseSearch, roleFilter, laneFilter]);
 
   const pickHero = (hero: DraftHero) => {
     if (!activeSlot || usedIds.has(hero.id)) return;
