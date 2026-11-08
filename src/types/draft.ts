@@ -25,3 +25,11 @@ export interface DraftTeamState {
   picks: Array<DraftHero | null>;
   bans: Array<DraftHero | null>;
 }
+
+export interface DraftState {
+  blueTeam: Array<DraftHero | null>;
+  redTeam: Array<DraftHero | null>;
+  blueBans: Array<DraftHero | null>;
+  redBans: Array<DraftHero | null>;
+  activeSlot?: DraftSlot | null;
+}
