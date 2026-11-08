@@ -9,6 +9,13 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-even
 button, input, select { font: inherit; }
 
 @layer components {
+  .gw-shell { --gw-background-image: none; position: relative; isolation: isolate; background: #080b12; color: #f8fafc; }
+  .gw-background { position: fixed; inset: 0; z-index: -2; background-image: linear-gradient(rgba(5, 9, 16, .78), rgba(5, 9, 16, .9)), var(--gw-background-image); background-position: center; background-size: cover; filter: saturate(.75); }
+  .gw-background::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 50% 0%, rgba(103, 232, 249, .12), transparent 34%), linear-gradient(180deg, transparent 0%, rgba(8, 11, 18, .72) 100%); }
+  .gw-content { position: relative; z-index: 0; }
+  .gw-glass, .gw-panel { background: linear-gradient(145deg, rgba(24, 36, 56, .72), rgba(8, 14, 25, .7)); border: 1px solid rgba(148, 163, 184, .16); box-shadow: inset 0 1px rgba(255, 255, 255, .06), 0 18px 48px rgba(0, 0, 0, .22); backdrop-filter: blur(16px); }
+  .gw-panel { transition: border-color .18s ease, background-color .18s ease; }
+  .gw-panel:hover { border-color: rgba(103, 232, 249, .28); }
   .glass-shell { background: linear-gradient(135deg, rgba(20, 30, 47, .82), rgba(8, 13, 23, .72)); border: 1px solid rgba(148, 163, 184, .14); box-shadow: 0 20px 60px rgba(0, 0, 0, .24), inset 0 1px rgba(255, 255, 255, .06); backdrop-filter: blur(18px); }
   .glass-card { background: linear-gradient(145deg, rgba(24, 36, 56, .82), rgba(14, 22, 36, .78)); border: 1px solid rgba(148, 163, 184, .14); box-shadow: inset 0 1px rgba(255, 255, 255, .045), 0 12px 30px rgba(0, 0, 0, .16); backdrop-filter: blur(14px); }
   .glass-card-hover { transition: border-color .18s ease, background-color .18s ease, transform .18s ease; }
