@@ -1,12 +1,12 @@
 import React from 'react';
 import { Plus, X } from 'lucide-react';
 import { getHeroes, type Hero } from '../services/heroAdapter';
-import type { DraftState } from '../types/draft';
+import type { DraftHero, DraftState } from '../types/draft';
 
 interface Props { draftState: DraftState; onSelectSlot: (side: 'blue' | 'red', type: 'pick' | 'ban', index: number) => void; onRemoveHero: (side: 'blue' | 'red', type: 'pick' | 'ban', index: number) => void; }
 const heroes = getHeroes();
 export const DraftBoard: React.FC<Props> = ({ draftState, onSelectSlot, onRemoveHero }) => {
-  const findHero = (id: string | null): Hero | undefined => heroes.find(hero => hero.id === id);
+  const findHero = (id: string | number | DraftHero | null): Hero | undefined => heroes.find(hero => String(hero.id) === String(typeof id === 'object' ? id?.id : id));
   const renderSlot = (side: 'blue' | 'red', type: 'pick' | 'ban', index: number) => {
     const ids = type === 'pick' ? (side === 'blue' ? draftState.blueTeam : draftState.redTeam) : (side === 'blue' ? draftState.blueBans : draftState.redBans);
     const selected = findHero(ids[index]); const active = draftState.activeSlot?.side === side && draftState.activeSlot.type === type && draftState.activeSlot.index === index;
