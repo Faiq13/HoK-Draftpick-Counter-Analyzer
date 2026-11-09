@@ -12,7 +12,9 @@ export function GlassWorkspace({ children, backgroundImage }: GlassWorkspaceProp
   useEffect(() => {
     if (!shellRef.current) return;
     const ctx = gsap.context(() => {
-      gsap.fromTo('.gw-panel', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.04, ease: 'power2.out' });
+      const panels = shellRef.current?.querySelectorAll('.gw-panel');
+      if (!panels?.length) return;
+      gsap.fromTo(panels, { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.35, stagger: 0.04, ease: 'power2.out' });
     }, shellRef);
     return () => ctx.revert();
   }, []);

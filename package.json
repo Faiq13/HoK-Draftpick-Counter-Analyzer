@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "check:counter-data": "node scripts/check-counter-data.mjs"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

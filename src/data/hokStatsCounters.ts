@@ -1,5 +1,5 @@
-// Sumber: https://hokstats.gg/id/counters/ — scraping live S16
-// 120 hero · 818 counter edges (internasional)
+﻿// Sumber: https://hokstats.gg/id/counters/ ÔÇö scraping live S16
+// 120 hero ┬À 818 counter edges (internasional)
 // Gunakan sebagai benchmark validasi data counter internal
 
 export interface HokStatsCounter {
@@ -19,10 +19,10 @@ export const HOKSTATS_COUNTERS: HokStatsCounter[] = [
   { name: "Ao'yin", role: "Farm Lane", tier: "S", counters: ["Lian Po", "Dun", "Flowborn (Tank)"], counteredBy: ["Kui", "Donghuang"] },
   { name: "Arke", role: "Jungler", tier: "B", counters: ["Wang Zhaojun", "Hou Yi", "Alessio", "Dolia", "Flowborn (Mage)", "Garo", "Haya", "Sun Bin", "Wang Wei", "Yaria"], counteredBy: ["Guiguzi", "Donghuang"] },
   { name: "Arli", role: "Farm Lane", tier: "B", counters: ["Sima Yi", "Zilong"], counteredBy: ["Zhang Fei"] },
-  { name: "Arthur", role: "Clash Lane · Jungler", tier: "A", counters: ["Angela", "Agudo", "Zhou Yu"], counteredBy: ["Cai Yan", "Liu Shan", "Pei", "Ukyo Tachibana"] },
-  { name: "Ata", role: "Clash Lane · Jungler", tier: "C", counters: ["Marco Polo", "Hou Yi"], counteredBy: ["Jing"] },
+  { name: "Arthur", role: "Clash Lane ┬À Jungler", tier: "A", counters: ["Angela", "Agudo", "Zhou Yu"], counteredBy: ["Cai Yan", "Liu Shan", "Pei", "Ukyo Tachibana"] },
+  { name: "Ata", role: "Clash Lane ┬À Jungler", tier: "C", counters: ["Marco Polo", "Hou Yi"], counteredBy: ["Jing"] },
   { name: "Athena", role: "Jungler", tier: "C", counters: ["Da Qiao", "Luna", "Shi"], counteredBy: ["Da Qiao", "Nakoruru"] },
-  { name: "Augran", role: "Jungler · Clash Lane", tier: "S", counters: ["Luna", "Shangguan", "Zhou Yu"], counteredBy: ["Angela", "Daji", "Dolia", "Liu Shan", "Yixing"] },
+  { name: "Augran", role: "Jungler ┬À Clash Lane", tier: "S", counters: ["Luna", "Shangguan", "Zhou Yu"], counteredBy: ["Angela", "Daji", "Dolia", "Liu Shan", "Yixing"] },
   { name: "Bai Qi", role: "Clash Lane", tier: "C", counters: ["Li Bai", "Han Xin"], counteredBy: ["Nezha", "Marco Polo"] },
   { name: "Biron", role: "Clash Lane", tier: "B", counters: ["Kongming", "Shangguan", "Ziya"], counteredBy: ["Da Qiao", "Liu Shan", "Chano", "Flowborn (Mage)", "Florentino"] },
   { name: "Butterfly", role: "Jungler", tier: "B", counters: ["Heino", "Gan & Mo", "Diaochan"], counteredBy: ["Donghuang", "Zhang Fei"] },
@@ -36,7 +36,7 @@ export const HOKSTATS_COUNTERS: HokStatsCounter[] = [
   { name: "Devara", role: "Clash Lane", tier: "B", counters: ["Li Bai", "Han Xin"], counteredBy: ["Lam", "Augran"] },
   { name: "Dian Wei", role: "Clash Lane", tier: "B", counters: ["Li Bai", "Han Xin", "Hou Yi"], counteredBy: ["Lam", "Angela"] },
   { name: "Diaochan", role: "Mid Lane", tier: "B", counters: ["Augran", "Butterfly", "Florentino"], counteredBy: ["Angela", "Yao"] },
-  { name: "Dolia", role: "Roamer", tier: "S", counters: ["Augran", "Dajì", "Lam"], counteredBy: ["Arke", "Jing"] },
+  { name: "Dolia", role: "Roamer", tier: "S", counters: ["Augran", "Daj├¼", "Lam"], counteredBy: ["Arke", "Jing"] },
   { name: "Dr Bian", role: "Roamer", tier: "C", counters: ["Li Bai", "Han Xin"], counteredBy: ["Arke", "Augran"] },
   { name: "Donghuang", role: "Roamer", tier: "S", counters: ["Allain", "Arke", "Butterfly", "Augran", "Agudo", "Florentino"], counteredBy: ["Lam", "Haya"] },
   { name: "Dun", role: "Clash Lane", tier: "A", counters: ["Allain", "Li Bai", "Florentino"], counteredBy: ["Cai Yan", "Liang", "Ao'yin"] },
@@ -47,7 +47,7 @@ export const HOKSTATS_COUNTERS: HokStatsCounter[] = [
   { name: "Florentino", role: "Clash Lane", tier: "B", counters: ["Biron", "Zilong", "Lu Bu"], counteredBy: ["Donghuang", "Zhang Fei"] },
   { name: "Flowborn (Assassin)", role: "Jungler", tier: "B", counters: ["Zhao Yun", "Han Xin"], counteredBy: ["Lam", "Augran"] },
   { name: "Flowborn (Mage)", role: "Mid Lane", tier: "C", counters: ["Augran", "Biron"], counteredBy: ["Arke", "Jing"] },
-  { name: "Flowborn (Tank)", role: "Clash Lane · Roamer", tier: "C", counters: ["Li Bai", "Han Xin"], counteredBy: ["Lam", "Haya"] },
+  { name: "Flowborn (Tank)", role: "Clash Lane ┬À Roamer", tier: "C", counters: ["Li Bai", "Han Xin"], counteredBy: ["Lam", "Haya"] },
   { name: "Gan & Mo", role: "Roamer", tier: "C", counters: ["Augran", "Butterfly"], counteredBy: ["Lam", "Haya"] },
   { name: "Gao Changgong", role: "Jungler", tier: "B", counters: ["Zhao Yun", "Zilong", "Florentino"], counteredBy: ["Lam", "Augran"] },
   { name: "Garo", role: "Farm Lane", tier: "A", counters: ["Annette", "Zhuangzi", "Dolia"], counteredBy: ["Chano", "Xuance"] },
@@ -81,11 +81,11 @@ export const HOKSTATS_COUNTERS: HokStatsCounter[] = [
   { name: "Milady", role: "Mid Lane", tier: "S", counters: ["Augran", "Allain", "Biron"], counteredBy: ["Haya", "Jing"] },
   { name: "Mozi", role: "Clash Lane", tier: "A", counters: ["Li Bai", "Han Xin", "Allain"], counteredBy: ["Lam", "Butterfly"] },
   { name: "Mulan", role: "Clash Lane", tier: "B", counters: ["Li Bai", "Allain", "Florentino"], counteredBy: ["Lam", "Butterfly"] },
-  { name: "Musashi", role: "Clash Lane · Jungler", tier: "B", counters: ["Li Bai", "Florentino", "Zilong"], counteredBy: ["Lam", "Butterfly"] },
+  { name: "Musashi", role: "Clash Lane ┬À Jungler", tier: "B", counters: ["Li Bai", "Florentino", "Zilong"], counteredBy: ["Lam", "Butterfly"] },
   { name: "Nakoruru", role: "Roamer", tier: "B", counters: ["Augran", "Athena"], counteredBy: ["Lam", "Haya"] },
   { name: "Nuwa", role: "Mid Lane", tier: "A", counters: ["Augran", "Biron", "Allain"], counteredBy: ["Haya", "Jing"] },
   { name: "Pei", role: "Clash Lane", tier: "B", counters: ["Li Bai", "Han Xin", "Arthur"], counteredBy: ["Lam", "Butterfly"] },
-  { name: "Shangguan Wan'er", role: "Mid Lane · Jungler", tier: "B", counters: ["Augran", "Biron", "Luna"], counteredBy: ["Haya", "Jing"] },
+  { name: "Shangguan Wan'er", role: "Mid Lane ┬À Jungler", tier: "B", counters: ["Augran", "Biron", "Luna"], counteredBy: ["Haya", "Jing"] },
   { name: "Shi", role: "Roamer", tier: "C", counters: ["Athena", "Luna", "Cai Yan", "Lam"], counteredBy: ["Lam", "Haya"] },
   { name: "Shouyue", role: "Farm Lane", tier: "B", counters: ["Annette", "Zhuangzi", "Donghuang"], counteredBy: ["Xuance", "Augran"] },
   { name: "Sima Yi", role: "Mid Lane", tier: "C", counters: ["Augran", "Allain", "Alessio"], counteredBy: ["Haya", "Jing"] },
@@ -104,7 +104,7 @@ export const HOKSTATS_COUNTERS: HokStatsCounter[] = [
   { name: "Yixing", role: "Mid Lane", tier: "C", counters: ["Augran", "Allain", "Biron"], counteredBy: ["Haya", "Jing"] },
   { name: "Yang Jian", role: "Clash Lane", tier: "B", counters: ["Li Bai", "Han Xin"], counteredBy: ["Lam", "Angela"] },
   { name: "Zhuangzi", role: "Roamer", tier: "B", counters: ["Augran", "Dun"], counteredBy: ["Lam", "Haya"] },
-  { name: "Zhao Yun", role: "Clash Lane · Jungler", tier: "B", counters: ["Li Bai", "Han Xin", "Allain"], counteredBy: ["Xuance", "Lam"] },
+  { name: "Zhao Yun", role: "Clash Lane ┬À Jungler", tier: "B", counters: ["Li Bai", "Han Xin", "Allain"], counteredBy: ["Xuance", "Lam"] },
   { name: "Zhang Fei", role: "Roamer", tier: "B", counters: ["Butterfly", "Florentino", "Arli"], counteredBy: ["Lam", "Haya"] },
   { name: "Zhou Yu", role: "Mid Lane", tier: "B", counters: ["Augran", "Arthur", "Allain"], counteredBy: ["Angela", "Haya"] },
   { name: "Zilong", role: "Clash Lane", tier: "B", counters: ["Allain", "Li Bai", "Florentino"], counteredBy: ["Xuance", "Arli"] },

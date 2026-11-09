@@ -1,7 +1,3 @@
 node_modules/
 dist/
-venv/
-.git/
-*.zip.opencode/
-.opencode/
-agents.md
+sesi_opencode.json

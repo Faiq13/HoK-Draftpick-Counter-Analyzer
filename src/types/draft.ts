@@ -10,6 +10,7 @@ export interface DraftHero {
   image_url: string;
   hero_page_url: string;
   popularity?: string | number;
+  tier?: string;
   win_rate: string;
   pick_rate: string;
   ban_rate: string;
@@ -32,9 +33,9 @@ export interface DraftTeamState {
 }
 
 export interface DraftState {
-  blueTeam: Array<DraftHero | string | null>;
-  redTeam: Array<DraftHero | string | null>;
-  blueBans: Array<DraftHero | string | null>;
-  redBans: Array<DraftHero | string | null>;
+  blueTeam: Array<DraftHero | null>;
+  redTeam: Array<DraftHero | null>;
+  blueBans: Array<DraftHero | null>;
+  redBans: Array<DraftHero | null>;
   activeSlot?: DraftSlot | null;
 }

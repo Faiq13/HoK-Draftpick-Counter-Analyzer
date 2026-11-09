@@ -23,9 +23,21 @@ button, input, select { font: inherit; }
   .glass-card-hover:active { transform: translateY(0); }
 }
 
+@media (min-width: 769px) {
+  main > .mb-6 { margin-bottom: 1.5rem; }
+}
+
 @media (max-width: 768px) {
   body::before { background: radial-gradient(circle at 50% 0%, rgba(74, 222, 243, .1), transparent 38%), #080b12; }
 }
+
+/* Landing styles removed; dashboard stays focused. */
+.landing-page { min-height: 100vh; overflow: hidden; background: #0c0c0c; color: #f5f5f0; position: relative; }
+.landing-page::before { content: ""; position: absolute; width: 520px; height: 520px; right: -150px; top: 12%; border-radius: 50%; background: rgba(103,232,249,.12); filter: blur(120px); }
+.landing-nav { position: relative; z-index: 1; display: flex; justify-content: space-between; max-width: 1320px; margin: auto; padding: 24px 32px; border-bottom: 1px solid rgba(255,255,255,.1); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.landing-nav strong { color: #67e8f9; }.landing-nav span { color: rgba(245,245,240,.5); }
+.landing-copy { position: relative; z-index: 1; max-width: 1320px; margin: auto; padding: 13vh 32px 12vh; }.landing-copy > p:first-child { color: #67e8f9; font-size: 12px; text-transform: uppercase; letter-spacing: .2em; }.landing-copy h1 { max-width: 900px; margin: 22px 0; font: 900 clamp(4rem, 14vw, 13rem)/.82 Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: -.04em; }.landing-copy h1 b { color: #67e8f9; }.landing-lead { max-width: 550px; color: rgba(245,245,240,.68); font-size: 18px; line-height: 1.5; }.landing-copy button { margin-top: 18px; border: 0; border-radius: 999px; padding: 15px 22px; background: #67e8f9; color: #080b12; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; transition: transform .2s ease, background .2s ease; }.landing-copy button:hover { transform: translateY(-2px); background: #fff; }.landing-ticker { border-block: 1px solid rgba(255,255,255,.1); background: #141414; padding: 17px 32px; color: rgba(245,245,240,.65); font-size: 13px; font-weight: 800; letter-spacing: .1em; text-align: center; }
+@media (max-width: 600px) { .landing-nav { padding-inline: 18px; }.landing-nav span { display: none; }.landing-copy { padding: 16vh 18px 15vh; }.landing-ticker { padding-inline: 18px; line-height: 2; } }
 
 button, select, input { cursor: pointer; }
 input { cursor: text; }
