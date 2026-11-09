@@ -1,1 +1,12 @@
-[]
+[
+  {"id":"venomous-staff","name":"Venomous Staff","category":"anti-heal","price":0,"icon":"/items/venomous-staff.webp"},
+  {"id":"sea-tremor","name":"Sea Tremor","category":"anti-heal","price":0,"icon":"/items/sea-tremor.webp"},
+  {"id":"ominous-premonition","name":"Ominous Premonition","category":"anti-physical-burst","price":0,"icon":"/items/ominous-premonition.webp"},
+  {"id":"cuirass-of-savagery","name":"Cuirass of Savagery","category":"anti-physical-burst","price":0,"icon":"/items/cuirass-of-savagery.webp"},
+  {"id":"eye-of-phoenix","name":"Eye of the Phoenix","category":"anti-physical-burst","price":0,"icon":"/items/eye-of-phoenix.webp"},
+  {"id":"splendor","name":"Splendor","category":"anti-magic-burst","price":0,"icon":"/items/splendor.webp"},
+  {"id":"nightmarish-gaze","name":"Nightmarish Gaze","category":"anti-magic-burst","price":0,"icon":"/items/nightmarish-gaze.webp"},
+  {"id":"breakthrough-armor","name":"Breakthrough Armor","category":"anti-magic-burst","price":0,"icon":"/items/breakthrough-armor.webp"},
+  {"id":"shadow-blade","name":"Shadow Blade","category":"anti-shield","price":0,"icon":"/items/shadow-blade.webp"},
+  {"id":"armor-piercing","name":"Armor-Piercing","category":"anti-shield","price":0,"icon":"/items/armor-piercing.webp"}
+]
