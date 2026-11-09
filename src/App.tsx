@@ -38,18 +38,23 @@ function App() {
       .finally(() => setIsLoading(false));
   }, []);
 
-  const usedIds = useMemo(() => new Set(Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter(Boolean).map(hero => (hero as DraftHero).id)), [teams]);
-  const enemyPicks = teams.red.picks.filter(Boolean);
-  const enemyBans = teams.red.bans.filter(Boolean);
+  const selectedHeroes = useMemo(() => Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter((hero): hero is DraftHero => Boolean(hero) && typeof hero !== 'string'), [teams]);
+  const usedIds = useMemo(() => new Set(selectedHeroes.map(hero => String(hero.id))), [selectedHeroes]);
+  const enemyPicks = teams.red.picks.filter((hero): hero is DraftHero => Boolean(hero) && typeof hero !== 'string');
+  const enemyBans = teams.red.bans.filter((hero): hero is DraftHero => Boolean(hero) && typeof hero !== 'string');
   const enemyTarget = enemyPicks[enemyPicks.length - 1] || enemyBans[enemyBans.length - 1] || null;
-  const selectedHeroes = useMemo(() => Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter(Boolean) as DraftHero[], [teams]);
   const recommendations = useMemo(() => {
-    const score = (hero: DraftHero) => parsePercent(hero.win_rate) + parsePercent(hero.pick_rate) * 0.25 + selectedHeroes.reduce((total, target) => {
-      const sharedRole = (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).some(role => (Array.isArray(target.roles) ? target.roles : (target.roles ?? '').split(',')).includes(String(role).trim()));
-      return total + (sharedRole ? 0.05 : 0);
-    }, 0);
-    return heroes.filter(hero => !usedIds.has(hero.id)).sort((a, b) => score(b) - score(a)).slice(0, 5);
-  }, [heroes, usedIds, selectedHeroes]);
+    if (!enemyTarget) return [];
+    const targetRoles = (Array.isArray(enemyTarget.roles) ? enemyTarget.roles : (enemyTarget.roles ?? '').split(','))
+      .map(role => String(role).trim().toLowerCase()).filter(Boolean);
+    const score = (hero: DraftHero) => {
+      const heroRoles = (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(','))
+        .map(role => String(role).trim().toLowerCase()).filter(Boolean);
+      const roleMatch = heroRoles.some(role => targetRoles.includes(role));
+      return (roleMatch ? 1 : 0) + parsePercent(hero.win_rate) * 0.01 + parsePercent(hero.pick_rate) * 0.0025;
+    };
+    return heroes.filter(hero => !usedIds.has(String(hero.id))).sort((a, b) => score(b) - score(a)).slice(0, 5);
+  }, [heroes, usedIds, enemyTarget]);
   const roles = useMemo(() => [...new Set(heroes.flatMap(hero => String(hero.roles || '').split(',').map(role => role.trim()).filter(Boolean)))].sort(), [heroes]);
   const lanes = useMemo(() => [...new Set(heroes.map(hero => hero.recommended_lane).filter(Boolean))].sort(), [heroes]);
   const filteredDatabase = useMemo(() => heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(databaseSearch.toLowerCase()) && (roleFilter === 'all' || (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).includes(roleFilter)) && (laneFilter === 'all' || hero.recommended_lane === laneFilter)), [heroes, databaseSearch, roleFilter, laneFilter]);
