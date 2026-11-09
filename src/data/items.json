@@ -1,0 +1,965 @@
+[
+    {
+        "id": 1351,
+        "name": "Amble - Winter",
+        "image_file": "1351.png",
+        "drawable_name": "item_1351",
+        "type_id": 3,
+        "price": 3190,
+        "description": "group cc"
+    },
+    {
+        "id": 1227,
+        "name": "Ardent Dominion",
+        "image_file": "1227.png",
+        "drawable_name": "item_1227",
+        "type_id": 2,
+        "price": 2040,
+        "description": "shield at low health"
+    },
+    {
+        "id": 1237,
+        "name": "Augur's Word",
+        "image_file": "1237.png",
+        "drawable_name": "item_1237",
+        "type_id": 2,
+        "price": 2150,
+        "description": "offense & defense"
+    },
+    {
+        "id": 1137,
+        "name": "Axe of Torment",
+        "image_file": "1137.png",
+        "drawable_name": "item_1137",
+        "type_id": 1,
+        "price": 2090,
+        "description": "anti-squishy"
+    },
+    {
+        "id": 1321,
+        "name": "Belt of Might",
+        "image_file": "1321.png",
+        "drawable_name": "item_1321",
+        "type_id": 3,
+        "price": 850,
+        "description": "hp +900"
+    },
+    {
+        "id": 1331,
+        "name": "Blazing Cape",
+        "image_file": "1331.png",
+        "drawable_name": "item_1331",
+        "type_id": 3,
+        "price": 2040,
+        "description": "burns nearby enemies"
+    },
+    {
+        "id": 1222,
+        "name": "Blood Clan's Grimoire",
+        "image_file": "1222.png",
+        "drawable_name": "item_1222",
+        "type_id": 2,
+        "price": 800,
+        "description": "matk +60, magical lifesteal +12%"
+    },
+    {
+        "id": 1328,
+        "name": "Blood Rage",
+        "image_file": "1328.png",
+        "drawable_name": "item_1328",
+        "type_id": 3,
+        "price": 2180,
+        "description": "grants temporary shield"
+    },
+    {
+        "id": 1158,
+        "name": "Bloodsoul",
+        "image_file": "1158.png",
+        "drawable_name": "item_1158",
+        "type_id": 1,
+        "price": 800,
+        "description": "patk +35, physical lifesteal +12%"
+    },
+    {
+        "id": 1132,
+        "name": "Bloodweeper",
+        "image_file": "1132.png",
+        "drawable_name": "item_1132",
+        "type_id": 1,
+        "price": 2000,
+        "description": "physical lifesteal"
+    },
+    {
+        "id": 1426,
+        "name": "Boots of Deftness",
+        "image_file": "1426.png",
+        "drawable_name": "item_1426",
+        "type_id": 4,
+        "price": 700,
+        "description": "extra movement speed"
+    },
+    {
+        "id": 1425,
+        "name": "Boots of Dexterity",
+        "image_file": "1425.png",
+        "drawable_name": "item_1425",
+        "type_id": 4,
+        "price": 700,
+        "description": "boosts aspd"
+    },
+    {
+        "id": 1421,
+        "name": "Boots of Fortitude",
+        "image_file": "1421.png",
+        "drawable_name": "item_1421",
+        "type_id": 4,
+        "price": 700,
+        "description": "reduces physical damage"
+    },
+    {
+        "id": 1422,
+        "name": "Boots of Resistance",
+        "image_file": "1422.png",
+        "drawable_name": "item_1422",
+        "type_id": 4,
+        "price": 700,
+        "description": "shortens cc"
+    },
+    {
+        "id": 1424,
+        "name": "Boots of the Arcane",
+        "image_file": "1424.png",
+        "drawable_name": "item_1424",
+        "type_id": 4,
+        "price": 700,
+        "description": "magical pierce"
+    },
+    {
+        "id": 1423,
+        "name": "Boots of Tranquility",
+        "image_file": "1423.png",
+        "drawable_name": "item_1423",
+        "type_id": 4,
+        "price": 700,
+        "description": "reduces skill cd"
+    },
+    {
+        "id": 1244,
+        "name": "Breakthrough Robe",
+        "image_file": "1244.png",
+        "drawable_name": "item_1244",
+        "type_id": 2,
+        "price": 2120,
+        "description": "converts health into m. pierce"
+    },
+    {
+        "id": 1323,
+        "name": "Clandestine Cape",
+        "image_file": "1323.png",
+        "drawable_name": "item_1323",
+        "type_id": 3,
+        "price": 800,
+        "description": "mdef +150, hp +450"
+    },
+    {
+        "id": 1312,
+        "name": "Cloth Jerkin",
+        "image_file": "1312.png",
+        "drawable_name": "item_1312",
+        "type_id": 3,
+        "price": 275,
+        "description": "pdef +100"
+    },
+    {
+        "id": 1154,
+        "name": "Cloud Piercer",
+        "image_file": "1154.png",
+        "drawable_name": "item_1154",
+        "type_id": 1,
+        "price": 800,
+        "description": "crit rate +12%, aspd +15%"
+    },
+    {
+        "id": 1711,
+        "name": "Crimson Shadow",
+        "image_file": "1711.png",
+        "drawable_name": "item_1711",
+        "type_id": 7,
+        "price": 850,
+        "description": "dps aura"
+    },
+    {
+        "id": 1723,
+        "name": "Crimson Shadow - Howl",
+        "image_file": "1723.png",
+        "drawable_name": "item_1723",
+        "type_id": 7,
+        "price": 2080,
+        "description": "group speedup"
+    },
+    {
+        "id": 1737,
+        "name": "Crimson Shadow - Radiance",
+        "image_file": "1737.png",
+        "drawable_name": "item_1737",
+        "type_id": 7,
+        "price": 2080,
+        "description": "area damage & vision"
+    },
+    {
+        "id": 1721,
+        "name": "Crimson Shadow - Redemption",
+        "image_file": "1721.png",
+        "drawable_name": "item_1721",
+        "type_id": 7,
+        "price": 2080,
+        "description": "group shield"
+    },
+    {
+        "id": 1747,
+        "name": "Crimson Shadow - Starspring",
+        "image_file": "1747.png",
+        "drawable_name": "item_1747",
+        "type_id": 7,
+        "price": 2080,
+        "description": "restores teammate health & mana"
+    },
+    {
+        "id": 1338,
+        "name": "Cuirass of Savagery",
+        "image_file": "1338.png",
+        "drawable_name": "item_1338",
+        "type_id": 3,
+        "price": 2050,
+        "description": "offense & defense"
+    },
+    {
+        "id": 1317,
+        "name": "Cuirass of Swiftness",
+        "image_file": "1317.png",
+        "drawable_name": "item_1317",
+        "type_id": 3,
+        "price": 800,
+        "description": "hp +450, cdr +7.5%"
+    },
+    {
+        "id": 1112,
+        "name": "Dagger",
+        "image_file": "1112.png",
+        "drawable_name": "item_1112",
+        "type_id": 1,
+        "price": 300,
+        "description": "attack speed"
+    },
+    {
+        "id": 1353,
+        "name": "Dawnlight",
+        "image_file": "1353.png",
+        "drawable_name": "item_1353",
+        "type_id": 3,
+        "price": 2040,
+        "description": "shields on dealing damage"
+    },
+    {
+        "id": 1155,
+        "name": "Daybreaker's Virtue",
+        "image_file": "1155.png",
+        "drawable_name": "item_1155",
+        "type_id": 1,
+        "price": 2570,
+        "description": "great for marksmen"
+    },
+    {
+        "id": 1128,
+        "name": "Deepfrost Siege",
+        "image_file": "1128.png",
+        "drawable_name": "item_1128",
+        "type_id": 1,
+        "price": 2040,
+        "description": "slows on hit"
+    },
+    {
+        "id": 1125,
+        "name": "Demonsbane",
+        "image_file": "1125.png",
+        "drawable_name": "item_1125",
+        "type_id": 1,
+        "price": 2060,
+        "description": "boosts mdef"
+    },
+    {
+        "id": 1127,
+        "name": "Destiny",
+        "image_file": "1127.png",
+        "drawable_name": "item_1127",
+        "type_id": 1,
+        "price": 2060,
+        "description": "negates fatal damage"
+    },
+    {
+        "id": 1126,
+        "name": "Doomsday",
+        "image_file": "1126.png",
+        "drawable_name": "item_1126",
+        "type_id": 1,
+        "price": 2100,
+        "description": "boosts ba damage"
+    },
+    {
+        "id": 1534,
+        "name": "Dragon's Rage",
+        "image_file": "1534.png",
+        "drawable_name": "item_1534",
+        "type_id": 3,
+        "price": 2040,
+        "description": "boosts ba damage"
+    },
+    {
+        "id": 1242,
+        "name": "Enigma - Moon Goddess",
+        "image_file": "1242.png",
+        "drawable_name": "item_1242",
+        "type_id": 2,
+        "price": 3340,
+        "description": "temp. invincibility"
+    },
+    {
+        "id": 1133,
+        "name": "Eternity Blade",
+        "image_file": "1133.png",
+        "drawable_name": "item_1133",
+        "type_id": 1,
+        "price": 2110,
+        "description": "high crit damage"
+    },
+    {
+        "id": 1334,
+        "name": "Eye of the Phoenix",
+        "image_file": "1334.png",
+        "drawable_name": "item_1334",
+        "type_id": 3,
+        "price": 2020,
+        "description": "boosts health regen"
+    },
+    {
+        "id": 1341,
+        "name": "Frigid Charge",
+        "image_file": "1341.png",
+        "drawable_name": "item_1341",
+        "type_id": 3,
+        "price": 2030,
+        "description": "group cc"
+    },
+    {
+        "id": 1324,
+        "name": "Frosthold Targe",
+        "image_file": "1324.png",
+        "drawable_name": "item_1324",
+        "type_id": 3,
+        "price": 750,
+        "description": "pdef +150, cdr +7.5%"
+    },
+    {
+        "id": 13310,
+        "name": "Frostscar's Embrace",
+        "image_file": "13310.png",
+        "drawable_name": "item_13310",
+        "type_id": 3,
+        "price": 2060,
+        "description": "enhanced bas slow"
+    },
+    {
+        "id": 1234,
+        "name": "Frozen Breath",
+        "image_file": "1234.png",
+        "drawable_name": "item_1234",
+        "type_id": 2,
+        "price": 2100,
+        "description": "slows on hit"
+    },
+    {
+        "id": 1532,
+        "name": "Giant's Grip",
+        "image_file": "1532.png",
+        "drawable_name": "item_1532",
+        "type_id": 5,
+        "price": 2160,
+        "description": "monster kills boost health"
+    },
+    {
+        "id": 1336,
+        "name": "Glacial Buckler",
+        "image_file": "1336.png",
+        "drawable_name": "item_1336",
+        "type_id": 3,
+        "price": 2040,
+        "description": "group damage & slow"
+    },
+    {
+        "id": 1728,
+        "name": "Golden Blade",
+        "image_file": "1728.png",
+        "drawable_name": "item_1728",
+        "type_id": 2,
+        "price": 2070,
+        "description": "keeps enhancing ba"
+    },
+    {
+        "id": 1221,
+        "name": "Grand Staff",
+        "image_file": "1221.png",
+        "drawable_name": "item_1221",
+        "type_id": 2,
+        "price": 820,
+        "description": "magical attack"
+    },
+    {
+        "id": 1714,
+        "name": "Guardian",
+        "image_file": "1714.png",
+        "drawable_name": "item_1714",
+        "type_id": 7,
+        "price": 850,
+        "description": "survivability aura"
+    },
+    {
+        "id": 1754,
+        "name": "Guardian - Radiance",
+        "image_file": "1754.png",
+        "drawable_name": "item_1754",
+        "type_id": 7,
+        "price": 2080,
+        "description": "area damage & vision"
+    },
+    {
+        "id": 1724,
+        "name": "Guardian - Redemption",
+        "image_file": "1724.png",
+        "drawable_name": "item_1724",
+        "type_id": 7,
+        "price": 2080,
+        "description": "group shield"
+    },
+    {
+        "id": 1725,
+        "name": "Guardian - Starspring",
+        "image_file": "1725.png",
+        "drawable_name": "item_1725",
+        "type_id": 7,
+        "price": 2080,
+        "description": "restores teammate health & mana"
+    },
+    {
+        "id": 1521,
+        "name": "Guerrilla Machete",
+        "image_file": "1521.png",
+        "drawable_name": "item_1521",
+        "type_id": 5,
+        "price": 700,
+        "description": "monster kills boost matk"
+    },
+    {
+        "id": 1156,
+        "name": "Haste - Sunpool",
+        "image_file": "1156.png",
+        "drawable_name": "item_1156",
+        "type_id": 1,
+        "price": 3320,
+        "description": "boosts attack range"
+    },
+    {
+        "id": 1226,
+        "name": "Holy Grail",
+        "image_file": "1226.png",
+        "drawable_name": "item_1226",
+        "type_id": 2,
+        "price": 2020,
+        "description": "rapid health & mana regen"
+    },
+    {
+        "id": 1511,
+        "name": "Hunting Knife",
+        "image_file": "1511.png",
+        "drawable_name": "item_1511",
+        "type_id": 5,
+        "price": 250,
+        "description": "speeds up jungling"
+    },
+    {
+        "id": 1157,
+        "name": "Immovable - Sky Dome",
+        "image_file": "1157.png",
+        "drawable_name": "item_1157",
+        "type_id": 1,
+        "price": 3280,
+        "description": "temp. damage reduction"
+    },
+    {
+        "id": 1240,
+        "name": "Insatiable Tome",
+        "image_file": "1240.png",
+        "drawable_name": "item_1240",
+        "type_id": 2,
+        "price": 2060,
+        "description": "magical lifesteal"
+    },
+    {
+        "id": 1111,
+        "name": "Iron Sword",
+        "image_file": "1111.png",
+        "drawable_name": "item_1111",
+        "type_id": 1,
+        "price": 275,
+        "description": "patk +20"
+    },
+    {
+        "id": 1701,
+        "name": "Knowledge Gem",
+        "image_file": "1701.png",
+        "drawable_name": "item_1701",
+        "type_id": 7,
+        "price": 300,
+        "description": "extra gold & exp"
+    },
+    {
+        "id": 1411,
+        "name": "Lightfoot Shoes",
+        "image_file": "1411.png",
+        "drawable_name": "item_1411",
+        "type_id": 4,
+        "price": 250,
+        "description": "movement speed"
+    },
+    {
+        "id": 1347,
+        "name": "Longnight Guardian",
+        "image_file": "1347.png",
+        "drawable_name": "item_1347",
+        "type_id": 3,
+        "price": 2020,
+        "description": "resists burst damage"
+    },
+    {
+        "id": 1235,
+        "name": "Mask of Agony",
+        "image_file": "1235.png",
+        "drawable_name": "item_1235",
+        "type_id": 2,
+        "price": 2080,
+        "description": "boosts skill damage"
+    },
+    {
+        "id": 1134,
+        "name": "Master Sword",
+        "image_file": "1134.png",
+        "drawable_name": "item_1134",
+        "type_id": 1,
+        "price": 2100,
+        "description": "enhances ba"
+    },
+    {
+        "id": 1124,
+        "name": "Meteor",
+        "image_file": "1124.png",
+        "drawable_name": "item_1124",
+        "type_id": 1,
+        "price": 760,
+        "description": "patk +35, cdr +7.5%"
+    },
+    {
+        "id": 13211,
+        "name": "Mirror of Radiance",
+        "image_file": "13211.png",
+        "drawable_name": "item_13211",
+        "type_id": 3,
+        "price": 800,
+        "description": "hp +450, mspd +7.5%"
+    },
+    {
+        "id": 11210,
+        "name": "Mortal Punisher",
+        "image_file": "11210.png",
+        "drawable_name": "item_11210",
+        "type_id": 1,
+        "price": 2080,
+        "description": "lowers health regen"
+    },
+    {
+        "id": 1217,
+        "name": "Mystic Page",
+        "image_file": "1217.png",
+        "drawable_name": "item_1217",
+        "type_id": 2,
+        "price": 300,
+        "description": "magical lifesteal +8%"
+    },
+    {
+        "id": 1243,
+        "name": "Nebulon Wood",
+        "image_file": "1243.png",
+        "drawable_name": "item_1243",
+        "type_id": 2,
+        "price": 840,
+        "description": "matk +60, hp +450"
+    },
+    {
+        "id": 1345,
+        "name": "Nettle Gauntlet",
+        "image_file": "1345.png",
+        "drawable_name": "item_1345",
+        "type_id": 3,
+        "price": 750,
+        "description": "offense & defense"
+    },
+    {
+        "id": 1333,
+        "name": "Ominous Premonition",
+        "image_file": "1333.png",
+        "drawable_name": "item_1333",
+        "type_id": 3,
+        "price": 2020,
+        "description": "slows attackers"
+    },
+    {
+        "id": 1138,
+        "name": "Overlord's Might",
+        "image_file": "1138.png",
+        "drawable_name": "item_1138",
+        "type_id": 1,
+        "price": 2540,
+        "description": "high-damage attack"
+    },
+    {
+        "id": 1332,
+        "name": "Overlord's Platemail",
+        "image_file": "1332.png",
+        "drawable_name": "item_1332",
+        "type_id": 3,
+        "price": 2450,
+        "description": "extra health"
+    },
+    {
+        "id": 1522,
+        "name": "Patrol Axe",
+        "image_file": "1522.png",
+        "drawable_name": "item_1522",
+        "type_id": 5,
+        "price": 700,
+        "description": "monster kills boost health"
+    },
+    {
+        "id": 11110,
+        "name": "Plume of Enchantment",
+        "image_file": "11110.png",
+        "drawable_name": "item_11110",
+        "type_id": 1,
+        "price": 300,
+        "description": "mspd +5%"
+    },
+    {
+        "id": 1218,
+        "name": "Primordial Crystal",
+        "image_file": "1218.png",
+        "drawable_name": "item_1218",
+        "type_id": 2,
+        "price": 300,
+        "description": "cdr +5%"
+    },
+    {
+        "id": 1325,
+        "name": "Protector's Cuirass",
+        "image_file": "1325.png",
+        "drawable_name": "item_1325",
+        "type_id": 3,
+        "price": 800,
+        "description": "pdef +150, hp +450"
+    },
+    {
+        "id": 1113,
+        "name": "Pugilist's Gauntlet",
+        "image_file": "1113.png",
+        "drawable_name": "item_1113",
+        "type_id": 1,
+        "price": 300,
+        "description": "critical rate"
+    },
+    {
+        "id": 11311,
+        "name": "Pure Sky",
+        "image_file": "11311.png",
+        "drawable_name": "item_11311",
+        "type_id": 1,
+        "price": 2140,
+        "description": "temp. damage reduction"
+    },
+    {
+        "id": 1533,
+        "name": "Rapacious Bite",
+        "image_file": "1533.png",
+        "drawable_name": "item_1533",
+        "type_id": 5,
+        "price": 2160,
+        "description": "monster kills boost patk"
+    },
+    {
+        "id": 1350,
+        "name": "Ravage - Phantom",
+        "image_file": "1350.png",
+        "drawable_name": "item_1350",
+        "type_id": 3,
+        "price": 3350,
+        "description": "temp. shield & patk"
+    },
+    {
+        "id": 1523,
+        "name": "Relentless Blade",
+        "image_file": "1523.png",
+        "drawable_name": "item_1523",
+        "type_id": 5,
+        "price": 700,
+        "description": "monster kills boost patk"
+    },
+    {
+        "id": 1311,
+        "name": "Resilient Agate",
+        "image_file": "1311.png",
+        "drawable_name": "item_1311",
+        "type_id": 3,
+        "price": 300,
+        "description": "health"
+    },
+    {
+        "id": 1531,
+        "name": "Runeblade",
+        "image_file": "1531.png",
+        "drawable_name": "item_1531",
+        "type_id": 5,
+        "price": 2160,
+        "description": "monster kills boost matk"
+    },
+    {
+        "id": 1214,
+        "name": "Sage's Codex",
+        "image_file": "1214.png",
+        "drawable_name": "item_1214",
+        "type_id": 2,
+        "price": 800,
+        "description": "matk +60, cdr +7.5%"
+    },
+    {
+        "id": 1337,
+        "name": "Sage's Sanctuary",
+        "image_file": "1337.png",
+        "drawable_name": "item_1337",
+        "type_id": 3,
+        "price": 2280,
+        "description": "resurrect on the spot"
+    },
+    {
+        "id": 1238,
+        "name": "Sage's Tome",
+        "image_file": "1238.png",
+        "drawable_name": "item_1238",
+        "type_id": 2,
+        "price": 2610,
+        "description": "great for mages"
+    },
+    {
+        "id": 1232,
+        "name": "Savant's Wrath",
+        "image_file": "1232.png",
+        "drawable_name": "item_1232",
+        "type_id": 2,
+        "price": 2140,
+        "description": "greatly boosts matk"
+    },
+    {
+        "id": 1233,
+        "name": "Scepter of Reverberation",
+        "image_file": "1233.png",
+        "drawable_name": "item_1233",
+        "type_id": 2,
+        "price": 2100,
+        "description": "skill hits trigger explosions"
+    },
+    {
+        "id": 1136,
+        "name": "Shadow Ripper",
+        "image_file": "1136.png",
+        "drawable_name": "item_1136",
+        "type_id": 1,
+        "price": 2040,
+        "description": "crits boost aspd"
+    },
+    {
+        "id": 1135,
+        "name": "Sparkforged Dagger",
+        "image_file": "1135.png",
+        "drawable_name": "item_1135",
+        "type_id": 1,
+        "price": 2040,
+        "description": "chain lightning ba"
+    },
+    {
+        "id": 1211,
+        "name": "Spell Tome",
+        "image_file": "1211.png",
+        "drawable_name": "item_1211",
+        "type_id": 2,
+        "price": 275,
+        "description": "matk +35"
+    },
+    {
+        "id": 1327,
+        "name": "Spikemail",
+        "image_file": "1327.png",
+        "drawable_name": "item_1327",
+        "type_id": 3,
+        "price": 2020,
+        "description": "reflects damage"
+    },
+    {
+        "id": 1239,
+        "name": "Splendor",
+        "image_file": "1239.png",
+        "drawable_name": "item_1239",
+        "type_id": 2,
+        "price": 2080,
+        "description": "temp. invincibility"
+    },
+    {
+        "id": 1131,
+        "name": "Starbreaker",
+        "image_file": "1131.png",
+        "drawable_name": "item_1131",
+        "type_id": 1,
+        "price": 2080,
+        "description": "anti-tank"
+    },
+    {
+        "id": 1236,
+        "name": "Staves of Sorcery",
+        "image_file": "1236.png",
+        "drawable_name": "item_1236",
+        "type_id": 2,
+        "price": 2080,
+        "description": "enhances ba"
+    },
+    {
+        "id": 1224,
+        "name": "Stone of Sorcery",
+        "image_file": "1224.png",
+        "drawable_name": "item_1224",
+        "type_id": 2,
+        "price": 800,
+        "description": "matk +60, mspd +7.5%"
+    },
+    {
+        "id": 1121,
+        "name": "Storm Sword",
+        "image_file": "1121.png",
+        "drawable_name": "item_1121",
+        "type_id": 1,
+        "price": 850,
+        "description": "physical attack +75"
+    },
+    {
+        "id": 1335,
+        "name": "Succubus Cloak",
+        "image_file": "1335.png",
+        "drawable_name": "item_1335",
+        "type_id": 3,
+        "price": 2020,
+        "description": "negates magical damage"
+    },
+    {
+        "id": 1141,
+        "name": "Sunchaser",
+        "image_file": "1141.png",
+        "drawable_name": "item_1141",
+        "type_id": 1,
+        "price": 2100,
+        "description": "boosts attack range"
+    },
+    {
+        "id": 1122,
+        "name": "Sunglow Striker",
+        "image_file": "1122.png",
+        "drawable_name": "item_1122",
+        "type_id": 1,
+        "price": 760,
+        "description": "patk +35, hp +450"
+    },
+    {
+        "id": 1129,
+        "name": "Swiftstrike Lance",
+        "image_file": "1129.png",
+        "drawable_name": "item_1129",
+        "type_id": 1,
+        "price": 800,
+        "description": "aspd +15%, patk +35"
+    },
+    {
+        "id": 1159,
+        "name": "Tempest",
+        "image_file": "1159.png",
+        "drawable_name": "item_1159",
+        "type_id": 1,
+        "price": 2080,
+        "description": "stacks attack speed & movement speed"
+    },
+    {
+        "id": 1116,
+        "name": "Thunderclap Brand",
+        "image_file": "1116.png",
+        "drawable_name": "item_1116",
+        "type_id": 1,
+        "price": 820,
+        "description": "patk +35, crit rate +12%"
+    },
+    {
+        "id": 1727,
+        "name": "Twilight Stream",
+        "image_file": "1727.png",
+        "drawable_name": "item_1727",
+        "type_id": 2,
+        "price": 2040,
+        "description": "boosts magical pierce"
+    },
+    {
+        "id": 1123,
+        "name": "Twinblades of Destruction",
+        "image_file": "1123.png",
+        "drawable_name": "item_1123",
+        "type_id": 1,
+        "price": 760,
+        "description": "aspd +15%, mspd +7.5%"
+    },
+    {
+        "id": 1114,
+        "name": "Vampiric Scythe",
+        "image_file": "1114.png",
+        "drawable_name": "item_1114",
+        "type_id": 1,
+        "price": 300,
+        "description": "physical lifesteal"
+    },
+    {
+        "id": 12211,
+        "name": "Venomous Staff",
+        "image_file": "12211.png",
+        "drawable_name": "item_12211",
+        "type_id": 2,
+        "price": 2040,
+        "description": "lowers health regen"
+    },
+    {
+        "id": 1231,
+        "name": "Void Staff",
+        "image_file": "1231.png",
+        "drawable_name": "item_1231",
+        "type_id": 2,
+        "price": 2040,
+        "description": "anti-tank"
+    }
+]

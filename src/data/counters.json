@@ -1,0 +1,6186 @@
+[
+  {
+    "heroId": 1,
+    "heroName": "Agudo",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 5,
+    "reason": "Zhou Yu's continuous fire zones instantly clear Agudo's summoned jungle pets and punish her stationary position when casting her ultimate."
+  },
+  {
+    "heroId": 1,
+    "heroName": "Agudo",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's displacement skill pushes Agudo out of her healing tree zone and breaks her summon channeling mechanics."
+  },
+  {
+    "heroId": 1,
+    "heroName": "Agudo",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's massive True Damage clears Agudo's summons effortlessly and bypasses her mount's bonus health pool."
+  },
+  {
+    "heroId": 1,
+    "heroName": "Agudo",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer easily duels and isolates Agudo away from summoned pets."
+  },
+  {
+    "heroId": 2,
+    "heroName": "Alessio",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 5,
+    "reason": "Shouyue out-ranges Alessio significantly, sniping him while airborne and denying his close-range aerial burst setups."
+  },
+  {
+    "heroId": 2,
+    "heroName": "Alessio",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's attack speed debuffs severely neuter Alessio's cannon attack output and aerial skill weaving."
+  },
+  {
+    "heroId": 2,
+    "heroName": "Alessio",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Stealth assassin ambushes Alessio before he can jump into the air."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Attack speed reduction cripples Allain basic attack combos, while skill damage reduction neutralizes his true damage and burst."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression prevents Allain from using his invulnerable ultimate to escape or engage."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Early chain knockup crowd control and passive physical armor stacking burst Allain down before he scales."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 8,
+    "counteredByName": "Arthur",
+    "weight": 4,
+    "reason": "Instant silence cancels Allain skill rotations and invulnerable ultimate timing, while high armor out-sustains him."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Fuzi's extreme damage reduction out-sustains Allain's hybrid damage output and locks him down after his ultimate landing."
+  },
+  {
+    "heroId": 3,
+    "heroName": "Allain",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan uses short cooldown invincibility dashes to dodge Allain's linear skills while applying true damage continuous slows."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 5,
+    "reason": "Guan Yu easily flanks Angela, pushing her out of position and interrupting her immobile laser channeling direction."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's dashes easily sidestep Angela's straight-line stun and laser beam."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Stationary casting makes Angela free food for stealth assassins."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai flips behind Angela during her stationary laser channel and assassinates her."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 104,
+    "counteredByName": "Yao",
+    "weight": 4,
+    "reason": "Verified matchup: Yao has a strategic counter advantage over Angela."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Li Bai's double untargetable iframe skills completely dodge Angela's telegraphed stun and high-burst ultimate beam."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi instantly closes the gap with his silence shadow dash, preventing Angela from executing her full spell combo."
+  },
+  {
+    "heroId": 4,
+    "heroName": "Angela",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 3,
+    "reason": "Angela stands completely still while channeling her laser; Lorion pokes from safety and dives over her crowd control with flight immunity."
+  },
+  {
+    "heroId": 5,
+    "heroName": "Ao'yin",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Stealth ambush catches Ao'yin before he can charge sword stances or take flight."
+  },
+  {
+    "heroId": 5,
+    "heroName": "Ao'yin",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang's point-and-click absolute suppression prevents Ao'yin from channeling elemental stances or escaping airborne."
+  },
+  {
+    "heroId": 5,
+    "heroName": "Ao'yin",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Extreme long-range artillery burst severely out-ranges Ao'yin, chunking his health before he can enter trading range."
+  },
+  {
+    "heroId": 6,
+    "heroName": "Arke",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's vision traps reveal Arke's stealth movements in bushes and river paths, nullifying her ambush potential."
+  },
+  {
+    "heroId": 6,
+    "heroName": "Arke",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's continuous Super Armor and heavy crowd control prevent Arke from bursting down targets or getting quick kills."
+  },
+  {
+    "heroId": 6,
+    "heroName": "Arke",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression stops high mobility burst assassination."
+  },
+  {
+    "heroId": 7,
+    "heroName": "Arli",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Arli's erratic umbrella dashes are completely stopped by targeted point-and-click suppression."
+  },
+  {
+    "heroId": 7,
+    "heroName": "Arli",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang golden tether locks Arli in place regardless of where her umbrellas are placed."
+  },
+  {
+    "heroId": 7,
+    "heroName": "Arli",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Verified matchup: Zhang Fei has a strategic counter advantage over Arli."
+  },
+  {
+    "heroId": 7,
+    "heroName": "Arli",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 3,
+    "reason": "Arli unpredictable umbrella repositioning easily dodges Shouyue sniper lines."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 15,
+    "counteredByName": "Cai Yan",
+    "weight": 4,
+    "reason": "Verified matchup: Cai Yan has a strategic counter advantage over Arthur."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan dances around Arthur, healing through his damage while inflicting true damage."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 67,
+    "counteredByName": "Liu Shan",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Shan has a strategic counter advantage over Arthur."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "True damage cleaves completely ignore Arthur's physical defense and passive HP regen."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 86,
+    "counteredByName": "Pei",
+    "weight": 4,
+    "reason": "Verified matchup: Pei has a strategic counter advantage over Arthur."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 94,
+    "counteredByName": "Ukyo Tachibana",
+    "weight": 4,
+    "reason": "Verified matchup: Ukyo Tachibana has a strategic counter advantage over Arthur."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Florentino completely ignores Arthur's passive armor with true damage, out-dances his telegraphed silence jump, and sustains indefinitely."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Fuzi easily out-trades Arthur in sustained split pushes due to high damage reduction and superior attack speed scaling."
+  },
+  {
+    "heroId": 8,
+    "heroName": "Arthur",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 3,
+    "reason": "Without multi-dash mobility, Arthur struggles against Annette's Gust Force slow field and team speed buffs, allowing carries to kite him indefinitely."
+  },
+  {
+    "heroId": 9,
+    "heroName": "Ata",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Ata's temporary gray health pool cannot absorb true damage strikes."
+  },
+  {
+    "heroId": 9,
+    "heroName": "Ata",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's True Damage procs bypass Ata's health recovery mechanics while her dashes easily bypass his terrain walls."
+  },
+  {
+    "heroId": 9,
+    "heroName": "Ata",
+    "counteredById": 53,
+    "counteredByName": "Jing",
+    "weight": 3,
+    "reason": "Verified matchup: Jing has a strategic counter advantage over Ata."
+  },
+  {
+    "heroId": 9,
+    "heroName": "Ata",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 3,
+    "reason": "Marco Polo true damage deletes Ata before he can convert gray health into healing."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 21,
+    "counteredByName": "Da Qiao",
+    "weight": 4,
+    "reason": "Verified matchup: Da Qiao has a strategic counter advantage over Athena."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression halts Athena's high-speed spear dash resets."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Verified matchup: Nakoruru has a strategic counter advantage over Athena."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Point-and-click suppression catches Athena before she can generate her skill 3 shield and maintain mobility."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan uses short dash iframe timings to dodge Athena's spear thrusts and counters her burst with continuous true damage."
+  },
+  {
+    "heroId": 10,
+    "heroName": "Athena",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "True damage punches straight through Athena's divine armor shields."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Donghuang's unavoidable targeted suppression completely locks down Augran, preventing him from utilizing his continuous tether healing and mobility skills."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang provides instant point-and-click suppression that shuts down Augran's sustained skirmishing and prevents his health drain passive from activating."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 4,
+    "counteredByName": "Angela",
+    "weight": 4,
+    "reason": "Verified matchup: Angela has a strategic counter advantage over Augran."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 22,
+    "counteredByName": "Daji",
+    "weight": 4,
+    "reason": "Verified matchup: Daji has a strategic counter advantage over Augran."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 28,
+    "counteredByName": "Dolia",
+    "weight": 4,
+    "reason": "Verified matchup: Dolia has a strategic counter advantage over Augran."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 67,
+    "counteredByName": "Liu Shan",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Shan has a strategic counter advantage over Augran."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 107,
+    "counteredByName": "Yixing",
+    "weight": 4,
+    "reason": "Verified matchup: Yixing has a strategic counter advantage over Augran."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's continuous true damage bypasses Augran's durability, while her mobility easily out-kites his close-range tether."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's high mobility allows him to easily maintain distance while shredding Augran's health pool with passive true damage."
+  },
+  {
+    "heroId": 11,
+    "heroName": "Augran",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "True damage penetrates Augran's soul shield and ghost form sustain."
+  },
+  {
+    "heroId": 12,
+    "heroName": "Bai Qi",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu true damage completely shreds Bai Qi's massive armor and HP pool."
+  },
+  {
+    "heroId": 12,
+    "heroName": "Bai Qi",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 5,
+    "reason": "Zhuangzi ultimate instantly cleanses Bai Qi's AoE taunt for the entire team."
+  },
+  {
+    "heroId": 12,
+    "heroName": "Bai Qi",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan uses Bai Qi as a healing station with continuous true damage bursts."
+  },
+  {
+    "heroId": 12,
+    "heroName": "Bai Qi",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo easily kites Bai Qi's telegraphed engages while triggering true damage burst that melts tanky frontlines."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's severe attack speed debuffs cripple Biron's basic attack flow, preventing him from building energy and recharging his shields."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 21,
+    "counteredByName": "Da Qiao",
+    "weight": 4,
+    "reason": "Verified matchup: Da Qiao has a strategic counter advantage over Biron."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 67,
+    "counteredByName": "Liu Shan",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Shan has a strategic counter advantage over Biron."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's skill kit inflicts true damage, allowing his attacks to penetrate straight through Biron's substantial ultimate shield."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 77,
+    "counteredByName": "Mi Yue",
+    "weight": 4,
+    "reason": "Mi Yue out-kites Biron effortlessly, using shadow tether to steal his attack power while staying out of his short melee knockup range."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's dance mechanics allow her to dance around Biron's predictable linear skillshots while dealing true damage that ignores his shields."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi's damage reduction and lockup tether out-scale Biron in extended side-lane duels."
+  },
+  {
+    "heroId": 13,
+    "heroName": "Biron",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 3,
+    "reason": "Biron is easily kited by Annette's slow fields and gets blasted away if he tries to close distance with his jump."
+  },
+  {
+    "heroId": 14,
+    "heroName": "Butterfly",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 5,
+    "reason": "Zhang Fei's substantial area shields and knockback ultimate deny Butterfly from securing burst kills, preventing her passive reset mechanics."
+  },
+  {
+    "heroId": 14,
+    "heroName": "Butterfly",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang provides instant targeted suppression, catching Butterfly mid-jump and leaving her vulnerable to focus fire."
+  },
+  {
+    "heroId": 14,
+    "heroName": "Butterfly",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression prevents Butterfly from triggering her kill-reset chain."
+  },
+  {
+    "heroId": 14,
+    "heroName": "Butterfly",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's crowd control immunity and high innate durability absorb Butterfly's burst combo while countering with knockup lock-down."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression locks down Cai Yan and focuses her before team heals deploy."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Nezha global anti-heal passive cuts Cai Yan's restorative output in half."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 4,
+    "reason": "Comps built around hugging Cai Yan give Lorion optimal multi-man ultimate setups, turning a healing cluster into an easy team wipe."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Zhou Yu creates massive persistent fire zones that deal continuous area damage, forcing Cai Yan's team to scatter and wasting her localized healing."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 47,
+    "counteredByName": "Guiguzi",
+    "weight": 4,
+    "reason": "Guiguzi can instantly group Cai Yan and her squishy allies with high-speed stealth, enabling immediate burst combos before heal over time takes effect."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 30,
+    "counteredByName": "Dr Bian",
+    "weight": 4,
+    "reason": "Dr Bian applies persistent poison stacks that reduce healing efficacy while out-sustaining Cai Yan in long teamfight attrition battles."
+  },
+  {
+    "heroId": 15,
+    "heroName": "Cai Yan",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "True damage cleave ignores defensive armor buff granted by Cai Yan's ultimate."
+  },
+  {
+    "heroId": 16,
+    "heroName": "Chano",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru's high mobility aerial dive delivers devastating burst physical damage, deleting Chano before he can stack basic attacks."
+  },
+  {
+    "heroId": 16,
+    "heroName": "Chano",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo out-range Chano significantly, sniping him from extreme distance where Chano cannot retaliate."
+  },
+  {
+    "heroId": 16,
+    "heroName": "Chano",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's dive potential combined with attack speed reductions severely limits Chano's DPS output during teamfight engagements."
+  },
+  {
+    "heroId": 16,
+    "heroName": "Chano",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Immobile marksman vulnerable to assassin dive."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Charlotte needs close proximity to stack passive triangular slashes; Annette's wind wall knocks her away and breaks her sword combo rhythm."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 8,
+    "counteredByName": "Arthur",
+    "weight": 4,
+    "reason": "Arthur's low-cooldown silence disrupts Charlotte's fluid combo rotations and prevents her from triggering her enhanced passive executes."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 77,
+    "counteredByName": "Mi Yue",
+    "weight": 4,
+    "reason": "Mi Yue's untargetable ultimate and continuous drain tether out-trade Charlotte in 1v1 Clash Lane scenarios, mitigating her burst."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's early-game crowd control chains and aggressive burst trades prevent Charlotte from stacking her passive easily in lane."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's extended melee reach and true damage bypass Charlotte's damage reduction buffs during her passive execution animation."
+  },
+  {
+    "heroId": 17,
+    "heroName": "Charlotte",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 3,
+    "reason": "Biron's heavy early shield and burst trading overpower Charlotte before her passive stacks."
+  },
+  {
+    "heroId": 18,
+    "heroName": "Chicha",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong's targeted stealth dive instantly eliminates Chicha before she can position behind her team."
+  },
+  {
+    "heroId": 18,
+    "heroName": "Chicha",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's ultra-long-range sniping chips down Chicha's health pool safely from outside her effective combat range."
+  },
+  {
+    "heroId": 18,
+    "heroName": "Chicha",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru possesses explosive burst damage that instantly deletes fragile targets like Chicha upon landing her dive combo."
+  },
+  {
+    "heroId": 18,
+    "heroName": "Chicha",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's unstoppable multi-stage crowd control dives through frontlines to lock down Chicha, rendering her unable to kite."
+  },
+  {
+    "heroId": 18,
+    "heroName": "Chicha",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 3,
+    "reason": "Lam easily closes distance on Chicha during teamfights."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's point-and-click suppression locks Cirrus down immediately upon entry, preventing him from completing his burst rotation."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 15,
+    "counteredByName": "Cai Yan",
+    "weight": 4,
+    "reason": "Verified matchup: Cai Yan has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Stops aerial flight and diving rotations."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Verified matchup: Gan & Mo has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 51,
+    "counteredByName": "Hou Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Hou Yi has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 58,
+    "counteredByName": "Lady Zhen",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Zhen has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Verified matchup: Marco Polo has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 79,
+    "counteredByName": "Ming",
+    "weight": 4,
+    "reason": "Verified matchup: Ming has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 80,
+    "counteredByName": "Mozi",
+    "weight": 4,
+    "reason": "Verified matchup: Mozi has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 107,
+    "counteredByName": "Yixing",
+    "weight": 4,
+    "reason": "Verified matchup: Yixing has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Zhou Yu has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Verified matchup: Zhuangzi has a strategic counter advantage over Cirrus."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's vision devices reveal Cirrus's pathing through terrain and jungle walls, stripping him of the element of surprise."
+  },
+  {
+    "heroId": 19,
+    "heroName": "Cirrus",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's knockbacks and thick shielding easily absorb Cirrus' initial dive burst, protecting high-priority backline allies."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 5,
+    "reason": "Mai Shiranui's hyper-mobile magic burst combo deletes Consort Yu while completely ignoring her physical damage immunity stance."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 4,
+    "counteredByName": "Angela",
+    "weight": 4,
+    "reason": "Consort Yu 2nd skill only prevents physical damage; Angela magic beam melts her instantly."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Consort Yu physical immunity skill is completely useless against Diaochan's true damage blossoms."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Verified matchup: Zhang Fei has a strategic counter advantage over Consort Yu."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo deliver massive long-range magic burst that instantly forces out or bypasses Consort Yu's physical defensive skill."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi dives with pure magic damage and area silence, preventing Consort Yu from reacting or escaping with her skills."
+  },
+  {
+    "heroId": 20,
+    "heroName": "Consort Yu",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 3,
+    "reason": "Garo magic basic attack damage penetrates Consort Yu physical defense and out-ranges her."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 5,
+    "reason": "Guan Yu's push mechanics knock Da Qiao or her allies out of her Skill 2 recall pool right before teleportation triggers, completely invalidating her core recall-and-return rotation loop."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 10,
+    "counteredByName": "Athena",
+    "weight": 4,
+    "reason": "Verified matchup: Athena has a strategic counter advantage over Da Qiao."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Verified matchup: Kaizer has a strategic counter advantage over Da Qiao."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 62,
+    "counteredByName": "Li Xin",
+    "weight": 4,
+    "reason": "Verified matchup: Li Xin has a strategic counter advantage over Da Qiao."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Donghuang can suppress targets inside Da Qiao's recall zone or ultimate location, preventing allies from taking the teleport portal or using her recall pool."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 99,
+    "counteredByName": "Xiang Yu",
+    "weight": 4,
+    "reason": "Xiang Yu's pushing displacement shoves low-health enemies out of Da Qiao's Skill 2 healing circle before the recall completes."
+  },
+  {
+    "heroId": 21,
+    "heroName": "Da Qiao",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Stealth assassination catches Da Qiao before she can cast recall pool."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi can rapidly dive Daji with silent crowd control, silencing her before she can register her targeted stun combo and mitigating her magic burst."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Guan Yu has a strategic counter advantage over Daji."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Verified matchup: Kaizer has a strategic counter advantage over Daji."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Verified matchup: Lu Bu has a strategic counter advantage over Daji."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo outranges Daji drastically, enabling safe poke and elimination from outside the range of Daji's single-target lock-on stun."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Sun Bin's Skill 2 reverses a large portion of the single-target burst damage Daji inflicts on a ally, rendering her full burst combo ineffective."
+  },
+  {
+    "heroId": 22,
+    "heroName": "Daji",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 3,
+    "reason": "Cleanse eliminates Daji's heart stun, leaving her defenseless."
+  },
+  {
+    "heroId": 23,
+    "heroName": "Devara",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's severe attack speed slows cripple Devara's basic attack weave and continuous damage output during melee trades."
+  },
+  {
+    "heroId": 23,
+    "heroName": "Devara",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's continuous invulnerability dashes and true damage kite Devara effortlessly, preventing him from sticking to his target."
+  },
+  {
+    "heroId": 23,
+    "heroName": "Devara",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "True damage bypasses Devara's defensive stance and shields."
+  },
+  {
+    "heroId": 24,
+    "heroName": "Dharma",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 5,
+    "reason": "Zhuangzi's crowd control immunity completely neutralizes Dharma's wall-slam knockup ultimate, removing his primary playmaking tool."
+  },
+  {
+    "heroId": 24,
+    "heroName": "Dharma",
+    "counteredById": 28,
+    "counteredByName": "Dolia",
+    "weight": 4,
+    "reason": "Verified matchup: Dolia has a strategic counter advantage over Dharma."
+  },
+  {
+    "heroId": 24,
+    "heroName": "Dharma",
+    "counteredById": 53,
+    "counteredByName": "Jing",
+    "weight": 4,
+    "reason": "Verified matchup: Jing has a strategic counter advantage over Dharma."
+  },
+  {
+    "heroId": 24,
+    "heroName": "Dharma",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's high-frequency invulnerability dashes allow her to easily dodge Dharma's linear ultimate knock-back and wall-slam setup."
+  },
+  {
+    "heroId": 24,
+    "heroName": "Dharma",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu can push Dharma away before he gets into range to execute his wall-stun combo, disrupting his flank angles."
+  },
+  {
+    "heroId": 25,
+    "heroName": "Di Renjie",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong's stealth burst assassinates Di Renjie instantly, bypassing Di Renjie's cleanse since the burst arrives too quickly to react."
+  },
+  {
+    "heroId": 25,
+    "heroName": "Di Renjie",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte stacks attack speed debuffs that cripple Di Renjie's auto-attack DPS, rendering his primary damage source useless in duel range."
+  },
+  {
+    "heroId": 25,
+    "heroName": "Di Renjie",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo delivers lethal long-range artillery burst well beyond Di Renjie's attack range and yellow-card stun radius."
+  },
+  {
+    "heroId": 25,
+    "heroName": "Di Renjie",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 3,
+    "reason": "Garo out-ranges Di Renjie, making his cleanse card ineffective at closing gap."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Dian Wei has no gap closer against Diaochan's infinite dance hops."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 32,
+    "counteredByName": "Dyadia",
+    "weight": 4,
+    "reason": "Verified matchup: Dyadia has a strategic counter advantage over Dian Wei."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo red buff kiting keeps Dian Wei perpetually at distance."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 105,
+    "counteredByName": "Yaria",
+    "weight": 4,
+    "reason": "Verified matchup: Yaria has a strategic counter advantage over Dian Wei."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Verified matchup: Zhuangzi has a strategic counter advantage over Dian Wei."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Lacking gap-closers beyond his speed burst, Dian Wei is easily knocked back by Hurricane Wall and continuously kited with Gust Force slows."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Dian Wei's short melee range and lack of hard CC make him helpless against Florentino's rapid dashes, slows, and flower-picking animation cancels."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 4,
+    "reason": "Consort Yu's Skill 2 physical damage immunity completely blocks Dian Wei's physical burst damage after he engages."
+  },
+  {
+    "heroId": 26,
+    "heroName": "Dian Wei",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi damage reduction and tether prevents Dian Wei from chasing."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Suppression instantly stops Diaochan's flower dance and prevents her healing."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Hard suppression binds Diaochan inside her ultimate circle without allowing casting."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 4,
+    "counteredByName": "Angela",
+    "weight": 4,
+    "reason": "Verified matchup: Angela has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 14,
+    "counteredByName": "Butterfly",
+    "weight": 4,
+    "reason": "Verified matchup: Butterfly has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 30,
+    "counteredByName": "Dr Bian",
+    "weight": 4,
+    "reason": "Verified matchup: Dr Bian has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 4,
+    "reason": "Verified matchup: Dun has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 50,
+    "counteredByName": "Heino",
+    "weight": 4,
+    "reason": "Verified matchup: Heino has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Verified matchup: Kaizer has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 57,
+    "counteredByName": "Lady Sun",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Sun has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 69,
+    "counteredByName": "Luara",
+    "weight": 4,
+    "reason": "Verified matchup: Luara has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 75,
+    "counteredByName": "Meng Ya",
+    "weight": 4,
+    "reason": "Verified matchup: Meng Ya has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 82,
+    "counteredByName": "Musashi",
+    "weight": 4,
+    "reason": "Verified matchup: Musashi has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Verified matchup: Shouyue has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 102,
+    "counteredByName": "Yang Jian",
+    "weight": 4,
+    "reason": "Verified matchup: Yang Jian has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 113,
+    "counteredByName": "Ziya",
+    "weight": 4,
+    "reason": "Verified matchup: Ziya has a strategic counter advantage over Diaochan."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Diaochan requires tight proximity inside her circular blizzard to reset cooldowns; Annette dislodges Diaochan out of her ultimate circle using Hurricane Wall."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Gao Changgong can stealth-gank and burst Diaochan down before she has the opportunity to cast her ultimate and begin dashing."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 3,
+    "reason": "Shangguan invulnerable ink calligraphy burst nukes Diaochan before stacks build."
+  },
+  {
+    "heroId": 27,
+    "heroName": "Diaochan",
+    "counteredById": 96,
+    "counteredByName": "Wang Zhaojun",
+    "weight": 3,
+    "reason": "Attack speed and movement speed chills severely hamper Diaochan's dash intervals."
+  },
+  {
+    "heroId": 28,
+    "heroName": "Dolia",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Donghuang can immediately suppress Dolia or the target she refreshes, shutting down double-ultimate combo executions."
+  },
+  {
+    "heroId": 28,
+    "heroName": "Dolia",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi dives the backline rapidly and applies silence, preventing Dolia from smoothly casting her skill refresh combo in teamfights."
+  },
+  {
+    "heroId": 28,
+    "heroName": "Dolia",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's continuous knockbacks disrupt Dolia's positioning and push her away from allies needing ultimate cooldown refreshes."
+  },
+  {
+    "heroId": 28,
+    "heroName": "Dolia",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 3,
+    "reason": "Suppression stops Dolia from channeling skill reset songs."
+  },
+  {
+    "heroId": 28,
+    "heroName": "Dolia",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 3,
+    "reason": "Tight clustering around Dolia provides Lorion optimal multi-man ultimate setups, disrupting reset channels and wiping clustered carries."
+  },
+  {
+    "heroId": 29,
+    "heroName": "Donghuang",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo's extreme artillery range chips down Donghuang's health safely, making it extremely dangerous for Donghuang to dive and suppress."
+  },
+  {
+    "heroId": 29,
+    "heroName": "Donghuang",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Zhou Yu's persistent fire zones punish Donghuang when he suppresses an ally inside the fire, dealing massive damage to his high HP pool."
+  },
+  {
+    "heroId": 29,
+    "heroName": "Donghuang",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue provides long-range vision and snipes Donghuang from outside his engage radius, forcing him to engage at low health."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo's long-range burst destroys Dr Bian before he can establish poison stacks or rely on his sustained healing."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Nezha passive cuts Dr Bian's team-wide heal output dramatically."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 102,
+    "counteredByName": "Yang Jian",
+    "weight": 4,
+    "reason": "Verified matchup: Yang Jian has a strategic counter advantage over Dr Bian."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Gao Changgong exploits Dr Bian's lack of mobility and hard CC to burst him down instantly from stealth."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi dives past frontlines and silences Dr Bian, preventing him from casting healing pulses or stacking his passive."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 3,
+    "reason": "Suppression stops Dr Bian from stacking poison and triggering burst recovery."
+  },
+  {
+    "heroId": 30,
+    "heroName": "Dr Bian",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "Lu Bu true damage easily overwhelms Dr Bian's slow poison stacks."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan continuous true damage and slows melt Dun through his passive shield."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Verified matchup: Han Xin has a strategic counter advantage over Dun."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Verified matchup: Li Bai has a strategic counter advantage over Dun."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "True damage bypasses Dun's passive shield and lifesteal sustain."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 97,
+    "counteredByName": "Wukong",
+    "weight": 4,
+    "reason": "Verified matchup: Wukong has a strategic counter advantage over Dun."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 105,
+    "counteredByName": "Yaria",
+    "weight": 4,
+    "reason": "Verified matchup: Yaria has a strategic counter advantage over Dun."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Dun's stacked armor and shield are completely bypassed by Florentino's Triple Threat true damage, turning Dun into easy flower-pickup combo fodder."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 3,
+    "reason": "Marco Polo mobility kites Dun endlessly while shredding his armor with true damage."
+  },
+  {
+    "heroId": 31,
+    "heroName": "Dun",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 3,
+    "reason": "Charlotte's attack speed debuffs severely neuter Dun's ability to trigger his passive health regeneration from basic attacks."
+  },
+  {
+    "heroId": 32,
+    "heroName": "Dyadia",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang provides targeted suppression that cancels Dyadia's link channels and prevents her from protecting her team."
+  },
+  {
+    "heroId": 32,
+    "heroName": "Dyadia",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's heavy displacement breaks Dyadia's team formation and separates her from her primary marksman target."
+  },
+  {
+    "heroId": 32,
+    "heroName": "Dyadia",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression stops tether buffs and healing."
+  },
+  {
+    "heroId": 32,
+    "heroName": "Dyadia",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 3,
+    "reason": "Sun Bin's team speed boost and silence counter Dyadia's debuff windows and neutralize her initiation utility."
+  },
+  {
+    "heroId": 33,
+    "heroName": "Erin",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 4,
+    "reason": "Verified matchup: Dun has a strategic counter advantage over Erin."
+  },
+  {
+    "heroId": 33,
+    "heroName": "Erin",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's stacking attack speed slows cripple Erin's basic-attack scaling DPS and passive energy regeneration."
+  },
+  {
+    "heroId": 33,
+    "heroName": "Erin",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo massively outrange Erin, executing her fragile health bar from outside her maximum auto-attack range."
+  },
+  {
+    "heroId": 33,
+    "heroName": "Erin",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Fragile magic marksman easily deleted by burst physical assassin."
+  },
+  {
+    "heroId": 33,
+    "heroName": "Erin",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 3,
+    "reason": "Nakoruru's extreme burst physical mobility allows her to dive Erin and eliminate her instantly in teamfights."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 5,
+    "reason": "Consort Yu's Skill 2 physical damage immunity completely negates Fang's Skill 1 mark detonate burst."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 4,
+    "reason": "Di Renjie's 2nd skill automatically cleanses Fang's mark bomb, completely neutralizing his burst."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 4,
+    "reason": "Verified matchup: Dun has a strategic counter advantage over Fang."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan uses Skill 2 invincibility frames to dodge Fang's mark explosion and out-duels him in close quarters."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Gao Changgong's stealth burst eliminates Fang instantly before he can deploy his Skill 2 iframe dash or untargetable ultimate."
+  },
+  {
+    "heroId": 34,
+    "heroName": "Fang",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 3,
+    "reason": "Zhou Yu's continuous fire zones restrict Fang's short-range mobility and deny his objective-taking potential."
+  },
+  {
+    "heroId": 35,
+    "heroName": "Fatih",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's attack speed debuffs and damage mitigation reduce Fatih's melee dueling DPS to negligible levels."
+  },
+  {
+    "heroId": 35,
+    "heroName": "Fatih",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's True Damage slices straight through Fatih's defensive shields and built-in durability."
+  },
+  {
+    "heroId": 35,
+    "heroName": "Fatih",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Fuzi's ultimate traps Fatih in place, neutralizing his maneuverability and forcing a disadvantageous melee duel."
+  },
+  {
+    "heroId": 35,
+    "heroName": "Fatih",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer's transformation armor mitigates Fatih's sustained physical strikes."
+  },
+  {
+    "heroId": 35,
+    "heroName": "Fatih",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 3,
+    "reason": "Biron out-sustains and out-shields Fatih in early-to-mid lane trades, taking control of Clash Lane pressure."
+  },
+  {
+    "heroId": 36,
+    "heroName": "Feyd",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's ultimate suppression stops Feyd mid-combo, making him easy pickings for the backline team."
+  },
+  {
+    "heroId": 36,
+    "heroName": "Feyd",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive shields and knockback ultimate deny Feyd's burst windows against high-priority carries."
+  },
+  {
+    "heroId": 36,
+    "heroName": "Feyd",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression locks Feyd upon engagement."
+  },
+  {
+    "heroId": 36,
+    "heroName": "Feyd",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 3,
+    "reason": "Lian Po's crowd control immunity and chain knockups prevent Feyd from executing clean dive combos in teamfights."
+  },
+  {
+    "heroId": 37,
+    "heroName": "Flowborn (Mage)",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's rapid gap-close, silence effect, and high magic resistance quickly eliminate squishy mages like Flowborn (Mage)."
+  },
+  {
+    "heroId": 37,
+    "heroName": "Flowborn (Mage)",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Li Bai uses invulnerable skill frames to dodge Flowborn (Mage)'s spell rotations and burst her down safely."
+  },
+  {
+    "heroId": 37,
+    "heroName": "Flowborn (Mage)",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's push effects interrupt Flowborn (Mage)'s skill casting channels and disrupt her backline positioning."
+  },
+  {
+    "heroId": 37,
+    "heroName": "Flowborn (Mage)",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 3,
+    "reason": "Han Xin's high mobility allows him to flank Flowborn (Mage), knocking her up and deleting her before she can disengage."
+  },
+  {
+    "heroId": 38,
+    "heroName": "Flowborn (Marksman)",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong's stealth assassination removes Flowborn (Marksman) from fight setups before she can deal continuous DPS."
+  },
+  {
+    "heroId": 38,
+    "heroName": "Flowborn (Marksman)",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue outranges Flowborn (Marksman), keeping her HP depleted with snipes before major teamfights start."
+  },
+  {
+    "heroId": 38,
+    "heroName": "Flowborn (Marksman)",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo's long-range sword burst instantly kills low-mobility marksmen like Flowborn (Marksman) from safety."
+  },
+  {
+    "heroId": 38,
+    "heroName": "Flowborn (Marksman)",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 3,
+    "reason": "Charlotte's attack speed debuffs render Flowborn (Marksman)'s auto-attack output ineffective during skirmishes."
+  },
+  {
+    "heroId": 39,
+    "heroName": "Flowborn (Tank)",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's passive True Damage ignores Flowborn (Tank)'s high armor values and defensive base stats."
+  },
+  {
+    "heroId": 39,
+    "heroName": "Flowborn (Tank)",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's kit provides endless mobility and True Damage, melting Flowborn (Tank) in extended teamfights."
+  },
+  {
+    "heroId": 39,
+    "heroName": "Flowborn (Tank)",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo kites Flowborn (Tank) easily while inflicting max-HP percentage True Damage procs."
+  },
+  {
+    "heroId": 39,
+    "heroName": "Flowborn (Tank)",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 3,
+    "reason": "Biron dominates Flowborn (Tank) in early lane duels, taking control of minion waves with shield and healing superiority."
+  },
+  {
+    "heroId": 40,
+    "heroName": "Fuzi",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte attack speed reduction neutralizes Fuzi's passive rage and auto-attack speed."
+  },
+  {
+    "heroId": 40,
+    "heroName": "Fuzi",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan can dance around Fuzi inside his ultimate arena, dodging his auto-attacks while dealing True Damage."
+  },
+  {
+    "heroId": 40,
+    "heroName": "Fuzi",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "Lu Bu true damage penetrates Fuzi's defensive damage reduction in duels."
+  },
+  {
+    "heroId": 40,
+    "heroName": "Fuzi",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 3,
+    "reason": "Guan Yu's constant knockbacks prevent Fuzi from sticking to targets or effectively split-pushing side lanes."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's high-mobility dash and silence instantly close the gap on Gan & Mo, preventing him from casting his knockback skill and bursting him down."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Stealth allows Gao Changgong to bypass Gan & Mo's long-range skillshots and execute him before he can react."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 14,
+    "counteredByName": "Butterfly",
+    "weight": 4,
+    "reason": "Verified matchup: Butterfly has a strategic counter advantage over Gan & Mo."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Verified matchup: Sun Ce has a strategic counter advantage over Gan & Mo."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Shangguan's ultimate provides invulnerability and long-range dive, completely negating Gan & Mo's zone control."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Mulan can gap-close with light form, silence Gan & Mo to prevent his pushback, and switch to heavy form to execute."
+  },
+  {
+    "heroId": 41,
+    "heroName": "Gan & Mo",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 3,
+    "reason": "Explosive flank dive deletes long-range artillery mages before they see flankers."
+  },
+  {
+    "heroId": 42,
+    "heroName": "Gao",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's ultimate target suppression interrupts Gao's damage-over-time ultimate aura and locks him down during teamfights."
+  },
+  {
+    "heroId": 42,
+    "heroName": "Gao",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Sun Bin's speed boost skill allows the team to disengage from Gao's ultimate radius and turn back when it expires."
+  },
+  {
+    "heroId": 42,
+    "heroName": "Gao",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu can push Gao away from the teamfight cluster, isolating him and wasting the duration of his ultimate."
+  },
+  {
+    "heroId": 42,
+    "heroName": "Gao",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression halts Gao's guitar frenzy inside teamfights."
+  },
+  {
+    "heroId": 43,
+    "heroName": "Gao Changgong",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 5,
+    "reason": "Shouyue's vision devices reveal Gao Changgong while in stealth, neutralizing his ambush potential entirely."
+  },
+  {
+    "heroId": 43,
+    "heroName": "Gao Changgong",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's instant suppression prevents Gao Changgong from completing his burst combo when breaking stealth."
+  },
+  {
+    "heroId": 43,
+    "heroName": "Gao Changgong",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Donghuang can instantly suppress Gao Changgong when he attempts to assassinate backline targets."
+  },
+  {
+    "heroId": 43,
+    "heroName": "Gao Changgong",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive shields nullify Gao Changgong's single-target burst, while his ultimate knockback cancels engages."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Stealth assassin instantly closes distance and deletes Garo before she can kite."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi easily dives past Garo's long range with his ultimate and silences her, eliminating her before she can output basic attacks."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Lam easily closes distance on immobile Garo and drags her out of backline."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 97,
+    "counteredByName": "Wukong",
+    "weight": 4,
+    "reason": "High burst leap eliminates fragile, immobile Garo in a single rotation."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 4,
+    "reason": "Immobile marksman who cannot escape Lorion's dark orb radius and gets airborne suspended during teamfights."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru's high aerial mobility and instant physical burst delete Garo before she can kite."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's ultimate ship engage provides long-range hard CC that catches immobile Garo off-guard."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 2,
+    "counteredByName": "Alessio",
+    "weight": 3,
+    "reason": "Alessio aerial jump and artillery bursts out-trade Garo during laning phase."
+  },
+  {
+    "heroId": 44,
+    "heroName": "Garo",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 3,
+    "reason": "Shouyue out-ranges Garo's longbow and snipes her safely from off-screen."
+  },
+  {
+    "heroId": 45,
+    "heroName": "Garuda",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong sneaks past Garuda's skill range with stealth and executes her fragile health pool instantly."
+  },
+  {
+    "heroId": 45,
+    "heroName": "Garuda",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's gap close and silence prevent Garuda from casting her abilities, bursting her in seconds."
+  },
+  {
+    "heroId": 45,
+    "heroName": "Garuda",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu continuously knocks back Garuda, disrupting her casting animations and teamfight positioning."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 5,
+    "reason": "Lian Po's abundant hyper-armor and knockups consistently break Guan Yu's movement momentum and charging state."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 8,
+    "counteredByName": "Arthur",
+    "weight": 4,
+    "reason": "Arthur's 3-second silence and slow constantly breaks Guan Yu's galloping sprint horse mode."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Sun Bin's ultimate silence field immediately resets Guan Yu's charge state and interrupts his engage timing."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai Shiranui's multi-dash combo with endless knockups and slows keeps Guan Yu permanently out of his charge state."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's attack speed and movement speed slows render Guan Yu unable to maintain his charge momentum."
+  },
+  {
+    "heroId": 46,
+    "heroName": "Guan Yu",
+    "counteredById": 56,
+    "counteredByName": "Kui",
+    "weight": 3,
+    "reason": "Hook and displacement stop Guan Yu's rotation and charge paths."
+  },
+  {
+    "heroId": 47,
+    "heroName": "Guiguzi",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Zhuangzi negates Guiguzi's group speedup pull."
+  },
+  {
+    "heroId": 47,
+    "heroName": "Guiguzi",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Guiguzi's group pull is completely negated because allies inside Annette's ultimate barrier gain CC immunity and cannot be dragged together."
+  },
+  {
+    "heroId": 47,
+    "heroName": "Guiguzi",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei can push away Guiguzi and his incoming teammates with ultimate knockback, shielding allies from follow-up burst."
+  },
+  {
+    "heroId": 47,
+    "heroName": "Guiguzi",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's vision traps reveal Guiguzi's stealth movement before he can position for a group pull."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 2,
+    "counteredByName": "Alessio",
+    "weight": 4,
+    "reason": "Verified matchup: Alessio has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression shuts down Han Xin's triple jump mobility."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 33,
+    "counteredByName": "Erin",
+    "weight": 4,
+    "reason": "Verified matchup: Erin has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Stealth burst catches Han Xin before he can leap between walls."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 55,
+    "counteredByName": "Kongming",
+    "weight": 4,
+    "reason": "Verified matchup: Kongming has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Verified matchup: Liang has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 100,
+    "counteredByName": "Xiao Qiao",
+    "weight": 4,
+    "reason": "Verified matchup: Xiao Qiao has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 99,
+    "counteredByName": "Xiang Yu",
+    "weight": 4,
+    "reason": "Xiang Yu's displacement and damage reduction prevent Han Xin from bursting targets and push him out of fights."
+  },
+  {
+    "heroId": 48,
+    "heroName": "Han Xin",
+    "counteredById": 1,
+    "counteredByName": "Agudo",
+    "weight": 3,
+    "reason": "Verified matchup: Agudo has a strategic counter advantage over Han Xin."
+  },
+  {
+    "heroId": 49,
+    "heroName": "Haya",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong's stealth allows him to close in on Haya without being poked, bursting her down instantly."
+  },
+  {
+    "heroId": 49,
+    "heroName": "Haya",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi can dive Haya from long distance and silence her, preventing her spell rotation."
+  },
+  {
+    "heroId": 49,
+    "heroName": "Haya",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's long-range CC engage interrupts Haya's positioning and bursts her before she can retaliate."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 14,
+    "counteredByName": "Butterfly",
+    "weight": 4,
+    "reason": "Verified matchup: Butterfly has a strategic counter advantage over Heino."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 24,
+    "counteredByName": "Dharma",
+    "weight": 4,
+    "reason": "Verified matchup: Dharma has a strategic counter advantage over Heino."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression prevents Heino from activating his ultimate time-reversal rewind."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang tether prevents Heino from activating his time-reversal rewind."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Verified matchup: Lu Bu has a strategic counter advantage over Heino."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 71,
+    "counteredByName": "Luna",
+    "weight": 4,
+    "reason": "Verified matchup: Luna has a strategic counter advantage over Heino."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 112,
+    "counteredByName": "Zilong",
+    "weight": 4,
+    "reason": "Verified matchup: Zilong has a strategic counter advantage over Heino."
+  },
+  {
+    "heroId": 50,
+    "heroName": "Heino",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's continuous true damage and mobility bypass Heino's health scaling and shields in extended trades."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Immobile carry easily picked off in bushes and side lanes."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Lam shark dive pulls Hou Yi out of safety into ally team."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru aerial dive deletes Hou Yi in less than one second."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 4,
+    "reason": "Without dashes or built-in invulnerability, Hou Yi is a sitting duck for Lorion's Skill 1 placement and delayed knock-up ultimate."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Immobile carry who dies instantly if caught in isolated side-lane rotations; a single landed Blossom stun guarantees Hou Yi's death before he can flash away."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo vastly outrange Hou Yi, dealing lethal poke damage from outside Hou Yi's auto-attack effective range."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's attack speed debuffs severely undermine Hou Yi's DPS output while her execute damage allows her to comfortably win trades."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 1,
+    "counteredByName": "Agudo",
+    "weight": 3,
+    "reason": "Verified matchup: Agudo has a strategic counter advantage over Hou Yi."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 3,
+    "reason": "Di Renjie stun card and attack speed passive out-trades Hou Yi in early lane 1v1."
+  },
+  {
+    "heroId": 51,
+    "heroName": "Hou Yi",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 3,
+    "reason": "Sun Ce can initiate teamfights with his ultimate boat ride across long distances to knock up and burst the immobile Hou Yi."
+  },
+  {
+    "heroId": 52,
+    "heroName": "Huang Zhong",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Stationary fortress artillery makes Huang Zhong an easy target for twin sword snipes."
+  },
+  {
+    "heroId": 52,
+    "heroName": "Huang Zhong",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Li Bai drops sword circle onto stationary Huang Zhong without taking damage."
+  },
+  {
+    "heroId": 52,
+    "heroName": "Huang Zhong",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu jumps directly onto Huang Zhong's circle with true damage sky drop."
+  },
+  {
+    "heroId": 52,
+    "heroName": "Huang Zhong",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Huang Zhong cannot move during ultimate, allowing Shouyue guaranteed sniper shots."
+  },
+  {
+    "heroId": 52,
+    "heroName": "Huang Zhong",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai Shiranui's high-mobility dashes allow her to easily bypass frontlines and burst down Huang Zhong while he is locked in ultimate stance."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 4,
+    "counteredByName": "Angela",
+    "weight": 4,
+    "reason": "Verified matchup: Angela has a strategic counter advantage over Jing."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 22,
+    "counteredByName": "Daji",
+    "weight": 4,
+    "reason": "Verified matchup: Daji has a strategic counter advantage over Jing."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression anchors Jing inside mirror arena."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Verified matchup: Gan & Mo has a strategic counter advantage over Jing."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 52,
+    "counteredByName": "Huang Zhong",
+    "weight": 4,
+    "reason": "Verified matchup: Huang Zhong has a strategic counter advantage over Jing."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 55,
+    "counteredByName": "Kongming",
+    "weight": 4,
+    "reason": "Verified matchup: Kongming has a strategic counter advantage over Jing."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Shuts down mirror swap teleportations instantly."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei provides massive shields to soak Jing's ultimate burst and can push her out of her mirror domain with his roar."
+  },
+  {
+    "heroId": 53,
+    "heroName": "Jing",
+    "counteredById": 99,
+    "counteredByName": "Xiang Yu",
+    "weight": 3,
+    "reason": "Xiang Yu's push disrupt's Jing's mirror realm rhythm and his damage reduction prevents him from being bursted down."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Verified matchup: Donghuang has a strategic counter advantage over Kaizer."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 56,
+    "counteredByName": "Kui",
+    "weight": 4,
+    "reason": "Verified matchup: Kui has a strategic counter advantage over Kaizer."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Verified matchup: Sun Bin has a strategic counter advantage over Kaizer."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "When Kaizer dives point-blank, Annette drops Hurricane Wall to blast him backward and stun him if he touches the barrier, wasting his ultimate duration and gap-closer."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Even during Kaizer's ultimate transformation, Florentino can out-dance, out-sustain, and whittle him down around his flower zone without taking full trades."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's high mobility and true damage passive procs allow him to kite Kaizer effectively while melting his high health pool."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 3,
+    "reason": "Diaochan kites Kaizer's melee transformation with constant slow blossoms."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi ultimate tethers Kaizer and stalls out his ultimate transformation timer."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "Lu Bu true damage ignores Kaizer's ultimate armor reduction."
+  },
+  {
+    "heroId": 54,
+    "heroName": "Kaizer",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 3,
+    "reason": "Consort Yu's physical damage immunity skill invalidates Kaizer's burst window during his ultimate form."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi can dive directly onto Kongming with silence and massive burst magic damage, killing him before Kongming stacks his passive."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 3,
+    "counteredByName": "Allain",
+    "weight": 4,
+    "reason": "Verified matchup: Allain has a strategic counter advantage over Kongming."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 4,
+    "reason": "Verified matchup: Biron has a strategic counter advantage over Kongming."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression prevents Kongming from chaining passive magic spheres and ultimate executes."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 98,
+    "counteredByName": "Wuyan",
+    "weight": 4,
+    "reason": "Verified matchup: Wuyan has a strategic counter advantage over Kongming."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 106,
+    "counteredByName": "Ying",
+    "weight": 4,
+    "reason": "Verified matchup: Ying has a strategic counter advantage over Kongming."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's continuous displacement and heavy CC disrupt Kongming's kite rhythm and interrupt his passive stack generation."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang provides instant point-and-click suppression, locking down Kongming when he dashes forward to apply passive stacks."
+  },
+  {
+    "heroId": 55,
+    "heroName": "Kongming",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 3,
+    "reason": "Zhang Fei's shields mitigate low-health execution damage from Kongming's ultimate on targeted allies."
+  },
+  {
+    "heroId": 56,
+    "heroName": "Kui",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's passive CC immunity while casting abilities allows him to block Kui's hooks safely and counter-engage."
+  },
+  {
+    "heroId": 56,
+    "heroName": "Kui",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "If hooked by Kui, Lu Bu can immediately land directly on the enemy team to deal massive close-range true damage."
+  },
+  {
+    "heroId": 56,
+    "heroName": "Kui",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 3,
+    "reason": "Cleanse saves hooked allies from being chain stunned."
+  },
+  {
+    "heroId": 56,
+    "heroName": "Kui",
+    "counteredById": 77,
+    "counteredByName": "Mi Yue",
+    "weight": 3,
+    "reason": "Mi Yue can use her invincibility ultimate to dodge Kui's hooks or safely escape after being grabbed."
+  },
+  {
+    "heroId": 57,
+    "heroName": "Lady Sun",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Gao Changgong's stealth burst allows him to catch Lady Sun unawares, killing her before she can roll away."
+  },
+  {
+    "heroId": 57,
+    "heroName": "Lady Sun",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte drastically reduces Lady Sun's attack speed and movement speed, neutralizing her roll-and-poke playstyle."
+  },
+  {
+    "heroId": 57,
+    "heroName": "Lady Sun",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai Shiranui can match Lady Sun's mobility with dash chains and lock her down with continuous knockups before she can retaliate."
+  },
+  {
+    "heroId": 57,
+    "heroName": "Lady Sun",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 3,
+    "reason": "Consort Yu physical immune blocks Lady Sun's empowered roll shot."
+  },
+  {
+    "heroId": 57,
+    "heroName": "Lady Sun",
+    "counteredById": 47,
+    "counteredByName": "Guiguzi",
+    "weight": 3,
+    "reason": "Guiguzi's group stealth and speed boost allow his team to close the distance on Lady Sun and disrupt her kiting movement."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 5,
+    "reason": "Zhuangzi team cleanse completely negates Lady Zhen's cascade freezes and water pool."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Verified matchup: Charlotte has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Zero mobility makes Lady Zhen an easy primary target for stealth ganks."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 66,
+    "counteredByName": "Liu Bei",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bei has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 71,
+    "counteredByName": "Luna",
+    "weight": 4,
+    "reason": "Verified matchup: Luna has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 76,
+    "counteredByName": "Menki",
+    "weight": 4,
+    "reason": "Verified matchup: Menki has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 98,
+    "counteredByName": "Wuyan",
+    "weight": 4,
+    "reason": "Verified matchup: Wuyan has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 112,
+    "counteredByName": "Zilong",
+    "weight": 4,
+    "reason": "Verified matchup: Zilong has a strategic counter advantage over Lady Zhen."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi's rapid backline engage and silence prevent Lady Zhen from executing her spell combos before she is bursted."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Han Xin's high mobility allows him to easily dodge Lady Zhen's delayed skillshots and burst her down in the backline."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 3,
+    "reason": "Lady Zhen must stand still to cast; Lorion pokes outside her range and dives over her freeze control with his flight immunity."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 3,
+    "reason": "Lacking escape mobility, Lady Zhen is easily flanked; Florentino's CC immunity during ultimate prevents her freeze from interrupting his execution."
+  },
+  {
+    "heroId": 58,
+    "heroName": "Lady Zhen",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 3,
+    "reason": "Li Bai utilizes invincibility frames during his skills to dodge Lady Zhen's crowd control skills while delivering untargetable burst."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Point-and-click suppression halts Lam's shark dive and water spins."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 33,
+    "counteredByName": "Erin",
+    "weight": 4,
+    "reason": "Verified matchup: Erin has a strategic counter advantage over Lam."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Hard tether locks Lam during river rotations."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 69,
+    "counteredByName": "Luara",
+    "weight": 4,
+    "reason": "Verified matchup: Luara has a strategic counter advantage over Lam."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 70,
+    "counteredByName": "Luban No.7",
+    "weight": 4,
+    "reason": "Verified matchup: Luban No.7 has a strategic counter advantage over Lam."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 80,
+    "counteredByName": "Mozi",
+    "weight": 4,
+    "reason": "Verified matchup: Mozi has a strategic counter advantage over Lam."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 107,
+    "counteredByName": "Yixing",
+    "weight": 4,
+    "reason": "Verified matchup: Yixing has a strategic counter advantage over Lam."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's CC immunity prevents Lam from dragging or displacement-comboing him during chaotic teamfights."
+  },
+  {
+    "heroId": 59,
+    "heroName": "Lam",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 3,
+    "reason": "Zhang Fei's knockback ultimate and high shield values interrupt Lam's dive trajectory and neutralize his execute threshold."
+  },
+  {
+    "heroId": 60,
+    "heroName": "Lapulapu",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's innate true damage completely bypasses Lapulapu's shields and high defensive stats during prolonged trades."
+  },
+  {
+    "heroId": 60,
+    "heroName": "Lapulapu",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's mobility and true damage procs out-sustain and out-trade Lapulapu while keeping him permanently slowed."
+  },
+  {
+    "heroId": 60,
+    "heroName": "Lapulapu",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 4,
+    "reason": "Biron's early game shield generation and self-healing allow him to dominate laning trades against Lapulapu."
+  },
+  {
+    "heroId": 60,
+    "heroName": "Lapulapu",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi's ultimate locks Lapulapu in place and reduces his damage output, allowing Fuzi to win prolonged 1v1 duels."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Suppression catches Li Bai when he dashes in before he can return to his sword shadow."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Verified matchup: Garo has a strategic counter advantage over Li Bai."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang locks down Li Bai during sword shadow poke."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 80,
+    "counteredByName": "Mozi",
+    "weight": 4,
+    "reason": "Verified matchup: Mozi has a strategic counter advantage over Li Bai."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 89,
+    "counteredByName": "Shi",
+    "weight": 4,
+    "reason": "Verified matchup: Shi has a strategic counter advantage over Li Bai."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 86,
+    "counteredByName": "Pei",
+    "weight": 4,
+    "reason": "Pei's high early-game dual-form combat strength allows for aggressive jungle invades, disrupting Li Bai's farm before he reaches level 4."
+  },
+  {
+    "heroId": 61,
+    "heroName": "Li Bai",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive area shields and ultimate knockback absorb Li Bai's area-of-effect burst damage and protect squishy backline allies."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's stacking attack speed slows cripple Li Xin's melee form trade capability, while her damage reduction counters his ranged form burst."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 15,
+    "counteredByName": "Cai Yan",
+    "weight": 4,
+    "reason": "Verified matchup: Cai Yan has a strategic counter advantage over Li Xin."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 21,
+    "counteredByName": "Da Qiao",
+    "weight": 4,
+    "reason": "Verified matchup: Da Qiao has a strategic counter advantage over Li Xin."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 47,
+    "counteredByName": "Guiguzi",
+    "weight": 4,
+    "reason": "Verified matchup: Guiguzi has a strategic counter advantage over Li Xin."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 77,
+    "counteredByName": "Mi Yue",
+    "weight": 4,
+    "reason": "Mi Yue's health drain tether and untargetable ultimate out-sustain Li Xin in lane trades, denying him early wave priority."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Mulan's rapid silence combo interrupts Li Xin's skill charging animations and bursts him down before he can switch forms or react."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's shield-bypassing true damage negates Li Xin's defensive stats and defensive stance damage reduction in sustained Clash lane duels."
+  },
+  {
+    "heroId": 62,
+    "heroName": "Li Xin",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer's dueling strength easily bursts down light and dark Li Xin in 1v1 lane trades."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's physical attack enchantment converts all damage to true damage, bypassing Lian Po's high passive damage reduction and shields."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 5,
+    "reason": "Diaochan utilizes continuous invincibility frames to dodge Lian Po's telegraphed crowd control, while melting him with rapid true damage passive triggers."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 53,
+    "counteredByName": "Jing",
+    "weight": 4,
+    "reason": "Verified matchup: Jing has a strategic counter advantage over Lian Po."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Verified matchup: Li Bai has a strategic counter advantage over Lian Po."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 94,
+    "counteredByName": "Ukyo Tachibana",
+    "weight": 4,
+    "reason": "Verified matchup: Ukyo Tachibana has a strategic counter advantage over Lian Po."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 97,
+    "counteredByName": "Wukong",
+    "weight": 4,
+    "reason": "Verified matchup: Wukong has a strategic counter advantage over Lian Po."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Cleanse eliminates Lian Po's 3rd hit ground slam knockup."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Lian Po's massive hitbox and predictable wind-ups make him easy combo fodder for Florentino to continuously heal off bouquet pickups with true damage."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's passive true damage trigger and double mobility dashes allow him to effortlessly kite Lian Po and shred his heavy tank health pool."
+  },
+  {
+    "heroId": 63,
+    "heroName": "Lian Po",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 3,
+    "reason": "Lian Po's three-stage ground pound knock-up fails to disrupt carries sheltered inside Annette's CC-immune Hurricane Wall."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo's extreme long-range sword trajectory outranges Liang's ultimate suppression, allowing him to burst Liang down safely from distance."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 62,
+    "counteredByName": "Li Xin",
+    "weight": 4,
+    "reason": "Verified matchup: Li Xin has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 74,
+    "counteredByName": "Mayene",
+    "weight": 4,
+    "reason": "Verified matchup: Mayene has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Verified matchup: Mulan has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Verified matchup: Sun Ce has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 98,
+    "counteredByName": "Wuyan",
+    "weight": 4,
+    "reason": "Verified matchup: Wuyan has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 106,
+    "counteredByName": "Ying",
+    "weight": 4,
+    "reason": "Verified matchup: Ying has a strategic counter advantage over Liang."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's long-range physical snipes poke Liang down from outside his spell range, making it dangerous for Liang to stand still and channel his ultimate."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu can flank and knock Liang out of position with heavy displacement skills, forcing him to interrupt his stationary ultimate channel."
+  },
+  {
+    "heroId": 64,
+    "heroName": "Liang",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Zhou Yu's expanding fire zones force Liang out of position and heavily punish him if he remains stationary while channeling his ultimate."
+  },
+  {
+    "heroId": 65,
+    "heroName": "Liu Bang",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's true damage completely penetrates Liu Bang's bonus HP scaling shields and high armor values in split-push trades."
+  },
+  {
+    "heroId": 65,
+    "heroName": "Liu Bang",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu clears minion waves faster than Liu Bang and uses constant displacement knockbacks to cancel or disrupt Liu Bang's ultimate teleportation channel."
+  },
+  {
+    "heroId": 65,
+    "heroName": "Liu Bang",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Nezha's global ultimate allows him to instantly match Liu Bang's cross-map ultimate teleports while applying built-in anti-heal to shield targets."
+  },
+  {
+    "heroId": 65,
+    "heroName": "Liu Bang",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan easily kites Liu Bang in side lanes, as her true damage passive ignores his defensive shields during extended split-push duels."
+  },
+  {
+    "heroId": 66,
+    "heroName": "Liu Bei",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's true damage completely bypasses the massive crowd-control immune shield provided by Liu Bei's ultimate."
+  },
+  {
+    "heroId": 66,
+    "heroName": "Liu Bei",
+    "counteredById": 32,
+    "counteredByName": "Dyadia",
+    "weight": 4,
+    "reason": "Verified matchup: Dyadia has a strategic counter advantage over Liu Bei."
+  },
+  {
+    "heroId": 66,
+    "heroName": "Liu Bei",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 4,
+    "reason": "Consort Yu's physical damage immunity skill completely nullifies Liu Bei's close-range shotgun burst during duel engagements."
+  },
+  {
+    "heroId": 66,
+    "heroName": "Liu Bei",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's short cooldown invincibility dashes allow her to easily stay out of Liu Bei's close-range shotgun sweet spot while shredding him with true damage."
+  },
+  {
+    "heroId": 66,
+    "heroName": "Liu Bei",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's high mobility and kite range keep him safe from Liu Bei's point-blank burst while quickly breaking his ultimate shield with true damage."
+  },
+  {
+    "heroId": 67,
+    "heroName": "Liu Shan",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Verified matchup: Li Bai has a strategic counter advantage over Liu Shan."
+  },
+  {
+    "heroId": 67,
+    "heroName": "Liu Shan",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "True damage shreds Liu Shan's mechanical shields."
+  },
+  {
+    "heroId": 67,
+    "heroName": "Liu Shan",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan exploits Liu Shan's lack of mobility by dodging his slow stun animations and burning through his HP bar with true damage."
+  },
+  {
+    "heroId": 67,
+    "heroName": "Liu Shan",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 3,
+    "reason": "Marco Polo easily kites Liu Shan's short-range melee stuns."
+  },
+  {
+    "heroId": 67,
+    "heroName": "Liu Shan",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 3,
+    "reason": "Zhuangzi cleanses all of Liu Shan's stuns and tower disruption."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 77,
+    "counteredByName": "Mi Yue",
+    "weight": 5,
+    "reason": "Mi Yue's tether drains Lu Bu's attack power and her ultimate dodges Lu Bu's ultimate landing zone, allowing her to dominate Lu Bu in laning phases."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Verified matchup: Han Xin has a strategic counter advantage over Lu Bu."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Verified matchup: Lam has a strategic counter advantage over Lu Bu."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 86,
+    "counteredByName": "Pei",
+    "weight": 4,
+    "reason": "Verified matchup: Pei has a strategic counter advantage over Lu Bu."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Sima Yi has a strategic counter advantage over Lu Bu."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Lu Bu's telegraphed cleave wind-ups are easily sidestepped using Florentino's passive slide, allowing him to win extended lane trades without taking return damage."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's severe attack speed debuffs render Lu Bu unable to land auto-attacks to make use of his true damage weapon enchantment."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Mulan's light form silence combo prevents Lu Bu from casting his skill 1 enchantment, followed by heavy form burst before he can react."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce out-paces Lu Bu on the map with his ultimate ship roam, establishing early team advantages before Lu Bu reaches late-game power spikes."
+  },
+  {
+    "heroId": 68,
+    "heroName": "Lu Bu",
+    "counteredById": 3,
+    "counteredByName": "Allain",
+    "weight": 3,
+    "reason": "Allain has invulnerability frames, hybrid damage, and sticky dueling that out-trades Lu Bu."
+  },
+  {
+    "heroId": 69,
+    "heroName": "Luara",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 5,
+    "reason": "Nakoruru's high-speed aerial dive delivers massive single-target burst that deletes Luara before she can utilize her basic attack DPS."
+  },
+  {
+    "heroId": 69,
+    "heroName": "Luara",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo outranges Luara significantly, sniping her from safety and chunking her health bar before fight engagements start."
+  },
+  {
+    "heroId": 69,
+    "heroName": "Luara",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte dives into the backline with high mobility and applies severe attack speed slows, stripping Luara of her primary damage output."
+  },
+  {
+    "heroId": 69,
+    "heroName": "Luara",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression grounds Luara's swift repositioning."
+  },
+  {
+    "heroId": 69,
+    "heroName": "Luara",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Stealth assassin easily deletes Luara before she can establish firing position."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo punishes Luban No.7's static firing animations by landing full sword-intersect bursts from extreme long range."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Invisible stealth ambush deletes Luban before he can turn to peel."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Verified matchup: Lian Po has a strategic counter advantage over Luban No.7."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru explosive burst drops Luban before passive can fire."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 4,
+    "reason": "Without mobility, Luban cannot escape Lorion's orb placement and gets airborne suspended and wiped by Lorion's team."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi's ultimate allows him to leap directly onto Luban No.7 from out of sight, silencing and bursting him down instantaneously."
+  },
+  {
+    "heroId": 70,
+    "heroName": "Luban No.7",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 3,
+    "reason": "Li Bai invulnerable sword shadows dodge Luban's knockback and rockets."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "His ultimate provides unavoidable suppression that completely halts Luna's infinite dash combo, making her an easy target for the team."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's targeted suppression ultimate is the most reliable way to lock down high-mobility assassins like Luna in professional play."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 10,
+    "counteredByName": "Athena",
+    "weight": 4,
+    "reason": "Verified matchup: Athena has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 11,
+    "counteredByName": "Augran",
+    "weight": 4,
+    "reason": "Verified matchup: Augran has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Verified matchup: Fuzi has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Verified matchup: Lu Bu has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 82,
+    "counteredByName": "Musashi",
+    "weight": 4,
+    "reason": "Verified matchup: Musashi has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 87,
+    "counteredByName": "Sakeer",
+    "weight": 4,
+    "reason": "Verified matchup: Sakeer has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 102,
+    "counteredByName": "Yang Jian",
+    "weight": 4,
+    "reason": "Verified matchup: Yang Jian has a strategic counter advantage over Luna."
+  },
+  {
+    "heroId": 71,
+    "heroName": "Luna",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Kaizer's ultimate provides massive damage reduction and flat block, allowing him to survive Luna's burst and out-duel her in the jungle."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Mai Shiranui relies on diving into the backline; Liang's suppression cancels her entry and prevents her from using her energy-based escape skills."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 2,
+    "counteredByName": "Alessio",
+    "weight": 4,
+    "reason": "Verified matchup: Alessio has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Verified matchup: Charlotte has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 4,
+    "reason": "Verified matchup: Di Renjie has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Point-and-click suppression locks down elusive mobility combos."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 30,
+    "counteredByName": "Dr Bian",
+    "weight": 4,
+    "reason": "Verified matchup: Dr Bian has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 34,
+    "counteredByName": "Fang",
+    "weight": 4,
+    "reason": "Verified matchup: Fang has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Verified matchup: Fuzi has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 42,
+    "counteredByName": "Gao",
+    "weight": 4,
+    "reason": "Verified matchup: Gao has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 52,
+    "counteredByName": "Huang Zhong",
+    "weight": 4,
+    "reason": "Verified matchup: Huang Zhong has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Verified matchup: Marco Polo has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 75,
+    "counteredByName": "Meng Ya",
+    "weight": 4,
+    "reason": "Verified matchup: Meng Ya has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 76,
+    "counteredByName": "Menki",
+    "weight": 4,
+    "reason": "Verified matchup: Menki has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 78,
+    "counteredByName": "Milady",
+    "weight": 4,
+    "reason": "Verified matchup: Milady has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Verified matchup: Nezha has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 108,
+    "counteredByName": "Yuhuan",
+    "weight": 4,
+    "reason": "Verified matchup: Yuhuan has a strategic counter advantage over Mai Shiranui."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo can safely poke and burst from a distance that exceeds Mai Shiranui's fan range, forcing her to retreat before she can engage."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi's silence mechanic prevents Mai Shiranui from chaining her combos, and his high mobility allows him to chase her down after she uses her dashes."
+  },
+  {
+    "heroId": 72,
+    "heroName": "Mai Shiranui",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 3,
+    "reason": "Zhuangzi cleanse removes Mai Shiranui's knockup combos and slow effects."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's passive and skills significantly reduce enemy attack speed, which directly cripples Marco Polo's bullet count and true damage output."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Marco Polo is vulnerable to stealth burst; Gao Changgong can delete him before he has the reaction time to use his second skill or ultimate."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Verified matchup: Lian Po has a strategic counter advantage over Marco Polo."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 65,
+    "counteredByName": "Liu Bang",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bang has a strategic counter advantage over Marco Polo."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Verified matchup: Zhang Fei has a strategic counter advantage over Marco Polo."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 3,
+    "reason": "Consort Yu immune skill negates Marco Polo's physical bullets before true damage triggers."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 3,
+    "reason": "Di Renjie yellow card stun immediately interrupts Marco Polo's spinning ultimate."
+  },
+  {
+    "heroId": 73,
+    "heroName": "Marco Polo",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 3,
+    "reason": "Garo shield-breaking and range prevents Marco Polo from poke-stacking his passive."
+  },
+  {
+    "heroId": 74,
+    "heroName": "Mayene",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Mayene's damage reduction and mobility are irrelevant against Liang's suppression, which locks her down for a guaranteed kill."
+  },
+  {
+    "heroId": 74,
+    "heroName": "Mayene",
+    "counteredById": 105,
+    "counteredByName": "Yaria",
+    "weight": 4,
+    "reason": "Verified matchup: Yaria has a strategic counter advantage over Mayene."
+  },
+  {
+    "heroId": 74,
+    "heroName": "Mayene",
+    "counteredById": 8,
+    "counteredByName": "Arthur",
+    "weight": 4,
+    "reason": "Arthur's low-cooldown silence interrupts Mayene's complex skill sequences, preventing her from completing her high-damage combos."
+  },
+  {
+    "heroId": 74,
+    "heroName": "Mayene",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 3,
+    "reason": "Charlotte attack speed slows disrupt Mayene's rhythmic combo fluidness."
+  },
+  {
+    "heroId": 74,
+    "heroName": "Mayene",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 3,
+    "reason": "Sun Ce's chain knock-ups can disrupt Mayene's rhythm early in the game, preventing her from snowballing in the Clash Lane."
+  },
+  {
+    "heroId": 75,
+    "heroName": "Meng Ya",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 5,
+    "reason": "Meng Ya lacks mobility and self-peel; Nakoruru's high-percentage HP burst can dive and eliminate him instantly during teamfights."
+  },
+  {
+    "heroId": 75,
+    "heroName": "Meng Ya",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Immobile channeled firing makes Meng Ya vulnerable to stealth assassinations."
+  },
+  {
+    "heroId": 75,
+    "heroName": "Meng Ya",
+    "counteredById": 65,
+    "counteredByName": "Liu Bang",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bang has a strategic counter advantage over Meng Ya."
+  },
+  {
+    "heroId": 75,
+    "heroName": "Meng Ya",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's ultimate allows him to bypass the frontline and knock up Meng Ya, who must stand still or move slowly to maximize his fire rate."
+  },
+  {
+    "heroId": 75,
+    "heroName": "Meng Ya",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 3,
+    "reason": "Garo out-ranges Meng Ya's bullet storm and slows his advance."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Menki relies heavily on shields for survivability; Lu Bu's true damage completely ignores these shields, making Menki much squishier than intended."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 79,
+    "counteredByName": "Ming",
+    "weight": 4,
+    "reason": "Verified matchup: Ming has a strategic counter advantage over Menki."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Sima Yi has a strategic counter advantage over Menki."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Verified matchup: Zhuangzi has a strategic counter advantage over Menki."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's constant true damage and slow effects make it impossible for Menki to sustain through a fight or escape her ultimate circle."
+  },
+  {
+    "heroId": 76,
+    "heroName": "Menki",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's ability to kite and apply true damage allows him to shred Menki's high defense and shield values from a safe distance."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's suppression prevents Mi Yue from using her ultimate to dodge incoming burst damage, leading to a quick shutdown."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 24,
+    "counteredByName": "Dharma",
+    "weight": 4,
+    "reason": "Verified matchup: Dharma has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 26,
+    "counteredByName": "Dian Wei",
+    "weight": 4,
+    "reason": "Verified matchup: Dian Wei has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression binds Mi Yue before she can activate dark shadow invulnerability."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Guan Yu has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 74,
+    "counteredByName": "Mayene",
+    "weight": 4,
+    "reason": "Verified matchup: Mayene has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Verified matchup: Mulan has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Verified matchup: Sun Ce has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 104,
+    "counteredByName": "Yao",
+    "weight": 4,
+    "reason": "Verified matchup: Yao has a strategic counter advantage over Mi Yue."
+  },
+  {
+    "heroId": 77,
+    "heroName": "Mi Yue",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Garo's superior range allows her to kite Mi Yue and break her tether before Mi Yue can drain enough stats to win the duel."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 3,
+    "counteredByName": "Allain",
+    "weight": 4,
+    "reason": "Verified matchup: Allain has a strategic counter advantage over Milady."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 4,
+    "reason": "Verified matchup: Fuzi has a strategic counter advantage over Milady."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 49,
+    "counteredByName": "Haya",
+    "weight": 4,
+    "reason": "Verified matchup: Haya has a strategic counter advantage over Milady."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 96,
+    "counteredByName": "Wang Zhaojun",
+    "weight": 4,
+    "reason": "Wang Zhaojun blizzard easily clears Milady's robot swarms while freezing Milady."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Zhou Yu fire spreading rapidly burns through Milady's mechanical robot minions."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 4,
+    "reason": "Milady's mechanical minions serve as fuel for Lorion; his passive orb damage bounces between minions, shredding them quickly while sustaining Lorion's health."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Milady cannot escape Florentino's gap-closing dashes, and her robot minions provide additional targets to refresh his flower and dash mechanics."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi can dive directly onto Milady, ignoring her minions, and silence her to prevent her from using her ultimate or summoning more bots."
+  },
+  {
+    "heroId": 78,
+    "heroName": "Milady",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Shangguan's ultimate allows her to dash through Milady's minions to gain stacks and then become untargetable while bursting Milady down."
+  },
+  {
+    "heroId": 79,
+    "heroName": "Ming",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's massive displacement skills can push Ming away from his tethered ally, breaking the buff and leaving the carry vulnerable."
+  },
+  {
+    "heroId": 79,
+    "heroName": "Ming",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's heavy AoE CC can hit both Ming and his tethered target simultaneously, punishing the duo for staying close together."
+  },
+  {
+    "heroId": 79,
+    "heroName": "Ming",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Stealth assassin eliminates fragile Ming or his tethered partner instantly."
+  },
+  {
+    "heroId": 79,
+    "heroName": "Ming",
+    "counteredById": 56,
+    "counteredByName": "Kui",
+    "weight": 3,
+    "reason": "Kui can hook either Ming or his carry; if Ming is hooked, he is too squishy to survive, and if the carry is hooked, the tether is often broken by distance."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 28,
+    "counteredByName": "Dolia",
+    "weight": 4,
+    "reason": "Verified matchup: Dolia has a strategic counter advantage over Mozi."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 47,
+    "counteredByName": "Guiguzi",
+    "weight": 4,
+    "reason": "Verified matchup: Guiguzi has a strategic counter advantage over Mozi."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Verified matchup: Nezha has a strategic counter advantage over Mozi."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo can out-range Mozi's poke; since Mozi must stand still briefly to fire his stun, he becomes an easy target for Gan & Mo's swords."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Han Xin's extreme mobility allows him to dodge Mozi's linear skillshots and dive him, using his own CC-immune ultimate to ignore Mozi's defenses."
+  },
+  {
+    "heroId": 80,
+    "heroName": "Mozi",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 3,
+    "reason": "Cleanse nullifies Mozi's long-range energy blast stuns."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Charlotte's passive attack speed reduction and damage reduction severely cripple Mulan's combo speed and burst potential in both forms."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Verified matchup: Diaochan has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 50,
+    "counteredByName": "Heino",
+    "weight": 4,
+    "reason": "Verified matchup: Heino has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 51,
+    "counteredByName": "Hou Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Hou Yi has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Verified matchup: Liang has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 69,
+    "counteredByName": "Luara",
+    "weight": 4,
+    "reason": "Verified matchup: Luara has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 85,
+    "counteredByName": "Nuwa",
+    "weight": 4,
+    "reason": "Verified matchup: Nuwa has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Verified matchup: Shangguan has a strategic counter advantage over Mulan."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's constant CC immunity and high damage reduction allow him to absorb Mulan's full combo and disrupt her heavy sword state."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 8,
+    "counteredByName": "Arthur",
+    "weight": 4,
+    "reason": "Arthur's Skill 1 silence prevents Mulan from switching forms or completing her skill chain, leaving her vulnerable during trades."
+  },
+  {
+    "heroId": 81,
+    "heroName": "Mulan",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer ultimate armor and raw damage overpower Mulan's light/heavy sword combos."
+  },
+  {
+    "heroId": 82,
+    "heroName": "Musashi",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Donghuang's suppression ultimate is unavoidable and prevents Musashi from utilizing his mobility and shield mechanics after he dives."
+  },
+  {
+    "heroId": 82,
+    "heroName": "Musashi",
+    "counteredById": 32,
+    "counteredByName": "Dyadia",
+    "weight": 4,
+    "reason": "Verified matchup: Dyadia has a strategic counter advantage over Musashi."
+  },
+  {
+    "heroId": 82,
+    "heroName": "Musashi",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Verified matchup: Sun Bin has a strategic counter advantage over Musashi."
+  },
+  {
+    "heroId": 82,
+    "heroName": "Musashi",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive shields and ultimate knockback provide excellent peel for the backline, neutralizing Musashi's assassination attempts."
+  },
+  {
+    "heroId": 82,
+    "heroName": "Musashi",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "High mobility allows Marco Polo to kite Musashi effectively, while his true damage shreds Musashi's defensive stats."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's targeted suppression ultimate catches Nakoruru mid-dive, preventing her high-burst landing and making her an easy target."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Verified matchup: Diaochan has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 34,
+    "counteredByName": "Fang",
+    "weight": 4,
+    "reason": "Verified matchup: Fang has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Verified matchup: Garo has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 57,
+    "counteredByName": "Lady Sun",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Sun has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 58,
+    "counteredByName": "Lady Zhen",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Zhen has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 78,
+    "counteredByName": "Milady",
+    "weight": 4,
+    "reason": "Verified matchup: Milady has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 85,
+    "counteredByName": "Nuwa",
+    "weight": 4,
+    "reason": "Verified matchup: Nuwa has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Verified matchup: Shouyue has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 108,
+    "counteredByName": "Yuhuan",
+    "weight": 4,
+    "reason": "Verified matchup: Yuhuan has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Zhou Yu has a strategic counter advantage over Nakoruru."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's ability to provide instant shields and a massive knockback ultimate disrupts Nakoruru's single-target burst window."
+  },
+  {
+    "heroId": 83,
+    "heroName": "Nakoruru",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer ultimate damage block severely reduces Nakoruru's one-shot burst."
+  },
+  {
+    "heroId": 84,
+    "heroName": "Nezha",
+    "counteredById": 65,
+    "counteredByName": "Liu Bang",
+    "weight": 5,
+    "reason": "Liu Bang can teleport to Nezha's target, providing a massive shield and damage reduction that effectively negates Nezha's dive impact."
+  },
+  {
+    "heroId": 84,
+    "heroName": "Nezha",
+    "counteredById": 92,
+    "counteredByName": "Sun Bin",
+    "weight": 4,
+    "reason": "Sun Bin's Skill 2 provides movement speed and health reversal, allowing the team to survive Nezha's burn damage and dive initiation."
+  },
+  {
+    "heroId": 84,
+    "heroName": "Nezha",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's true damage ignores Nezha's damage reduction, and his superior sustain allows him to dominate the 1v1 lane matchup."
+  },
+  {
+    "heroId": 84,
+    "heroName": "Nezha",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi tether locks Nezha in place and shuts down his flight mobility."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's long-range dive and silence prevent Nuwa from setting up her terrain blocks or using her displacement to escape."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 5,
+    "reason": "Han Xin's extreme mobility allows him to bypass Nuwa's terrain blocks and dive her directly from unexpected angles."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 66,
+    "counteredByName": "Liu Bei",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bei has a strategic counter advantage over Nuwa."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 74,
+    "counteredByName": "Mayene",
+    "weight": 4,
+    "reason": "Verified matchup: Mayene has a strategic counter advantage over Nuwa."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Verified matchup: Mulan has a strategic counter advantage over Nuwa."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 84,
+    "counteredByName": "Nezha",
+    "weight": 4,
+    "reason": "Verified matchup: Nezha has a strategic counter advantage over Nuwa."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's high movement speed and displacement can push Nuwa out of position and ignore her slow-moving projectiles."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Stealth bypasses Nuwa's visual space control."
+  },
+  {
+    "heroId": 85,
+    "heroName": "Nuwa",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 3,
+    "reason": "Li Bai slips past Nuwa matrix walls with invulnerable dashes."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Verified matchup: Gan & Mo has a strategic counter advantage over Pei."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 75,
+    "counteredByName": "Meng Ya",
+    "weight": 4,
+    "reason": "Verified matchup: Meng Ya has a strategic counter advantage over Pei."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 78,
+    "counteredByName": "Milady",
+    "weight": 4,
+    "reason": "Verified matchup: Milady has a strategic counter advantage over Pei."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 85,
+    "counteredByName": "Nuwa",
+    "weight": 4,
+    "reason": "Verified matchup: Nuwa has a strategic counter advantage over Pei."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's early game burst and chain CC can match Pei's aggression and punish his tiger-form dives during early jungle skirmishes."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's CC immunity and natural tankiness make it difficult for Pei to find successful picks during his early-game invades."
+  },
+  {
+    "heroId": 86,
+    "heroName": "Pei",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 4,
+    "reason": "Biron's high early-game sustain and shield allow him to win trades against Pei's dual-form poke and burst in river fights."
+  },
+  {
+    "heroId": 87,
+    "heroName": "Sakeer",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 5,
+    "reason": "Li Bai's multiple untargetable frames allow him to dodge Sakeer's delayed damage and CC while delivering high burst."
+  },
+  {
+    "heroId": 87,
+    "heroName": "Sakeer",
+    "counteredById": 49,
+    "counteredByName": "Haya",
+    "weight": 4,
+    "reason": "Verified matchup: Haya has a strategic counter advantage over Sakeer."
+  },
+  {
+    "heroId": 87,
+    "heroName": "Sakeer",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Shangguan's high burst and untargetable state during her ultimate allows her to dive Sakeer before his damage can ramp up."
+  },
+  {
+    "heroId": 87,
+    "heroName": "Sakeer",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Lam's high mobility and burst can quickly close the gap on Sakeer and finish him before he can kite effectively."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 11,
+    "counteredByName": "Augran",
+    "weight": 4,
+    "reason": "Verified matchup: Augran has a strategic counter advantage over Shangguan."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 4,
+    "reason": "Verified matchup: Biron has a strategic counter advantage over Shangguan."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Point-and-click suppression shuts down ink brush dash chains immediately."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang suppression halts Shangguan's ink dash before she can take flight."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 82,
+    "counteredByName": "Musashi",
+    "weight": 4,
+    "reason": "Verified matchup: Musashi has a strategic counter advantage over Shangguan."
+  },
+  {
+    "heroId": 88,
+    "heroName": "Shangguan",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 4,
+    "reason": "Dun's high CC and massive shield allow him to survive Shangguan's initial burst and lock her down once she lands."
+  },
+  {
+    "heroId": 89,
+    "heroName": "Shi",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo's superior range allows them to poke and burst Shi from outside her effective control and displacement zone."
+  },
+  {
+    "heroId": 89,
+    "heroName": "Shi",
+    "counteredById": 10,
+    "counteredByName": "Athena",
+    "weight": 4,
+    "reason": "Verified matchup: Athena has a strategic counter advantage over Shi."
+  },
+  {
+    "heroId": 89,
+    "heroName": "Shi",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Han Xin's mobility allows him to dodge Shi's slow-moving CC projectiles and dive her backline position with ease."
+  },
+  {
+    "heroId": 89,
+    "heroName": "Shi",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue's long-range snipes force Shi to stay back, neutralizing her ability to control the mid-range zone with her skills."
+  },
+  {
+    "heroId": 90,
+    "heroName": "Shouyue",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 5,
+    "reason": "Stealth allows Gao Changgong to bypass Shouyue's vision wards and deliver a lethal burst before Shouyue can react or escape."
+  },
+  {
+    "heroId": 90,
+    "heroName": "Shouyue",
+    "counteredById": 65,
+    "counteredByName": "Liu Bang",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bang has a strategic counter advantage over Shouyue."
+  },
+  {
+    "heroId": 90,
+    "heroName": "Shouyue",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Nakoruru's high mobility and burst can quickly close the distance and delete Shouyue before he can use his ultimate to reposition."
+  },
+  {
+    "heroId": 90,
+    "heroName": "Shouyue",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 4,
+    "reason": "Dun's high sustain and CC allow him to soak up Shouyue's snipes and dive him during teamfights to disrupt his positioning."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang provides reliable, targeted suppression that stops Sima Yi's high-mobility shadow form and burst combo before it can start."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 2,
+    "counteredByName": "Alessio",
+    "weight": 4,
+    "reason": "Verified matchup: Alessio has a strategic counter advantage over Sima Yi."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 4,
+    "reason": "Verified matchup: Arli has a strategic counter advantage over Sima Yi."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression pins Sima Yi upon shadow dive landing."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 58,
+    "counteredByName": "Lady Zhen",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Zhen has a strategic counter advantage over Sima Yi."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Verified matchup: Shangguan has a strategic counter advantage over Sima Yi."
+  },
+  {
+    "heroId": 91,
+    "heroName": "Sima Yi",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Kaizer's ultimate provides flat damage reduction that significantly mitigates Sima Yi's multi-hit magic burst, allowing Kaizer to win the duel."
+  },
+  {
+    "heroId": 92,
+    "heroName": "Sun Bin",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's constant displacement disrupts the tight formations Sun Bin needs to maximize his team-wide speed buffs and healing."
+  },
+  {
+    "heroId": 92,
+    "heroName": "Sun Bin",
+    "counteredById": 31,
+    "counteredByName": "Dun",
+    "weight": 3,
+    "reason": "Fast initiation catches Sun Bin before speedup and bomb countdown completes."
+  },
+  {
+    "heroId": 92,
+    "heroName": "Sun Bin",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 3,
+    "reason": "Diaochan's continuous slows and true damage ignore the utility Sun Bin provides to his frontline, making it difficult for his team to disengage."
+  },
+  {
+    "heroId": 93,
+    "heroName": "Sun Ce",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu true damage completely ignores Sun Ce's passive physical armor stacks."
+  },
+  {
+    "heroId": 93,
+    "heroName": "Sun Ce",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Zhuangzi cleanses Sun Ce's ship knockup and teamfight dive chain completely."
+  },
+  {
+    "heroId": 93,
+    "heroName": "Sun Ce",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Sun Ce's boat charge relies on mass knock-up; allies inside Annette's Hurricane Wall gain full crowd-control immunity, completely neutralizing his teamfight engage."
+  },
+  {
+    "heroId": 93,
+    "heroName": "Sun Ce",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "When Sun Ce crashes in with his boat, Florentino pops Gentlemen's Duel to absorb the knock-up with CC immunity, immediately turning the duel and bursting Sun Ce down."
+  },
+  {
+    "heroId": 93,
+    "heroName": "Sun Ce",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's significant attack speed reduction and damage reduction during her skills allow her to out-trade Sun Ce in the Clash Lane."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 4,
+    "reason": "Verified matchup: Di Renjie has a strategic counter advantage over Ukyo Tachibana."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 55,
+    "counteredByName": "Kongming",
+    "weight": 4,
+    "reason": "Verified matchup: Kongming has a strategic counter advantage over Ukyo Tachibana."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 70,
+    "counteredByName": "Luban No.7",
+    "weight": 4,
+    "reason": "Verified matchup: Luban No.7 has a strategic counter advantage over Ukyo Tachibana."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 89,
+    "counteredByName": "Shi",
+    "weight": 4,
+    "reason": "Verified matchup: Shi has a strategic counter advantage over Ukyo Tachibana."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 100,
+    "counteredByName": "Xiao Qiao",
+    "weight": 4,
+    "reason": "Verified matchup: Xiao Qiao has a strategic counter advantage over Ukyo Tachibana."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Mulan's silence in light sword form prevents Ukyo from using his dash to escape, while her heavy sword form provides damage reduction against his burst."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 3,
+    "reason": "Kaizer's transformation withstands Ukyo's swift blade strikes."
+  },
+  {
+    "heroId": 94,
+    "heroName": "Ukyo Tachibana",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 3,
+    "reason": "Shouyue's vision devices reveal Ukyo's attempts to ambush from bushes, which is critical for Ukyo's kit to function effectively."
+  },
+  {
+    "heroId": 95,
+    "heroName": "Umbrosa",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Umbrosa relies on high-speed mobility and skill-chaining; Donghuang's suppression is the most effective way to shut down her momentum."
+  },
+  {
+    "heroId": 95,
+    "heroName": "Umbrosa",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 4,
+    "reason": "Arli's superior mobility allows her to dodge Umbrosa's skill-shots and kite her effectively, making it difficult for Umbrosa to land her full combo."
+  },
+  {
+    "heroId": 95,
+    "heroName": "Umbrosa",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive shields and ultimate knockback provide the necessary peel to protect backline carries from Umbrosa's dive attempts."
+  },
+  {
+    "heroId": 95,
+    "heroName": "Umbrosa",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 3,
+    "reason": "Biron's early burst shields win early trades against Umbrosa."
+  },
+  {
+    "heroId": 96,
+    "heroName": "Wang Zhaojun",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 5,
+    "reason": "Zhuangzi's passive and ultimate provide immunity to the slows and freezes that define Wang Zhaojun's utility and damage setup."
+  },
+  {
+    "heroId": 96,
+    "heroName": "Wang Zhaojun",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Han Xin's extreme mobility allows him to easily dodge Wang Zhaojun's circular skill-shots and burst her down before she can react."
+  },
+  {
+    "heroId": 96,
+    "heroName": "Wang Zhaojun",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi can dive Wang Zhaojun from long range and apply a silence, preventing her from casting her ultimate or defensive freeze."
+  },
+  {
+    "heroId": 96,
+    "heroName": "Wang Zhaojun",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Gao Changgong bursts Wang Zhaojun before she can freeze the ground beneath her."
+  },
+  {
+    "heroId": 96,
+    "heroName": "Wang Zhaojun",
+    "counteredById": 116,
+    "counteredByName": "Lorion",
+    "weight": 3,
+    "reason": "Static mage who must channel spells; Lorion pokes from outside her freeze range and uses flight immunity to avoid her blizzard CC."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression pierces Wukong's 1st skill shield and stops critical strikes."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 42,
+    "counteredByName": "Gao",
+    "weight": 4,
+    "reason": "Verified matchup: Gao has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 50,
+    "counteredByName": "Heino",
+    "weight": 4,
+    "reason": "Verified matchup: Heino has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Verified matchup: Marco Polo has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Verified matchup: Nakoruru has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 86,
+    "counteredByName": "Pei",
+    "weight": 4,
+    "reason": "Pei invades Wukong's jungle at level 1 with early dual forms before Wukong gets critical gear."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 89,
+    "counteredByName": "Shi",
+    "weight": 4,
+    "reason": "Verified matchup: Shi has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 108,
+    "counteredByName": "Yuhuan",
+    "weight": 4,
+    "reason": "Verified matchup: Yuhuan has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 115,
+    "counteredByName": "Annette",
+    "weight": 4,
+    "reason": "Wukong must reach melee range to burst carries; Annette's Hurricane Wall pushes him back, stuns him at the edge, and completely denies his initiation."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's high damage reduction and constant CC during his skill animations make it impossible for Wukong to burst him or peel him off carries."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Kaizer's ultimate provides enough armor and damage block to survive Wukong's initial crit burst, allowing Kaizer to easily win the subsequent duel."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 1,
+    "counteredByName": "Agudo",
+    "weight": 3,
+    "reason": "Verified matchup: Agudo has a strategic counter advantage over Wukong."
+  },
+  {
+    "heroId": 97,
+    "heroName": "Wukong",
+    "counteredById": 67,
+    "counteredByName": "Liu Shan",
+    "weight": 3,
+    "reason": "Chain knockups and shields absorb Wukong's 3-hit burst."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Verified matchup: Lam has a strategic counter advantage over Wuyan."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 79,
+    "counteredByName": "Ming",
+    "weight": 4,
+    "reason": "Verified matchup: Ming has a strategic counter advantage over Wuyan."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 86,
+    "counteredByName": "Pei",
+    "weight": 4,
+    "reason": "Verified matchup: Pei has a strategic counter advantage over Wuyan."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Sima Yi has a strategic counter advantage over Wuyan."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 94,
+    "counteredByName": "Ukyo Tachibana",
+    "weight": 4,
+    "reason": "Verified matchup: Ukyo Tachibana has a strategic counter advantage over Wuyan."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo's high mobility allows him to kite Wuyan's slow animations, while his true damage shreds through her health and shields."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 4,
+    "reason": "Arli can use her multiple dashes to stay out of Wuyan's petrification range while dealing consistent poke damage."
+  },
+  {
+    "heroId": 98,
+    "heroName": "Wuyan",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "True damage nullifies Wuyan's passive stone shield defense."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 5,
+    "reason": "Marco Polo can easily trigger his true damage passive on the slow-moving Xiang Yu and use his dashes to avoid Xiang Yu's push."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan ignores Xiang Yu's passive low-health damage reduction."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Verified matchup: Han Xin has a strategic counter advantage over Xiang Yu."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 56,
+    "counteredByName": "Kui",
+    "weight": 4,
+    "reason": "Verified matchup: Kui has a strategic counter advantage over Xiang Yu."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Verified matchup: Lam has a strategic counter advantage over Xiang Yu."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "True damage ignores Xiang Yu's passive low-health damage reduction."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 83,
+    "counteredByName": "Nakoruru",
+    "weight": 4,
+    "reason": "Verified matchup: Nakoruru has a strategic counter advantage over Xiang Yu."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 97,
+    "counteredByName": "Wukong",
+    "weight": 4,
+    "reason": "Verified matchup: Wukong has a strategic counter advantage over Xiang Yu."
+  },
+  {
+    "heroId": 99,
+    "heroName": "Xiang Yu",
+    "counteredById": 114,
+    "counteredByName": "Florentino",
+    "weight": 4,
+    "reason": "Xiang Yu's low-health passive damage reduction does not mitigate Florentino's percentage-based true damage, and his slow charges are easily dodged."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 5,
+    "reason": "Gan & Mo significantly out-range Xiao Qiao, allowing them to snipe her from safety before she can get close enough to use her ultimate."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Immobile burst mage vulnerable to sudden stealth ambush."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 66,
+    "counteredByName": "Liu Bei",
+    "weight": 4,
+    "reason": "Verified matchup: Liu Bei has a strategic counter advantage over Xiao Qiao."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 76,
+    "counteredByName": "Menki",
+    "weight": 4,
+    "reason": "Verified matchup: Menki has a strategic counter advantage over Xiao Qiao."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi's long-range dive and silence prevent Xiao Qiao from using her Skill 2 knock-up to protect herself from his burst."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Lam's high mobility and ability to close gaps quickly allow him to catch Xiao Qiao and burst her down before she can kite with her passive."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 3,
+    "reason": "Diaochan agile hops easily evade Xiao Qiao's fan poke and cyclone."
+  },
+  {
+    "heroId": 100,
+    "heroName": "Xiao Qiao",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 3,
+    "reason": "Li Bai sword shadow invulnerability evades Xiao Qiao's whirlwind knockup."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Donghuang's suppression ultimate is the ultimate counter to Xuance's high-mobility dive, locking him down instantly after he lands a hook."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang provides reliable, non-skillshot suppression that prevents Xuance from using his displacement skills to escape or reposition."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 22,
+    "counteredByName": "Daji",
+    "weight": 4,
+    "reason": "Verified matchup: Daji has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Verified matchup: Diaochan has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 42,
+    "counteredByName": "Gao",
+    "weight": 4,
+    "reason": "Verified matchup: Gao has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Verified matchup: Garo has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 51,
+    "counteredByName": "Hou Yi",
+    "weight": 4,
+    "reason": "Verified matchup: Hou Yi has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 52,
+    "counteredByName": "Huang Zhong",
+    "weight": 4,
+    "reason": "Verified matchup: Huang Zhong has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 110,
+    "counteredByName": "Zhou Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Zhou Yu has a strategic counter advantage over Xuance."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Cleanse breaks Xuance's hook chain immediately."
+  },
+  {
+    "heroId": 101,
+    "heroName": "Xuance",
+    "counteredById": 63,
+    "counteredByName": "Lian Po",
+    "weight": 4,
+    "reason": "Lian Po's constant CC immunity during his skill casts makes it nearly impossible for Xuance to successfully pull or flip him."
+  },
+  {
+    "heroId": 102,
+    "heroName": "Yang Jian",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu's true damage completely ignores Yang Jian's defensive stats and healing-based sustain in the Clash Lane."
+  },
+  {
+    "heroId": 102,
+    "heroName": "Yang Jian",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's significant attack speed reduction severely cripples Yang Jian's ability to weave basic attacks between his skill casts."
+  },
+  {
+    "heroId": 102,
+    "heroName": "Yang Jian",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's high mobility allows her to easily dodge Yang Jian's S1 mark, while her true damage shreds his health pool."
+  },
+  {
+    "heroId": 102,
+    "heroName": "Yang Jian",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 3,
+    "reason": "Fuzi tether restricts Yang Jian's repositioning and dog dash escape routes."
+  },
+  {
+    "heroId": 103,
+    "heroName": "Yango",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 5,
+    "reason": "Shouyue's vision wards reveal Yango's position even while in stealth, neutralizing his primary tactical advantage."
+  },
+  {
+    "heroId": 103,
+    "heroName": "Yango",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Yango relies on close-range burst; Donghuang can simply wait for the engage and suppress him before the damage rotation completes."
+  },
+  {
+    "heroId": 103,
+    "heroName": "Yango",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 4,
+    "reason": "Zhang Fei's massive immediate shield and knockback ultimate can protect squishy targets from Yango's initial burst window."
+  },
+  {
+    "heroId": 104,
+    "heroName": "Yao",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 5,
+    "reason": "Yao's damage mitigation passive does not trigger against suppression, making him extremely vulnerable to Donghuang's ultimate."
+  },
+  {
+    "heroId": 104,
+    "heroName": "Yao",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang's suppression bypasses Yao's starlight transformation mechanics, allowing the team to burst him down instantly."
+  },
+  {
+    "heroId": 104,
+    "heroName": "Yao",
+    "counteredById": 81,
+    "counteredByName": "Mulan",
+    "weight": 4,
+    "reason": "Mulan's rapid silence combo prevents Yao from activating his damage reduction or displacement skills in time."
+  },
+  {
+    "heroId": 105,
+    "heroName": "Yaria",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Garo melts Yaria's attachable shield in two hits, forcing her off her host immediately."
+  },
+  {
+    "heroId": 105,
+    "heroName": "Yaria",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's true damage bypasses the shield Yaria provides to her teammates, dealing direct damage to the host's health bar."
+  },
+  {
+    "heroId": 105,
+    "heroName": "Yaria",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "The extreme burst damage from Gan & Mo can often exceed the value of Yaria's shield in a single hit, killing the host instantly."
+  },
+  {
+    "heroId": 105,
+    "heroName": "Yaria",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression targets the hypercarry host, rendering Yaria's protection ineffective."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 25,
+    "counteredByName": "Di Renjie",
+    "weight": 4,
+    "reason": "Verified matchup: Di Renjie has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 33,
+    "counteredByName": "Erin",
+    "weight": 4,
+    "reason": "Verified matchup: Erin has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 57,
+    "counteredByName": "Lady Sun",
+    "weight": 4,
+    "reason": "Verified matchup: Lady Sun has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang golden suppression stops Ying's multi-stage spear combo mid-flight."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 70,
+    "counteredByName": "Luban No.7",
+    "weight": 4,
+    "reason": "Verified matchup: Luban No.7 has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 87,
+    "counteredByName": "Sakeer",
+    "weight": 4,
+    "reason": "Verified matchup: Sakeer has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Verified matchup: Shouyue has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 113,
+    "counteredByName": "Ziya",
+    "weight": 4,
+    "reason": "Verified matchup: Ziya has a strategic counter advantage over Ying."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 54,
+    "counteredByName": "Kaizer",
+    "weight": 4,
+    "reason": "Kaizer's ultimate provides flat damage block which is highly effective against Ying's multi-hit, lower-damage-per-tick combos."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 93,
+    "counteredByName": "Sun Ce",
+    "weight": 4,
+    "reason": "Sun Ce's superior chain crowd control can interrupt Ying's spear flow and burst her down before she can sustain through her passive."
+  },
+  {
+    "heroId": 106,
+    "heroName": "Ying",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Suppression interrupts Ying's multi-stage spear dances."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 3,
+    "counteredByName": "Allain",
+    "weight": 4,
+    "reason": "Verified matchup: Allain has a strategic counter advantage over Yixing."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 24,
+    "counteredByName": "Dharma",
+    "weight": 4,
+    "reason": "Verified matchup: Dharma has a strategic counter advantage over Yixing."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 26,
+    "counteredByName": "Dian Wei",
+    "weight": 4,
+    "reason": "Verified matchup: Dian Wei has a strategic counter advantage over Yixing."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Verified matchup: Guan Yu has a strategic counter advantage over Yixing."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 4,
+    "reason": "Zhuangzi cleanse allows allies to walk through Yixing chessboard boundaries."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai Shiranui's extreme mobility allows her to bypass Yixing's zone control and burst him down, forcing his passive early."
+  },
+  {
+    "heroId": 107,
+    "heroName": "Yixing",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi can dive directly onto Yixing and use silence to prevent him from placing stones or activating his ultimate."
+  },
+  {
+    "heroId": 108,
+    "heroName": "Yuhuan",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's silence is the perfect counter to Yuhuan, preventing her from using her ultimate's invulnerability to survive burst."
+  },
+  {
+    "heroId": 108,
+    "heroName": "Yuhuan",
+    "counteredById": 71,
+    "counteredByName": "Luna",
+    "weight": 4,
+    "reason": "Verified matchup: Luna has a strategic counter advantage over Yuhuan."
+  },
+  {
+    "heroId": 108,
+    "heroName": "Yuhuan",
+    "counteredById": 106,
+    "counteredByName": "Ying",
+    "weight": 4,
+    "reason": "Verified matchup: Ying has a strategic counter advantage over Yuhuan."
+  },
+  {
+    "heroId": 108,
+    "heroName": "Yuhuan",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo's long-range poke can force Yuhuan to use her ultimate defensively before a teamfight even begins."
+  },
+  {
+    "heroId": 108,
+    "heroName": "Yuhuan",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Suppression prevents Yuhuan from activating her ultimate, which is her only reliable tool for surviving focused fire."
+  },
+  {
+    "heroId": 109,
+    "heroName": "Zhang Fei",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 5,
+    "reason": "Lu Bu true damage completely ignores Zhang Fei's giant ultimate shield pool."
+  },
+  {
+    "heroId": 109,
+    "heroName": "Zhang Fei",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Garo passive deals double damage to shields, melting Zhang Fei's health bar."
+  },
+  {
+    "heroId": 109,
+    "heroName": "Zhang Fei",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo true damage stacks melt Zhang Fei even through his rage shield."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 5,
+    "reason": "Han Xin's extreme mobility allows him to jump over Zhou Yu's fire zones and assassinate him before he can set up his burn stacks."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 11,
+    "counteredByName": "Augran",
+    "weight": 4,
+    "reason": "Verified matchup: Augran has a strategic counter advantage over Zhou Yu."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 26,
+    "counteredByName": "Dian Wei",
+    "weight": 4,
+    "reason": "Verified matchup: Dian Wei has a strategic counter advantage over Zhou Yu."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Mai Shiranui can engage from angles that avoid Zhou Yu's fire spread and use her CC chain to kill him before he can push her back."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo outranges Zhou Yu significantly, allowing them to poke him down without ever stepping into his fire zones."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Gao Changgong assassinates Zhou Yu while he attempts to fan flames."
+  },
+  {
+    "heroId": 110,
+    "heroName": "Zhou Yu",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 3,
+    "reason": "Shouyue snipes Zhou Yu while he stands to cast wind-spreading fires."
+  },
+  {
+    "heroId": 111,
+    "heroName": "Zhuangzi",
+    "counteredById": 73,
+    "counteredByName": "Marco Polo",
+    "weight": 4,
+    "reason": "Marco Polo can easily kite Zhuangzi and trigger True Damage bursts, which Zhuangzi cannot cleanse or mitigate effectively."
+  },
+  {
+    "heroId": 111,
+    "heroName": "Zhuangzi",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Diaochan's True Damage and constant slows are not fully countered by Zhuangzi's cleanse, as she can re-apply them immediately during her ultimate."
+  },
+  {
+    "heroId": 111,
+    "heroName": "Zhuangzi",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "Lu Bu's true damage ignores Zhuangzi's damage reduction and passive defense."
+  },
+  {
+    "heroId": 111,
+    "heroName": "Zhuangzi",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 3,
+    "reason": "Garo's superior range allows her to safely poke Zhuangzi down, and her shield-shredding passive punishes any support items he builds."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 5,
+    "reason": "Liang can instantly suppress Zilong upon his entry into a fight, neutralizing his burst potential and making him an easy target for the team."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 4,
+    "reason": "Verified matchup: Arli has a strategic counter advantage over Zilong."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 34,
+    "counteredByName": "Fang",
+    "weight": 4,
+    "reason": "Verified matchup: Fang has a strategic counter advantage over Zilong."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 47,
+    "counteredByName": "Guiguzi",
+    "weight": 4,
+    "reason": "Verified matchup: Guiguzi has a strategic counter advantage over Zilong."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 49,
+    "counteredByName": "Haya",
+    "weight": 4,
+    "reason": "Verified matchup: Haya has a strategic counter advantage over Zilong."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 113,
+    "counteredByName": "Ziya",
+    "weight": 4,
+    "reason": "Verified matchup: Ziya has a strategic counter advantage over Zilong."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Charlotte's attack speed slows and damage reduction significantly weaken Zilong's combo-based damage output in 1v1 scenarios."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 3,
+    "reason": "Stops dragon leap initiation in its tracks."
+  },
+  {
+    "heroId": 112,
+    "heroName": "Zilong",
+    "counteredById": 109,
+    "counteredByName": "Zhang Fei",
+    "weight": 3,
+    "reason": "Zhang Fei's massive shields and knockback ultimate can protect the backline from Zilong's initial jump, wasting his cooldowns."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 5,
+    "reason": "Sima Yi's rapid gap-close and silence prevent the immobile Ziya from casting his defensive CC or his long-range ultimate."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 4,
+    "reason": "Verified matchup: Biron has a strategic counter advantage over Ziya."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 4,
+    "reason": "Verified matchup: Charlotte has a strategic counter advantage over Ziya."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 104,
+    "counteredByName": "Yao",
+    "weight": 4,
+    "reason": "Verified matchup: Yao has a strategic counter advantage over Ziya."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 48,
+    "counteredByName": "Han Xin",
+    "weight": 4,
+    "reason": "Han Xin's extreme mobility allows him to dodge Ziya's skill shots and dive him from unexpected angles before Ziya can react."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Shangguan can use her ultimate to become untargetable and dive Ziya, bypassing his zoning tools and bursting him down instantly."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 59,
+    "counteredByName": "Lam",
+    "weight": 4,
+    "reason": "Lam's high-speed pursuit and displacement can quickly close the gap on Ziya and drag him out of his safe positioning."
+  },
+  {
+    "heroId": 113,
+    "heroName": "Ziya",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 3,
+    "reason": "Low mobility makes Ziya an easy target for stealth assassins."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 17,
+    "counteredByName": "Charlotte",
+    "weight": 5,
+    "reason": "Hardest Lane Counter. Her passive stacks inflict crippling Attack Speed and Movement Speed reductions, severely delaying Florentino's flower-picking animation cancels and completely breaking his rhythm."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 40,
+    "counteredByName": "Fuzi",
+    "weight": 5,
+    "reason": "Fuzi's ultimate traps Florentino inside a tiny arena, preventing him from dashing out to pick up scattered bouquets. Combined with up to 70% damage reduction on Skill 2, Fuzi out-slugs him in close quarters."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Donghuang's Suppression ignores the CC-immunity granted by Florentino's ultimate. Locking him down mid-dash leaves him defenseless against burst damage."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang's point-and-click Suppression ignores Florentino's CC immunity frames, halting his dashes instantly and leaving him vulnerable to follow-up burst."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Garo outranges him significantly and applies heavy slows that prevent him from closing in to drop bouquets, shredding him before he can enter duel range."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 20,
+    "counteredByName": "Consort Yu",
+    "weight": 4,
+    "reason": "Consort Yu can activate physical damage immunity to negate Florentino's entire combo sequence and disengage with her backflip."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 4,
+    "reason": "Highly mobile inside her blizzard, Diaochan can easily dance around his Skill 1 projectile. If he misses, her stacking slows and true damage will melt him before he can escape."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 4,
+    "reason": "Lu Bu's True Damage and longer melee range allow him to trade effectively with Florentino, especially when Florentino's ultimate is on cooldown."
+  },
+  {
+    "heroId": 114,
+    "heroName": "Florentino",
+    "counteredById": 13,
+    "counteredByName": "Biron",
+    "weight": 3,
+    "reason": "Biron's high early-game burst and massive shields allow him to out-sustain and out-bully Florentino before he completes his core items."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 16,
+    "counteredByName": "Chano",
+    "weight": 4,
+    "reason": "Hurricane Wall does not block spell projectiles; when Annette's team groups inside her barrier, Chano unloads devastating long-range AoE bomb salvos on the huddled targets."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 58,
+    "counteredByName": "Lady Zhen",
+    "weight": 4,
+    "reason": "Hurricane Wall does not block spell projectiles; when allies cluster inside Annette's barrier, Lady Zhen's bouncing water orbs and ultimate punish them with massive AoE magic damage."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 44,
+    "counteredByName": "Garo",
+    "weight": 4,
+    "reason": "Garo's basic attacks deal bonus damage against shields (countering Annette's Skill 2) and easily outrange her wind fields from outside the barrier."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 90,
+    "counteredByName": "Shouyue",
+    "weight": 4,
+    "reason": "Shouyue can snipe backline carries straight through the wind barrier from complete safety, rendering her defensive zone useless against artillery bullets."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 88,
+    "counteredByName": "Shangguan",
+    "weight": 4,
+    "reason": "Shangguan Wan'er ascends into the air and becomes untargetable, raining down fatal burst damage that ignores ground barriers and hits everyone clustered beneath Annette."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi's instant dive applies an AoE Silence, preventing Annette from reacting with Hurricane Wall or escaping with Wind Cuffs before her carry is assassinated."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Donghuang's Suppression cannot be cleansed by Annette's CC-immunity zone; if he suppresses a carry outside the wall, Annette has no ability to interrupt him."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang's point-and-click Suppression ignores CC immunity, locking down prioritized targets without allowing Annette to peel or break the binding."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 41,
+    "counteredByName": "Gan & Mo",
+    "weight": 4,
+    "reason": "Gan & Mo's extreme long-range poke can hit Annette and her allies from outside the range of her wind wall and CC abilities."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Gao Changgong's stealth allows him to bypass Annette's zoning tools and burst her down before she can activate her ultimate to peel."
+  },
+  {
+    "heroId": 115,
+    "heroName": "Annette",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 3,
+    "reason": "Arli's high mobility and ability to return to her umbrella allow her to bait out Annette's CC and reposition instantly."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 111,
+    "counteredByName": "Zhuangzi",
+    "weight": 5,
+    "reason": "Hardest Counter. Zhuangzi's ultimate grants AoE crowd-control immunity and cleanses his entire team, completely neutralizing Lorion's game-winning ultimate levitation."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 43,
+    "counteredByName": "Gao Changgong",
+    "weight": 4,
+    "reason": "Stealth lets Gao Changgong strike before Lorion can position his orb; because his body is frail when separated from his orb, quick ambush burst drops him instantly."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 6,
+    "counteredByName": "Arke",
+    "weight": 4,
+    "reason": "Stealth and backstab burst eliminates Lorion when his true body is separated from his dark orb."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 91,
+    "counteredByName": "Sima Yi",
+    "weight": 4,
+    "reason": "Sima Yi closes gaps instantly and applies an AoE Silence, preventing Lorion from recalling his orb or activating his defensive invulnerability flight."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 29,
+    "counteredByName": "Donghuang",
+    "weight": 4,
+    "reason": "Donghuang's Suppression ignores Lorion's crowd-control immunity frames, locking him down on the spot the moment he dives forward."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 64,
+    "counteredByName": "Liang",
+    "weight": 4,
+    "reason": "Liang's point-and-click suppression ignores Lorion's flight frames, preventing him from detonating or recalling his orb."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 7,
+    "counteredByName": "Arli",
+    "weight": 4,
+    "reason": "Extreme mobility lets Arli easily dash or blink outside of Lorion's delayed ultimate circle before it triggers, leaving him vulnerable."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 72,
+    "counteredByName": "Mai Shiranui",
+    "weight": 4,
+    "reason": "Extreme acrobatics and blinks let Mai Shiranui dash outside of Lorion's delayed ultimate circle before it triggers, then counter-dive him."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 61,
+    "counteredByName": "Li Bai",
+    "weight": 4,
+    "reason": "Li Bai's multiple invulnerability frames allow him to dodge Lorion's ball pulses and his ultimate's CC while dealing high burst damage."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 46,
+    "counteredByName": "Guan Yu",
+    "weight": 4,
+    "reason": "Guan Yu's constant displacement can push Lorion away from his ball, disrupting his ability to teleport or land his AOE combos."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 68,
+    "counteredByName": "Lu Bu",
+    "weight": 3,
+    "reason": "Shrugs off Lorion's area control, bypasses magic shields with pure True Damage, and can counter-engage with his own aerial leap."
+  },
+  {
+    "heroId": 116,
+    "heroName": "Lorion",
+    "counteredById": 27,
+    "counteredByName": "Diaochan",
+    "weight": 3,
+    "reason": "Diaochan's short-cooldown dashes allow her to dance around Lorion's zone of control and punish him with True Damage."
+  }
+]

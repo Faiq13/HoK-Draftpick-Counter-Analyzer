@@ -1,0 +1,317 @@
+[
+    {
+        "heroIdA": 73,
+        "heroNameA": "Marco Polo",
+        "heroIdB": 105,
+        "heroNameB": "Yaria",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Yaria attaches shields and provides continuous CC peel, enabling Marco Polo's full ultimate dive channel."
+    },
+    {
+        "heroIdA": 44,
+        "heroNameA": "Garo",
+        "heroIdB": 79,
+        "heroNameB": "Ming",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Ming damage boost and attack speed turns Garo into an untouchable long-range siege turret."
+    },
+    {
+        "heroIdA": 2,
+        "heroNameA": "Alessio",
+        "heroIdB": 92,
+        "heroNameB": "Sun Bin",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Sun Bin speed boost and cooldown acceleration empowers Alessio's aerial bombardments and kite potential."
+    },
+    {
+        "heroIdA": 20,
+        "heroNameA": "Consort Yu",
+        "heroIdB": 15,
+        "heroNameB": "Cai Yan",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Cai Yan dual armor buffs and heals combined with Consort Yu's physical immunity creates an unkillable duo."
+    },
+    {
+        "heroIdA": 57,
+        "heroNameA": "Lady Sun",
+        "heroIdB": 79,
+        "heroNameB": "Ming",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Ming tether amplifies Lady Sun's roll-and-burst poke to eliminate backline squishies in a single shot."
+    },
+    {
+        "heroIdA": 52,
+        "heroNameA": "Huang Zhong",
+        "heroIdB": 109,
+        "heroNameB": "Zhang Fei",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Zhang Fei roar knockback and shield fortress protect Huang Zhong in stationary artillery stance."
+    },
+    {
+        "heroIdA": 51,
+        "heroNameA": "Hou Yi",
+        "heroIdB": 65,
+        "heroNameB": "Liu Bang",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Liu Bang global teleport shield protects immobile Hou Yi from sudden assassin burst dives."
+    },
+    {
+        "heroIdA": 70,
+        "heroNameA": "Luban No.7",
+        "heroIdB": 111,
+        "heroNameB": "Zhuangzi",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Zhuangzi group cleanse prevents Luban from being pinned down by enemy dive crowd control."
+    },
+    {
+        "heroIdA": 7,
+        "heroNameA": "Arli",
+        "heroIdB": 21,
+        "heroNameB": "Da Qiao",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Da Qiao elevator recall combined with Arli umbrella return allows instant full-HP map fountain resets."
+    },
+    {
+        "heroIdA": 25,
+        "heroNameA": "Di Renjie",
+        "heroIdB": 67,
+        "heroNameB": "Liu Shan",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Extreme early tower destruction and chain stun lock down Farm Lane from minute one."
+    },
+    {
+        "heroIdA": 28,
+        "heroNameA": "Dolia",
+        "heroIdB": 50,
+        "heroNameB": "Heino",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Dolia ultimate resets Heino's ultimate for infinite time-reversal rewind and battlefield control."
+    },
+    {
+        "heroIdA": 28,
+        "heroNameA": "Dolia",
+        "heroIdB": 68,
+        "heroNameB": "Lu Bu",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Dolia ultimate refresh enables back-to-back Lu Bu sky drop true damage initiations."
+    },
+    {
+        "heroIdA": 32,
+        "heroNameA": "Dyadia",
+        "heroIdB": 54,
+        "heroNameB": "Kaizer",
+        "comboType": "Pocket_Support",
+        "bonusWeight": 4,
+        "synergyReason": "Dyadia movement buff and healing tether turns Kaizer into an unstoppable raid boss in teamfights."
+    },
+    {
+        "heroIdA": 63,
+        "heroNameA": "Lian Po",
+        "heroIdB": 4,
+        "heroNameB": "Angela",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Lian Po 3-stage ground slam CC allows Angela to land 100% of her stationary laser beam melt."
+    },
+    {
+        "heroIdA": 12,
+        "heroNameA": "Bai Qi",
+        "heroIdB": 58,
+        "heroNameB": "Lady Zhen",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Bai Qi AoE taunt groups enemies together for Lady Zhen's cascade bouncing ice freeze."
+    },
+    {
+        "heroIdA": 47,
+        "heroNameA": "Guiguzi",
+        "heroIdB": 73,
+        "heroNameB": "Marco Polo",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Guiguzi stealth group vacuum creates the ideal clustered target for Marco Polo's spinning ultimate."
+    },
+    {
+        "heroIdA": 47,
+        "heroNameA": "Guiguzi",
+        "heroIdB": 43,
+        "heroNameB": "Gao Changgong",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Invisible double dive eliminates enemy backline before vision can be revealed."
+    },
+    {
+        "heroIdA": 29,
+        "heroNameA": "Donghuang",
+        "heroIdB": 96,
+        "heroNameB": "Wang Zhaojun",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Donghuang point-and-click suppression locks the priority target for Wang Zhaojun's blizzard freeze."
+    },
+    {
+        "heroIdA": 93,
+        "heroNameA": "Sun Ce",
+        "heroIdB": 27,
+        "heroNameB": "Diaochan",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Sun Ce ship knockup enables Diaochan to set up her lotus dance ring inside clustered enemies."
+    },
+    {
+        "heroIdA": 109,
+        "heroNameA": "Zhang Fei",
+        "heroIdB": 100,
+        "heroNameB": "Xiao Qiao",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Zhang Fei wide knockback groups enemies for Xiao Qiao's cyclone whirlwind and meteors."
+    },
+    {
+        "heroIdA": 68,
+        "heroNameA": "Lu Bu",
+        "heroIdB": 107,
+        "heroNameB": "Yixing",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Yixing giant chessboard arena traps enemies inside, guaranteeing Lu Bu's aerial sky drop."
+    },
+    {
+        "heroIdA": 24,
+        "heroNameA": "Dharma",
+        "heroIdB": 64,
+        "heroNameB": "Liang",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Dharma wall kick into Liang golden tether lockdown guarantees immediate death on any hero."
+    },
+    {
+        "heroIdA": 12,
+        "heroNameA": "Bai Qi",
+        "heroIdB": 42,
+        "heroNameB": "Gao",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Bai Qi taunt bundles enemies into Gao's massive guitar soundwave explosion."
+    },
+    {
+        "heroIdA": 31,
+        "heroNameA": "Dun",
+        "heroIdB": 72,
+        "heroNameB": "Mai Shiranui",
+        "comboType": "Wombo_Combo",
+        "bonusWeight": 4,
+        "synergyReason": "Dun blade drag and stun initiates seamless burst combos for Mai Shiranui's acrobatic flips."
+    },
+    {
+        "heroIdA": 56,
+        "heroNameA": "Kui",
+        "heroIdB": 64,
+        "heroNameB": "Liang",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Kui hook into Liang suppression creates an inescapable pickoff lock against any enemy."
+    },
+    {
+        "heroIdA": 80,
+        "heroNameA": "Mozi",
+        "heroIdB": 20,
+        "heroNameB": "Consort Yu",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Mozi long-range energy cannon stun sets up Consort Yu's piercing snipe arrows."
+    },
+    {
+        "heroIdA": 80,
+        "heroNameA": "Mozi",
+        "heroIdB": 90,
+        "heroNameB": "Shouyue",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Mozi off-screen laser stun enables guaranteed Shouyue heavy sniper shots."
+    },
+    {
+        "heroIdA": 12,
+        "heroNameA": "Bai Qi",
+        "heroIdB": 22,
+        "heroNameB": "Daji",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Taunt into point-and-click heart stun guarantees instantaneous burst execution."
+    },
+    {
+        "heroIdA": 29,
+        "heroNameA": "Donghuang",
+        "heroIdB": 70,
+        "heroNameB": "Luban No.7",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Donghuang pins diving assassins while Luban shreds them from safety."
+    },
+    {
+        "heroIdA": 101,
+        "heroNameA": "Xuance",
+        "heroIdB": 105,
+        "heroNameB": "Yaria",
+        "comboType": "Pickoff",
+        "bonusWeight": 4,
+        "synergyReason": "Hook chain whip into Yaria slow and shield allows continuous carry isolation."
+    },
+    {
+        "heroIdA": 59,
+        "heroNameA": "Lam",
+        "heroIdB": 67,
+        "heroNameB": "Liu Shan",
+        "comboType": "Dive_Followup",
+        "bonusWeight": 4,
+        "synergyReason": "Fast dive into tower stun disables defense structures for rapid lane snowballing."
+    },
+    {
+        "heroIdA": 83,
+        "heroNameA": "Nakoruru",
+        "heroIdB": 47,
+        "heroNameB": "Guiguzi",
+        "comboType": "Dive_Followup",
+        "bonusWeight": 4,
+        "synergyReason": "Guiguzi speed boost into Nakoruru explosive AoE eagle smash obliterates squishy backlines."
+    },
+    {
+        "heroIdA": 97,
+        "heroNameA": "Wukong",
+        "heroIdB": 105,
+        "heroNameB": "Yaria",
+        "comboType": "Dive_Followup",
+        "bonusWeight": 4,
+        "synergyReason": "Shield enables Wukong to survive initial crowd control and land three critical blows."
+    },
+    {
+        "heroIdA": 53,
+        "heroNameA": "Jing",
+        "heroIdB": 63,
+        "heroNameB": "Lian Po",
+        "comboType": "Dive_Followup",
+        "bonusWeight": 4,
+        "synergyReason": "Lian Po frontline disruption gives Jing the freedom to dance between mirror clones untouched."
+    },
+    {
+        "heroIdA": 86,
+        "heroNameA": "Pei",
+        "heroIdB": 29,
+        "heroNameB": "Donghuang",
+        "comboType": "Dive_Followup",
+        "bonusWeight": 4,
+        "synergyReason": "Level 1 jungle invade dominance suffocates the enemy jungler from the start of the match."
+    }
+]

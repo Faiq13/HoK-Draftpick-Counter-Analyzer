@@ -27,7 +27,7 @@ export function QuickSearchModal({ heroes, items, onClose, onNavigate }: QuickSe
         name: hero.english_hero_name || hero.chinese_hero_name || '',
         role: Array.isArray(hero.roles) ? hero.roles.join(', ') : hero.roles || '',
         tier: String(hero.popularity ?? ''),
-        avatar: hero.image_url,
+        avatar: hero.image_url || '',
       })),
       ...items.filter(item => `${item.name} ${item.category}`.toLowerCase().includes(query)).map(item => ({ ...item, type: 'item' as const, id: String(item.id) })),
     ];

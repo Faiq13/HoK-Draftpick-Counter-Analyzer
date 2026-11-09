@@ -32,9 +32,9 @@ export interface DraftTeamState {
 }
 
 export interface DraftState {
-  blueTeam: Array<DraftHero | null>;
-  redTeam: Array<DraftHero | null>;
-  blueBans: Array<DraftHero | null>;
-  redBans: Array<DraftHero | null>;
+  blueTeam: Array<DraftHero | string | null>;
+  redTeam: Array<DraftHero | string | null>;
+  blueBans: Array<DraftHero | string | null>;
+  redBans: Array<DraftHero | string | null>;
   activeSlot?: DraftSlot | null;
 }

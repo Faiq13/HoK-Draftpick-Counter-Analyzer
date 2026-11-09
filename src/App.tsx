@@ -45,7 +45,7 @@ function App() {
   const selectedHeroes = useMemo(() => Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter(Boolean) as DraftHero[], [teams]);
   const recommendations = useMemo(() => {
     const score = (hero: DraftHero) => parsePercent(hero.win_rate) + parsePercent(hero.pick_rate) * 0.25 + selectedHeroes.reduce((total, target) => {
-      const sharedRole = (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).some(role => (Array.isArray(target.roles) ? target.roles : (target.roles ?? '').split(',')).includes(role.trim()));
+      const sharedRole = (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).some(role => (Array.isArray(target.roles) ? target.roles : (target.roles ?? '').split(',')).includes(String(role).trim()));
       return total + (sharedRole ? 0.05 : 0);
     }, 0);
     return heroes.filter(hero => !usedIds.has(hero.id)).sort((a, b) => score(b) - score(a)).slice(0, 5);
@@ -55,10 +55,12 @@ function App() {
   const filteredDatabase = useMemo(() => heroes.filter(hero => `${hero.chinese_hero_name} ${hero.english_hero_name}`.toLowerCase().includes(databaseSearch.toLowerCase()) && (roleFilter === 'all' || (Array.isArray(hero.roles) ? hero.roles : (hero.roles ?? '').split(',')).includes(roleFilter)) && (laneFilter === 'all' || hero.recommended_lane === laneFilter)), [heroes, databaseSearch, roleFilter, laneFilter]);
 
   const pickHero = (hero: DraftHero) => {
-    if (!activeSlot || usedIds.has(hero.id)) return;
-    setTeams(current => ({ ...current, [activeSlot.team]: { ...current[activeSlot.team], [activeSlot.phase === 'pick' ? 'picks' : 'bans']: current[activeSlot.team][activeSlot.phase === 'pick' ? 'picks' : 'bans'].map((item, index) => index === activeSlot.index ? hero : item) } }));
-    const slots = teams[activeSlot.team][activeSlot.phase === 'pick' ? 'picks' : 'bans'];
-    const nextIndex = slots.findIndex((item, index) => index > activeSlot.index && !item);
+    if (!activeSlot?.team || !activeSlot.phase) return;
+    const team = activeSlot.team;
+    const phaseKey = activeSlot.phase === 'pick' ? 'picks' : 'bans';
+    setTeams(current => ({ ...current, [team]: { ...current[team], [phaseKey]: current[team][phaseKey].map((item: any, index: number) => index === activeSlot.index ? hero : item) } }));
+    const slots = teams[team][phaseKey];
+    const nextIndex = slots.findIndex((item: any, index: number) => index > activeSlot.index && !item);
     setActiveSlot(nextIndex >= 0 ? { ...activeSlot, index: nextIndex } : null);
   };
 
@@ -75,3 +77,5 @@ function App() {
 }
 
 export default App;
+
+

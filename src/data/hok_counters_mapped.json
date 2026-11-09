@@ -1,0 +1,7714 @@
+[
+  {
+    "id": 1,
+    "name": "Agudo",
+    "slug": "agudo",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Alessio",
+    "slug": "alessio",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Allain",
+    "slug": "allain",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Angela",
+    "slug": "angela",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ao'yin",
+    "slug": "aoyin",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier S",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Arke",
+    "slug": "arke",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Arli",
+    "slug": "arli",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 95,
+        "name": "Umbrosa"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Arthur",
+    "slug": "arthur",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Ata",
+    "slug": "ata",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Athena",
+    "slug": "athena",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Augran",
+    "slug": "augran",
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Bai Qi",
+    "slug": "bai-qi",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Biron",
+    "slug": "biron",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 35,
+        "name": "Fatih"
+      },
+      {
+        "id": 39,
+        "name": "Flowborn (Tank)"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 60,
+        "name": "Lapulapu"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 95,
+        "name": "Umbrosa"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Butterfly",
+    "slug": "butterfly",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cai Yan",
+    "slug": "cai-yan",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Chano",
+    "slug": "chano",
+    "roles": [
+      "Farm",
+      "Jungle"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Charlotte",
+    "slug": "charlotte",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 16,
+        "name": "Chano"
+      },
+      {
+        "id": 23,
+        "name": "Devara"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 35,
+        "name": "Fatih"
+      },
+      {
+        "id": 38,
+        "name": "Flowborn (Marksman)"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Chicha",
+    "slug": "chicha",
+    "roles": [
+      "Clash Lane",
+      "Jungle",
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Cirrus",
+    "slug": "cirrus",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Consort Yu",
+    "slug": "consort-yu",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Da Qiao",
+    "slug": "da-qiao",
+    "roles": [
+      "Roam",
+      "Mid"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Daji",
+    "slug": "daji",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Devara",
+    "slug": "devara",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Dharma",
+    "slug": "dharma",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Di Renjie",
+    "slug": "di-renjie",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Dian Wei",
+    "slug": "dian-wei",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Diaochan",
+    "slug": "diaochan",
+    "roles": [
+      "Mid",
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 9,
+        "name": "Ata"
+      },
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 12,
+        "name": "Bai Qi"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 23,
+        "name": "Devara"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 39,
+        "name": "Flowborn (Tank)"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 60,
+        "name": "Lapulapu"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Dolia",
+    "slug": "dolia",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Donghuang",
+    "slug": "donghuang",
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 6,
+        "name": "Arke"
+      },
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 36,
+        "name": "Feyd"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 95,
+        "name": "Umbrosa"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      },
+      {
+        "id": 103,
+        "name": "Yango"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Dr Bian",
+    "slug": "dr-bian",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dun",
+    "slug": "dun",
+    "roles": [
+      "Clash Lane",
+      "Roam"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dyadia",
+    "slug": "dyadia",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Erin",
+    "slug": "erin",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Fang",
+    "slug": "fang",
+    "roles": [
+      "Farm",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Fatih",
+    "slug": "fatih",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Feyd",
+    "slug": "feyd",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Flowborn (Mage)",
+    "slug": "flowborn-mage",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Flowborn (Marksman)",
+    "slug": "flowborn-marksman",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier B",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Flowborn (Tank)",
+    "slug": "flowborn-tank",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Fuzi",
+    "slug": "fuzi",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 35,
+        "name": "Fatih"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 60,
+        "name": "Lapulapu"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Gan & Mo",
+    "slug": "gan-mo",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 5,
+        "name": "Ao'yin"
+      },
+      {
+        "id": 16,
+        "name": "Chano"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 38,
+        "name": "Flowborn (Marksman)"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Gao",
+    "slug": "gao",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Gao Changgong",
+    "slug": "gao-changgong",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 5,
+        "name": "Ao'yin"
+      },
+      {
+        "id": 16,
+        "name": "Chano"
+      },
+      {
+        "id": 18,
+        "name": "Chicha"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 38,
+        "name": "Flowborn (Marksman)"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 45,
+        "name": "Garuda"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Garo",
+    "slug": "garo",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Garuda",
+    "slug": "garuda",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier B",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Guan Yu",
+    "slug": "guan-yu",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 37,
+        "name": "Flowborn (Mage)"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 45,
+        "name": "Garuda"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Guiguzi",
+    "slug": "guiguzi",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Han Xin",
+    "slug": "han-xin",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 37,
+        "name": "Flowborn (Mage)"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Haya",
+    "slug": "haya",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Heino",
+    "slug": "heino",
+    "roles": [
+      "Mid",
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Hou Yi",
+    "slug": "hou-yi",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Huang Zhong",
+    "slug": "huang-zhong",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Jing",
+    "slug": "jing",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 9,
+        "name": "Ata"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Kaizer",
+    "slug": "kaizer",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 35,
+        "name": "Fatih"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Kongming",
+    "slug": "kongming",
+    "roles": [
+      "Mid",
+      "Jungle"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Kui",
+    "slug": "kui",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Lady Sun",
+    "slug": "lady-sun",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Lady Zhen",
+    "slug": "lady-zhen",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Lam",
+    "slug": "lam",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 18,
+        "name": "Chicha"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Lapulapu",
+    "slug": "lapulapu",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Li Bai",
+    "slug": "li-bai",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 37,
+        "name": "Flowborn (Mage)"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Li Xin",
+    "slug": "li-xin",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Lian Po",
+    "slug": "lian-po",
+    "roles": [
+      "Clash Lane",
+      "Roam"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 6,
+        "name": "Arke"
+      },
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 18,
+        "name": "Chicha"
+      },
+      {
+        "id": 36,
+        "name": "Feyd"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Liang",
+    "slug": "liang",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 5,
+        "name": "Ao'yin"
+      },
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 36,
+        "name": "Feyd"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Liu Bang",
+    "slug": "liu-bang",
+    "roles": [
+      "Clash Lane",
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Liu Bei",
+    "slug": "liu-bei",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Liu Shan",
+    "slug": "liu-shan",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Lu Bu",
+    "slug": "lu-bu",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 9,
+        "name": "Ata"
+      },
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 12,
+        "name": "Bai Qi"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 23,
+        "name": "Devara"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 35,
+        "name": "Fatih"
+      },
+      {
+        "id": 39,
+        "name": "Flowborn (Tank)"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 60,
+        "name": "Lapulapu"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Luara",
+    "slug": "luara",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Luban No.7",
+    "slug": "luban-no-7",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Luna",
+    "slug": "luna",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 102,
+        "name": "Yang Jian"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Mai Shiranui",
+    "slug": "mai-shiranui",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Marco Polo",
+    "slug": "marco-polo",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 9,
+        "name": "Ata"
+      },
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 12,
+        "name": "Bai Qi"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 39,
+        "name": "Flowborn (Tank)"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Mayene",
+    "slug": "mayene",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 105,
+        "name": "Yaria"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Meng Ya",
+    "slug": "meng-ya",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Menki",
+    "slug": "menki",
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Mi Yue",
+    "slug": "mi-yue",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Milady",
+    "slug": "milady",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier S",
+    "strong_against": [
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Ming",
+    "slug": "ming",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Mozi",
+    "slug": "mozi",
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Mulan",
+    "slug": "mulan",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 62,
+        "name": "Li Xin"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Musashi",
+    "slug": "musashi",
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Nakoruru",
+    "slug": "nakoruru",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 16,
+        "name": "Chano"
+      },
+      {
+        "id": 18,
+        "name": "Chicha"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 69,
+        "name": "Luara"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Nezha",
+    "slug": "nezha",
+    "roles": [
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 92,
+        "name": "Sun Bin"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Nuwa",
+    "slug": "nuwa",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Pei",
+    "slug": "pei",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Sakeer",
+    "slug": "sakeer",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Shangguan",
+    "slug": "shangguan",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Shi",
+    "slug": "shi",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 10,
+        "name": "Athena"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Shouyue",
+    "slug": "shouyue",
+    "roles": [
+      "Farm"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 6,
+        "name": "Arke"
+      },
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 18,
+        "name": "Chicha"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 38,
+        "name": "Flowborn (Marksman)"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      },
+      {
+        "id": 103,
+        "name": "Yango"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 65,
+        "name": "Liu Bang"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Sima Yi",
+    "slug": "sima-yi",
+    "roles": [
+      "Jungle",
+      "Mid"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 37,
+        "name": "Flowborn (Mage)"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 45,
+        "name": "Garuda"
+      },
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 85,
+        "name": "Nuwa"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 2,
+        "name": "Alessio"
+      },
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Sun Bin",
+    "slug": "sun-bin",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 32,
+        "name": "Dyadia"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 84,
+        "name": "Nezha"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Sun Ce",
+    "slug": "sun-ce",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      },
+      {
+        "id": 75,
+        "name": "Meng Ya"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Ukyo Tachibana",
+    "slug": "ukyo-tachibana",
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 98,
+        "name": "Wuyan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 100,
+        "name": "Xiao Qiao"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Umbrosa",
+    "slug": "umbrosa",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier A",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Wang Zhaojun",
+    "slug": "wang-zhaojun",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Wukong",
+    "slug": "wukong",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 89,
+        "name": "Shi"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      },
+      {
+        "id": 115,
+        "name": "Annette"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Wuyan",
+    "slug": "wuyan",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 79,
+        "name": "Ming"
+      },
+      {
+        "id": 86,
+        "name": "Pei"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Xiang Yu",
+    "slug": "xiang-yu",
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 21,
+        "name": "Da Qiao"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      },
+      {
+        "id": 114,
+        "name": "Florentino"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Xiao Qiao",
+    "slug": "xiao-qiao",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 94,
+        "name": "Ukyo Tachibana"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 66,
+        "name": "Liu Bei"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Xuance",
+    "slug": "xuance",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 42,
+        "name": "Gao"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 52,
+        "name": "Huang Zhong"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 110,
+        "name": "Zhou Yu"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Yang Jian",
+    "slug": "yang-jian",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 30,
+        "name": "Dr Bian"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Yango",
+    "slug": "yango",
+    "roles": [
+      "Clash Lane",
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Yao",
+    "slug": "yao",
+    "roles": [
+      "Jungle",
+      "Clash Lane"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 77,
+        "name": "Mi Yue"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 81,
+        "name": "Mulan"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Yaria",
+    "slug": "yaria",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier A",
+    "strong_against": [
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 74,
+        "name": "Mayene"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Ying",
+    "slug": "ying",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 108,
+        "name": "Yuhuan"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 25,
+        "name": "Di Renjie"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 33,
+        "name": "Erin"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 57,
+        "name": "Lady Sun"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 87,
+        "name": "Sakeer"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Yixing",
+    "slug": "yixing",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 3,
+        "name": "Allain"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Yuhuan",
+    "slug": "yuhuan",
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 71,
+        "name": "Luna"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Zhang Fei",
+    "slug": "zhang-fei",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 14,
+        "name": "Butterfly"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 36,
+        "name": "Feyd"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 53,
+        "name": "Jing"
+      },
+      {
+        "id": 55,
+        "name": "Kongming"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      },
+      {
+        "id": 82,
+        "name": "Musashi"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 95,
+        "name": "Umbrosa"
+      },
+      {
+        "id": 103,
+        "name": "Yango"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Zhou Yu",
+    "slug": "zhou-yu",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 1,
+        "name": "Agudo"
+      },
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 83,
+        "name": "Nakoruru"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 11,
+        "name": "Augran"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Zhuangzi",
+    "slug": "zhuangzi",
+    "roles": [
+      "Roam",
+      "Clash Lane"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 12,
+        "name": "Bai Qi"
+      },
+      {
+        "id": 19,
+        "name": "Cirrus"
+      },
+      {
+        "id": 22,
+        "name": "Daji"
+      },
+      {
+        "id": 24,
+        "name": "Dharma"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 56,
+        "name": "Kui"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 67,
+        "name": "Liu Shan"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 76,
+        "name": "Menki"
+      },
+      {
+        "id": 80,
+        "name": "Mozi"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      },
+      {
+        "id": 101,
+        "name": "Xuance"
+      },
+      {
+        "id": 107,
+        "name": "Yixing"
+      },
+      {
+        "id": 116,
+        "name": "Lorion"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 73,
+        "name": "Marco Polo"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Zilong",
+    "slug": "zilong",
+    "roles": [
+      "Jungle"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 50,
+        "name": "Heino"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 34,
+        "name": "Fang"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 49,
+        "name": "Haya"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 109,
+        "name": "Zhang Fei"
+      },
+      {
+        "id": 113,
+        "name": "Ziya"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Ziya",
+    "slug": "ziya",
+    "roles": [
+      "Mid",
+      "Roam"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 106,
+        "name": "Ying"
+      },
+      {
+        "id": 112,
+        "name": "Zilong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 48,
+        "name": "Han Xin"
+      },
+      {
+        "id": 59,
+        "name": "Lam"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 104,
+        "name": "Yao"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Florentino",
+    "slug": "florentino",
+    "roles": [
+      "Clash"
+    ],
+    "tier": "Tier B",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 31,
+        "name": "Dun"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 99,
+        "name": "Xiang Yu"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 20,
+        "name": "Consort Yu"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 40,
+        "name": "Fuzi"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Annette",
+    "slug": "annette",
+    "roles": [
+      "Roam"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 8,
+        "name": "Arthur"
+      },
+      {
+        "id": 13,
+        "name": "Biron"
+      },
+      {
+        "id": 17,
+        "name": "Charlotte"
+      },
+      {
+        "id": 26,
+        "name": "Dian Wei"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 47,
+        "name": "Guiguzi"
+      },
+      {
+        "id": 54,
+        "name": "Kaizer"
+      },
+      {
+        "id": 63,
+        "name": "Lian Po"
+      },
+      {
+        "id": 93,
+        "name": "Sun Ce"
+      },
+      {
+        "id": 97,
+        "name": "Wukong"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 16,
+        "name": "Chano"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 41,
+        "name": "Gan & Mo"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 88,
+        "name": "Shangguan"
+      },
+      {
+        "id": 90,
+        "name": "Shouyue"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Lorion",
+    "slug": "lorion",
+    "roles": [
+      "Mid"
+    ],
+    "tier": "Tier C",
+    "strong_against": [
+      {
+        "id": 4,
+        "name": "Angela"
+      },
+      {
+        "id": 15,
+        "name": "Cai Yan"
+      },
+      {
+        "id": 28,
+        "name": "Dolia"
+      },
+      {
+        "id": 44,
+        "name": "Garo"
+      },
+      {
+        "id": 51,
+        "name": "Hou Yi"
+      },
+      {
+        "id": 58,
+        "name": "Lady Zhen"
+      },
+      {
+        "id": 70,
+        "name": "Luban No.7"
+      },
+      {
+        "id": 78,
+        "name": "Milady"
+      },
+      {
+        "id": 96,
+        "name": "Wang Zhaojun"
+      }
+    ],
+    "countered_by": [
+      {
+        "id": 6,
+        "name": "Arke"
+      },
+      {
+        "id": 7,
+        "name": "Arli"
+      },
+      {
+        "id": 27,
+        "name": "Diaochan"
+      },
+      {
+        "id": 29,
+        "name": "Donghuang"
+      },
+      {
+        "id": 43,
+        "name": "Gao Changgong"
+      },
+      {
+        "id": 46,
+        "name": "Guan Yu"
+      },
+      {
+        "id": 61,
+        "name": "Li Bai"
+      },
+      {
+        "id": 64,
+        "name": "Liang"
+      },
+      {
+        "id": 68,
+        "name": "Lu Bu"
+      },
+      {
+        "id": 72,
+        "name": "Mai Shiranui"
+      },
+      {
+        "id": 91,
+        "name": "Sima Yi"
+      },
+      {
+        "id": 111,
+        "name": "Zhuangzi"
+      }
+    ]
+  }
+]
