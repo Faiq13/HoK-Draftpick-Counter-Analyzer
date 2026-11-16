@@ -2,13 +2,16 @@ import { useEffect, useMemo, useState } from 'react';
 import { ChevronDown, Database, Languages, Search, Swords, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { CounterRecommendations } from './components/CounterRecommendations';
+import { CounterItemRecommendations } from './components/CounterItemRecommendations';
 import { HeroPickerModal } from './components/HeroPickerModal';
 import { TeamDraftPanel } from './components/TeamDraftPanel';
+import { TeamSynergyPanel } from './components/TeamSynergyPanel';
 import { QuickSearchModal } from './components/QuickSearchModal';
 import { GlassWorkspace } from './components/ui/adjustable-glass-dashboard';
 import { buildCounterRecommendations } from './lib/counter';
 import { displayHeroName, type HeroNameMode } from './lib/hero';
-import type { DraftHero, DraftSlot, DraftTeamState } from './types/draft';
+import matchupRows from './data/counters.json';
+import type { DraftHero, DraftSlot, DraftTeamState, SearchItem } from './types/draft';
 
 const emptyTeam = (): DraftTeamState => ({ picks: Array(5).fill(null), bans: Array(3).fill(null) });
 const parsePercent = (value: string | number | undefined) => Number.parseFloat(String(value || '').replace(/[^\d.-]/g, '')) || 0;
@@ -16,14 +19,16 @@ const rolesOf = (hero: DraftHero) => (Array.isArray(hero.roles) ? hero.roles : S
 
 type Tab = 'simulator' | 'database';
 type SortKey = 'name' | 'role' | 'lane' | 'tier' | 'win' | 'pick' | 'ban';
-type SearchItem = { id: string | number; name: string; category: string; price: number; icon: string };
+type SearchTarget = 'hero' | 'item' | 'counter';
+type LocalMatchupRow = { heroName: string; counteredByName: string; weight: number; reason: string };
+const localMatchups = matchupRows as LocalMatchupRow[];
 
 function LandingPage({ onStart }: { onStart: () => void }) {
   const { t } = useTranslation();
   return <main className="landing-page">
     <div className="landing-nav"><div className="landing-brand"><span className="brand-mark" aria-hidden="true"><Swords size={18} /></span><strong>HOK DRAFT ANALYZER</strong></div><span>{t('workspace')}</span></div>
     <section className="landing-main"><div className="landing-index">01 / DRAFT ROOM</div><h1>READ THE<br /><em>DRAFT.</em><br />WIN MORE.</h1><p>{t('landingLead')}</p><button type="button" className="primary-action" onClick={onStart}>{t('start')} <span aria-hidden="true">↗</span></button></section>
-    <div className="landing-footer"><span>{t('ticker')}</span><span>LOCAL DATA / NO ACCOUNT</span></div>
+    <div className="landing-footer"><span>{t('ticker')}</span><span>{t('localDataNoAccount')}</span></div>
   </main>;
 }
 
@@ -34,6 +39,8 @@ function App() {
   const [activeSlot, setActiveSlot] = useState<DraftSlot | null>(null);
   const [activeTab, setActiveTab] = useState<Tab>('simulator');
   const [databaseSearch, setDatabaseSearch] = useState('');
+  const [selectedHeroId, setSelectedHeroId] = useState<number | null>(null);
+  const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
   const [roleFilter, setRoleFilter] = useState('all');
   const [laneFilter, setLaneFilter] = useState('all');
   const [tierFilter, setTierFilter] = useState('all');
@@ -43,6 +50,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [nameMode, setNameMode] = useState<HeroNameMode>('title');
+  const [hasStarted, setHasStarted] = useState(() => window.localStorage.getItem('hok-dashboard-started') === 'true');
   const { t, i18n } = useTranslation();
   const language = i18n.language.startsWith('id') ? 'id' : 'en';
   const copy = { title: t('title'), search: t('search'), simulator: t('simulator'), database: t('database'), loading: t('loading') };
@@ -56,7 +64,8 @@ function App() {
 
   const usedIds = useMemo(() => new Set(Object.values(teams).flatMap(team => [...team.picks, ...team.bans]).filter(Boolean).map(hero => (hero as DraftHero).id)), [teams]);
   const enemyPicks = useMemo(() => teams.red.picks.filter(Boolean) as DraftHero[], [teams.red.picks]);
-  const recommendations = useMemo(() => buildCounterRecommendations(heroes, enemyPicks, usedIds), [heroes, enemyPicks, usedIds]);
+  const bluePicks = useMemo(() => teams.blue.picks.filter(Boolean) as DraftHero[], [teams.blue.picks]);
+  const recommendations = useMemo(() => buildCounterRecommendations(heroes, enemyPicks, usedIds, 6, bluePicks), [heroes, enemyPicks, usedIds, bluePicks]);
   const roles = useMemo(() => [...new Set(heroes.flatMap(hero => rolesOf(hero)))].sort(), [heroes]);
   const lanes = useMemo(() => [...new Set(heroes.map(hero => hero.recommended_lane).filter(Boolean))].sort(), [heroes]);
   const tiers = useMemo(() => [...new Set(heroes.map(hero => String(hero.popularity || '').trim()).filter(Boolean))].sort(), [heroes]);
@@ -78,11 +87,36 @@ function App() {
     });
   }, [heroes, databaseSearch, roleFilter, laneFilter, tierFilter, sortKey, sortDirection, nameMode]);
 
+  const selectedHero = selectedHeroId === null ? null : heroes.find(hero => hero.id === selectedHeroId) ?? null;
+  const selectedItem = selectedItemId === null ? null : items.find(item => String(item.id) === selectedItemId) ?? null;
+  const selectedHeroMatchups = selectedHero ? localMatchups.filter(row => row.counteredByName === selectedHero.chinese_hero_name || row.heroName === selectedHero.chinese_hero_name) : [];
+  useEffect(() => {
+    if (activeTab !== 'database' || (selectedHeroId === null && selectedItemId === null)) return;
+    document.getElementById(selectedHeroId === null ? `item-${selectedItemId}` : `hero-${selectedHeroId}`)?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, [activeTab, selectedHeroId, selectedItemId]);
+
   const selectSort = (key: SortKey) => {
     if (sortKey === key) setSortDirection(value => value === 'asc' ? 'desc' : 'asc');
     else { setSortKey(key); setSortDirection(key === 'name' || key === 'role' || key === 'lane' ? 'asc' : 'desc'); }
   };
-  const clearFilters = () => { setDatabaseSearch(''); setRoleFilter('all'); setLaneFilter('all'); setTierFilter('all'); };
+  const clearFilters = () => { setDatabaseSearch(''); setRoleFilter('all'); setLaneFilter('all'); setTierFilter('all'); setSelectedHeroId(null); setSelectedItemId(null); };
+  const navigateFromSearch = (target: SearchTarget, id: string) => {
+    if (target === 'hero') {
+      const heroId = Number(id);
+      const hero = heroes.find(item => item.id === heroId);
+      setActiveTab('database');
+      setDatabaseSearch(hero ? '' : id);
+      setSelectedHeroId(hero ? hero.id : null);
+      setSelectedItemId(null);
+      return;
+    }
+    if (target === 'item') {
+      setActiveTab('database');
+      setSelectedItemId(id);
+      setSelectedHeroId(null);
+      setDatabaseSearch('');
+    }
+  };
   const removeHero = (slot: DraftSlot) => {
     const collection = slot.phase === 'pick' ? 'picks' : 'bans';
     setTeams(current => ({ ...current, [slot.team]: { ...current[slot.team], [collection]: current[slot.team][collection].map((item, index) => index === slot.index ? null : item) } }));
@@ -102,18 +136,17 @@ function App() {
     setTeams(current => ({ ...current, blue: { ...current.blue, picks: current.blue.picks.map((item, itemIndex) => itemIndex === index ? hero : item) } }));
   };
 
-  const showLanding = window.localStorage.getItem('hok-dashboard-started') !== '1';
-  if (showLanding) return <LandingPage onStart={() => { window.localStorage.setItem('hok-dashboard-started', '1'); window.location.reload(); }} />;
+  if (!hasStarted) return <LandingPage onStart={() => { window.localStorage.setItem('hok-dashboard-started', 'true'); setHasStarted(true); }} />;
 
   const labels = { title: t('counterRecommendations'), empty: enemyPicks.length ? t('noResults') : t('selectOpposing'), counter: t('counterHero'), local: t('localMatchupData'), live: t('live') };
   return <GlassWorkspace backgroundImage="/bg-gloss.jpg"><div className="app-shell-inner">
-    <header className="app-topbar"><div className="brand-lockup"><span className="brand-mark" aria-hidden="true"><Swords size={19} /></span><div><p className="brand-name">HoK Draft Analyzer</p><h1 className="brand-title">{copy.title}</h1></div></div><div className="top-actions"><button type="button" onClick={() => void i18n.changeLanguage(language === 'en' ? 'id' : 'en')} className="language-button" aria-label={t('language')}><Languages size={15} aria-hidden="true" /> {language.toUpperCase()}</button><button type="button" role="switch" aria-checked={nameMode === 'global'} aria-label={t('nameMode')} onClick={() => setNameMode(value => value === 'title' ? 'global' : 'title')} className={`name-mode ${nameMode === 'global' ? 'is-active' : ''}`}><span aria-hidden="true" />{nameMode === 'global' ? t('globalNames') : t('titleNames')}</button><label className="quick-search"><Search size={15} aria-hidden="true" /><span>FIND</span><input aria-label={copy.search} placeholder={copy.search} value={databaseSearch} onFocus={() => setIsSearchOpen(true)} onChange={event => { setDatabaseSearch(event.target.value); setIsSearchOpen(true); }} /></label><span className="sync-status"><span className="sync-dot" aria-hidden="true" /> {t('heroAdapter')}</span></div></header>
+    <header className="app-topbar"><div className="brand-lockup"><span className="brand-mark" aria-hidden="true"><Swords size={19} /></span><div><p className="brand-name">HoK Draft Analyzer</p><h1 className="brand-title">{copy.title}</h1></div></div><div className="top-actions"><button type="button" onClick={() => void i18n.changeLanguage(language === 'en' ? 'id' : 'en')} className="language-button" aria-label={t('language')}><Languages size={15} aria-hidden="true" /> {language.toUpperCase()}</button><button type="button" role="switch" aria-checked={nameMode === 'global'} aria-label={t('nameMode')} onClick={() => setNameMode(value => value === 'title' ? 'global' : 'title')} className={`name-mode ${nameMode === 'global' ? 'is-active' : ''}`}><span aria-hidden="true" />{nameMode === 'global' ? t('globalNames') : t('titleNames')}</button><label className="quick-search"><Search size={15} aria-hidden="true" /><span>{t('find')}</span><input aria-label={copy.search} placeholder={copy.search} value={databaseSearch} onFocus={() => setIsSearchOpen(true)} onChange={event => { setDatabaseSearch(event.target.value); setIsSearchOpen(true); }} /></label><span className="sync-status"><span className="sync-dot" aria-hidden="true" /> {t('heroAdapter')}</span></div></header>
     <div className="app-frame"><aside className="side-nav"><p className="side-label">{t('workspace')}</p><button type="button" onClick={() => setActiveTab('simulator')} data-active={activeTab === 'simulator'} className="nav-button"><Swords size={17} aria-hidden="true" /><span className="nav-copy"><strong>{copy.simulator}</strong><span>{t('pickPhase')} / {t('banPhase')}</span></span></button><button type="button" onClick={() => setActiveTab('database')} data-active={activeTab === 'database'} className="nav-button"><Database size={17} aria-hidden="true" /><span className="nav-copy"><strong>{copy.database}</strong><span>{t('databaseDescription')}</span></span></button><div className="nav-footer">{t('draftOnline')}<small>{t('heroDataLoaded')}</small></div></aside>
-      <main className="workspace"><div className="page-heading"><div><p className="section-kicker">{t('workspace')}</p><h2>{activeTab === 'simulator' ? copy.simulator : copy.database}</h2><p>{activeTab === 'simulator' ? t('simulatorDescription') : t('databaseDescription')}</p></div><span className="page-mode">{t('live')} / LOCAL DATA</span></div><div className="view-tabs" role="tablist" aria-label={t('workspace')}><button type="button" role="tab" aria-selected={activeTab === 'simulator'} onClick={() => setActiveTab('simulator')} data-active={activeTab === 'simulator'} className="view-tab">{copy.simulator}</button><button type="button" role="tab" aria-selected={activeTab === 'database'} onClick={() => setActiveTab('database')} data-active={activeTab === 'database'} className="view-tab">{copy.database}</button></div>
-        {isLoading ? <div role="status" className="surface-card state-card"><span className="state-mark" aria-hidden="true">◌</span><strong>{copy.loading}</strong><p>{t('loadingDetail')}</p></div> : loadError ? <div role="alert" className="surface-card state-card state-error"><strong>{t('loadError')}</strong><p>{loadError}</p><button type="button" className="secondary-action" onClick={() => window.location.reload()}>{t('retry')}</button></div> : activeTab === 'simulator' ? <div className="draft-grid"><TeamDraftPanel team="blue" state={teams.blue} nameMode={nameMode} onOpenSlot={setActiveSlot} onRemove={removeHero} /><div className="center-stack"><CounterRecommendations targets={enemyPicks} recommendations={recommendations} nameMode={nameMode} onSelect={selectRecommendation} labels={labels} /><section className="surface-card flow-card"><div className="flow-index">DRAFT FLOW / 02</div><h3>{t('flowTitle')}</h3><p>{t('chooseSlot')}</p><div className="flow-steps"><span className="is-current">01 {t('pickPhase')}</span><span>02 {t('counterRecommendations')}</span><span>03 {t('banPhase')}</span></div></section></div><TeamDraftPanel team="red" state={teams.red} nameMode={nameMode} onOpenSlot={setActiveSlot} onRemove={removeHero} /></div> : <section className="surface-card database-card"><div className="database-intro"><div><div className="section-kicker">ROSTER INDEX</div><h3>{filteredDatabase.length} {t('hero')}</h3></div><button type="button" className="clear-button" onClick={clearFilters}>{t('clear')} <X size={14} aria-hidden="true" /></button></div><div className="filter-row"><label className="filter-field filter-wide"><span>{t('searchHero')}</span><div className="field-with-icon"><Search size={15} aria-hidden="true" /><input aria-label={t('searchHero')} value={databaseSearch} onChange={event => setDatabaseSearch(event.target.value)} placeholder={t('searchHero')} /></div></label><label className="filter-field"><span>{t('role')}</span><div className="select-wrap"><select value={roleFilter} onChange={event => setRoleFilter(event.target.value)}><option value="all">{t('allRoles')}</option>{roles.map(role => <option key={role} value={role}>{t(`roles.${role}`, { defaultValue: role })}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label><label className="filter-field"><span>{t('lane')}</span><div className="select-wrap"><select value={laneFilter} onChange={event => setLaneFilter(event.target.value)}><option value="all">{t('allLanes')}</option>{lanes.map(lane => <option key={lane} value={lane}>{t(`lanes.${lane}`, { defaultValue: lane })}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label><label className="filter-field"><span>{t('tier')}</span><div className="select-wrap"><select value={tierFilter} onChange={event => setTierFilter(event.target.value)}><option value="all">{t('tier')}: all</option>{tiers.map(tier => <option key={tier} value={tier}>{tier}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label></div><div className="table-wrap"><table className="meta-table"><thead><tr>{([['name', t('hero')], ['role', t('role')], ['lane', t('lane')], ['tier', t('tier')], ['win', t('win')], ['pick', t('pick')], ['ban', t('ban')]] as const).map(([key, label]) => <th key={key}><button type="button" onClick={() => selectSort(key)}>{label}<span aria-hidden="true">{sortKey === key ? sortDirection === 'asc' ? ' ↑' : ' ↓' : ''}</span></button></th>)}</tr></thead><tbody>{filteredDatabase.map(hero => <tr key={hero.id}><td><span className="hero-cell"><img src={hero.image_url} alt="" width="32" height="32" />{displayHeroName(hero, nameMode)}</span></td><td>{rolesOf(hero).join(', ') || t('roleUnavailable')}</td><td>{hero.recommended_lane || 'N/A'}</td><td><span className="tier-chip">{hero.popularity || 'N/A'}</span></td><td>{hero.win_rate}</td><td>{hero.pick_rate}</td><td>{hero.ban_rate}</td></tr>)}</tbody></table>{filteredDatabase.length === 0 && <div className="no-results"><strong>{t('noResults')}</strong><span>{t('clear')}</span></div>}</div></section>}
+      <main className="workspace"><div className="page-heading"><div><p className="section-kicker">{t('workspace')}</p><h2>{activeTab === 'simulator' ? copy.simulator : copy.database}</h2><p>{activeTab === 'simulator' ? t('simulatorDescription') : t('databaseDescription')}</p></div><span className="page-mode">{t('live')} / {t('localData')}</span></div><div className="view-tabs" role="tablist" aria-label={t('workspace')}><button type="button" role="tab" aria-selected={activeTab === 'simulator'} onClick={() => setActiveTab('simulator')} data-active={activeTab === 'simulator'} className="view-tab">{copy.simulator}</button><button type="button" role="tab" aria-selected={activeTab === 'database'} onClick={() => setActiveTab('database')} data-active={activeTab === 'database'} className="view-tab">{copy.database}</button></div>
+        {isLoading ? <div role="status" className="surface-card state-card"><span className="state-mark" aria-hidden="true">◌</span><strong>{copy.loading}</strong><p>{t('loadingDetail')}</p></div> : loadError ? <div role="alert" className="surface-card state-card state-error"><strong>{t('loadError')}</strong><p>{loadError}</p><button type="button" className="secondary-action" onClick={() => window.location.reload()}>{t('retry')}</button></div> : activeTab === 'simulator' ? <div className="draft-grid"><TeamDraftPanel team="blue" state={teams.blue} nameMode={nameMode} onOpenSlot={setActiveSlot} onRemove={removeHero} /><div className="center-stack"><TeamSynergyPanel bluePicks={teams.blue.picks} redPicks={teams.red.picks} /><CounterRecommendations targets={enemyPicks} recommendations={recommendations} nameMode={nameMode} onSelect={selectRecommendation} labels={labels} />{enemyPicks.length > 0 && <CounterItemRecommendations enemyPicks={enemyPicks} items={items} nameMode={nameMode} />}<section className="surface-card flow-card"><div className="flow-index">{t('draftFlowKicker')}</div><h3>{t('flowTitle')}</h3><p>{t('chooseSlot')}</p><div className="flow-steps"><span className="is-current">01 {t('pickPhase')}</span><span>02 {t('counterRecommendations')}</span><span>03 {t('banPhase')}</span></div></section></div><TeamDraftPanel team="red" state={teams.red} nameMode={nameMode} onOpenSlot={setActiveSlot} onRemove={removeHero} /></div> : <section className="surface-card database-card"><div className="database-intro"><div><div className="section-kicker">{t('rosterIndex')}</div><h3>{filteredDatabase.length} {t('hero')}</h3></div><button type="button" className="clear-button" onClick={clearFilters}>{t('clear')} <X size={14} aria-hidden="true" /></button></div><div className="filter-row"><label className="filter-field filter-wide"><span>{t('searchHero')}</span><div className="field-with-icon"><Search size={15} aria-hidden="true" /><input aria-label={t('searchHero')} value={databaseSearch} onChange={event => setDatabaseSearch(event.target.value)} placeholder={t('searchHero')} /></div></label><label className="filter-field"><span>{t('role')}</span><div className="select-wrap"><select value={roleFilter} onChange={event => setRoleFilter(event.target.value)}><option value="all">{t('allRoles')}</option>{roles.map(role => <option key={role} value={role}>{t(`roles.${role}`, { defaultValue: role })}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label><label className="filter-field"><span>{t('lane')}</span><div className="select-wrap"><select value={laneFilter} onChange={event => setLaneFilter(event.target.value)}><option value="all">{t('allLanes')}</option>{lanes.map(lane => <option key={lane} value={lane}>{t(`lanes.${lane}`, { defaultValue: lane })}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label><label className="filter-field"><span>{t('tier')}</span><div className="select-wrap"><select value={tierFilter} onChange={event => setTierFilter(event.target.value)}><option value="all">{t('tier')}: all</option>{tiers.map(tier => <option key={tier} value={tier}>{tier}</option>)}</select><ChevronDown size={14} aria-hidden="true" /></div></label></div><div className="table-wrap"><table className="meta-table"><thead><tr>{([['name', t('hero')], ['role', t('role')], ['lane', t('lane')], ['tier', t('tier')], ['win', t('win')], ['pick', t('pick')], ['ban', t('ban')]] as const).map(([key, label]) => <th key={key}><button type="button" onClick={() => selectSort(key)}>{label}<span aria-hidden="true">{sortKey === key ? sortDirection === 'asc' ? ' ↑' : ' ↓' : ''}</span></button></th>)}</tr></thead><tbody>{filteredDatabase.map(hero => <tr key={hero.id} id={`hero-${hero.id}`} className={selectedHeroId === hero.id ? 'is-selected' : ''}><td><span className="hero-cell"><img src={hero.image_url} alt="" width="32" height="32" />{displayHeroName(hero, nameMode)}</span></td><td>{rolesOf(hero).join(', ') || t('roleUnavailable')}</td><td>{hero.recommended_lane || 'N/A'}</td><td><span className="tier-chip">{hero.popularity || 'N/A'}</span></td><td>{hero.win_rate}</td><td>{hero.pick_rate}</td><td>{hero.ban_rate}</td></tr>)}</tbody></table>{selectedHero && <div className="database-detail"><div><strong>{displayHeroName(selectedHero, nameMode)}</strong><span>{selectedHero.win_rate} {t('win')} · {selectedHero.pick_rate} {t('pick')} · {selectedHero.ban_rate} {t('ban')}</span></div><p>{selectedHeroMatchups.length ? `${t('matchups')}: ${selectedHeroMatchups.map(row => row.heroName === selectedHero.chinese_hero_name ? row.counteredByName : row.heroName).join(', ')}` : t('noMatchups')}</p></div>}{selectedItem && <div id={`item-${selectedItem.id}`} className="database-detail"><div><strong>{selectedItem.name}</strong><span>{selectedItem.category} · {selectedItem.price.toLocaleString()}</span></div><p>{t('itemSelected')}</p></div>}{filteredDatabase.length === 0 && <div className="no-results"><strong>{t('noResults')}</strong><span>{t('clear')}</span></div>}</div></section>}
       </main></div>
     {activeSlot && <HeroPickerModal slot={activeSlot} heroes={heroes} usedIds={usedIds} nameMode={nameMode} onClose={() => setActiveSlot(null)} onSelect={pickHero} />}
-    {isSearchOpen && <QuickSearchModal heroes={heroes} items={items} nameMode={nameMode} onClose={() => setIsSearchOpen(false)} onNavigate={target => { setIsSearchOpen(false); setActiveTab(target === 'hero' ? 'database' : 'simulator'); }} />}
+    {isSearchOpen && <QuickSearchModal heroes={heroes} items={items} nameMode={nameMode} onClose={() => setIsSearchOpen(false)} onNavigate={navigateFromSearch} />}
   </div></GlassWorkspace>;
 }
 

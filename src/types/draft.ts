@@ -20,11 +20,10 @@ export interface DraftSlot {
   team: DraftTeam;
   phase: DraftPhase;
   index: number;
-  hero?: DraftHero | string | null;
-  heroId?: string | null;
-  side?: 'blue' | 'red' | string;
-  type?: 'pick' | 'ban' | string;
-  [key: string]: any;
+  hero?: DraftHero | null;
+  heroId?: string | number | null;
+  side?: DraftTeam;
+  type?: DraftPhase;
 }
 
 export interface DraftTeamState {
@@ -39,3 +38,13 @@ export interface DraftState {
   redBans: Array<DraftHero | null>;
   activeSlot?: DraftSlot | null;
 }
+
+export interface SearchItem {
+  id: string | number;
+  name: string;
+  category: string;
+  price: number;
+  icon: string;
+  tier?: string;
+}
+

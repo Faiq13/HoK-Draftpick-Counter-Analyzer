@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44">
+  <rect width="44" height="44" rx="8" fill="#1e293b"/>
+  <path d="M22 8 L32 13 V23 C32 29.5 27.5 35 22 37 C16.5 35 12 29.5 12 23 V13 Z" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linejoin="round"/>
+  <text x="22" y="27" font-family="sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle">ITEM</text>
+</svg>
