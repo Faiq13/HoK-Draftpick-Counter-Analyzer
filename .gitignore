@@ -6,5 +6,7 @@ dist/
 .impeccable/
 .openchamber/
 .vercel/
+agents.md
+AGENTS.md
 
 sesi_opencode.json

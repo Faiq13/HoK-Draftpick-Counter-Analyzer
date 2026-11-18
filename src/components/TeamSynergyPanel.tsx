@@ -90,7 +90,7 @@ export function TeamSynergyPanel({ bluePicks, redPicks }: TeamSynergyPanelProps)
           <div className="synergy-section-head">
             <span className="synergy-label">{t('damageSplit')}</span>
             <span className="synergy-sublabel">
-              {damageSplit.physicalPercent}% {t('physical')} / {damageSplit.magicPercent}% {t('magic')}
+              {teamSize === 0 ? `0% ${t('physical')} / 0% ${t('magic')}` : `${damageSplit.physicalPercent}% ${t('physical')} / ${damageSplit.magicPercent}% ${t('magic')}`}
             </span>
           </div>
 
@@ -104,22 +104,22 @@ export function TeamSynergyPanel({ bluePicks, redPicks }: TeamSynergyPanelProps)
           >
             <div
               className="damage-bar-phys"
-              style={{ width: `${damageSplit.physicalPercent}%` }}
-              title={`${t('physical')}: ${damageSplit.physicalPercent}%`}
+              style={{ width: teamSize === 0 ? '0%' : `${damageSplit.physicalPercent}%` }}
+              title={`${t('physical')}: ${teamSize === 0 ? 0 : damageSplit.physicalPercent}%`}
             />
             <div
               className="damage-bar-magic"
-              style={{ width: `${damageSplit.magicPercent}%` }}
-              title={`${t('magic')}: ${damageSplit.magicPercent}%`}
+              style={{ width: teamSize === 0 ? '0%' : `${damageSplit.magicPercent}%` }}
+              title={`${t('magic')}: ${teamSize === 0 ? 0 : damageSplit.magicPercent}%`}
             />
           </div>
 
           <div className="damage-split-legend">
-            <span className="legend-phys">⚔ {t('physical')} {damageSplit.physicalPercent}%</span>
-            <span className="legend-magic">✦ {t('magic')} {damageSplit.magicPercent}%</span>
+            <span className="legend-phys">⚔ {t('physical')} {teamSize === 0 ? 0 : damageSplit.physicalPercent}%</span>
+            <span className="legend-magic">✦ {t('magic')} {teamSize === 0 ? 0 : damageSplit.magicPercent}%</span>
           </div>
 
-          {damageSplit.vulnerabilityWarning && (
+          {damageSplit.vulnerabilityWarning && teamSize > 0 && (
             <div className="synergy-warning-text" role="alert">
               ⚠ {damageSplit.vulnerabilityWarning === 'skewed_physical'
                 ? t('tagSkewedPhysical')
@@ -136,22 +136,24 @@ export function TeamSynergyPanel({ bluePicks, redPicks }: TeamSynergyPanelProps)
 
           <div className="composition-tags-wrap">
             {tags.length > 0 ? (
-              tags.map(tag => {
-                let detailText = '';
-                if (tag.duplicates && tag.duplicates.length > 0) {
-                  detailText = ` (${tag.duplicates.map(d => `${t(`lane${d.lane}`, d.lane)} x${d.count}`).join(', ')})`;
-                } else if (tag.detail) {
-                  detailText = ` (${tag.detail})`;
-                }
+              tags
+                .filter(tag => !(tag.id === 'duplicate_lanes' && laneCoverage.duplicates.length > 0))
+                .map(tag => {
+                  let detailText = '';
+                  if (tag.duplicates && tag.duplicates.length > 0) {
+                    detailText = ` (${tag.duplicates.map(d => `${t(`lane${d.lane}`, d.lane)} x${d.count}`).join(', ')})`;
+                  } else if (tag.detail) {
+                    detailText = ` (${tag.detail})`;
+                  }
 
-                return (
-                  <span key={tag.id} className={`comp-tag tag-${tag.type}`}>
-                    {tag.type === 'warning' ? '⚠ ' : '✦ '}
-                    {t(tag.labelKey, tag.defaultLabel)}
-                    {detailText}
-                  </span>
-                );
-              })
+                  return (
+                    <span key={tag.id} className={`comp-tag tag-${tag.type}`}>
+                      {tag.type === 'warning' ? '⚠ ' : '✦ '}
+                      {t(tag.labelKey, tag.defaultLabel)}
+                      {detailText}
+                    </span>
+                  );
+                })
             ) : (
               <span className="synergy-sublabel">
                 {teamSize === 0 ? t('noPicksYet') : t('balancedDamage')}

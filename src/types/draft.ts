@@ -46,5 +46,7 @@ export interface SearchItem {
   price: number;
   icon: string;
   tier?: string;
+  counterRole?: string;
+  counterRoleId?: string;
 }
 

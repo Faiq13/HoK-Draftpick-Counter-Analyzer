@@ -16,7 +16,7 @@ export function getItemIconUrl(path?: string): string {
 
 export interface CounterItemRecommendation {
   item: SearchItem;
-  triggerCategory: 'magic' | 'sustain' | 'attack-speed' | 'crowd-control' | 'shield';
+  triggerCategory: 'magic' | 'sustain' | 'attack-speed' | 'crowd-control' | 'tank';
   categoryKey: string;
   defaultCategory: string;
   reasonKey: string;
@@ -34,10 +34,6 @@ const HEAVY_CC_NAMES = [
 const SUSTAIN_NAMES = [
   'cai yan', 'dr bian', 'bian que', 'cheng yaojin', 'yang jian', 'biron', 'agudo',
   'sang qi', 'dolia', 'fuzi', 'arthur', 'allain', 'charlotte', 'meng ya', 'luban no.7', 'marco polo'
-];
-
-const SHIELD_NAMES = [
-  'zhang fei', 'liu shan', 'mozi', 'arthur', 'yaria', 'consort yu', 'zhong kui', 'kui', 'menki', 'luna'
 ];
 
 const norm = (s?: string) => (s || '').toLowerCase();
@@ -72,7 +68,7 @@ export function evaluateCounterItems(
 
   if (magicThreats.length > 0) {
     const isHeavy = magicThreats.length >= 2;
-    const targetItemIds = ['succubus-cloak', 'splendor', 'longnight-guardian', 'nightmarish-gaze'];
+    const targetItemIds = ['succubus-cloak', 'splendor', 'longnight-guardian'];
     for (const id of targetItemIds) {
       const item = itemMap.get(id);
       if (item) {
@@ -97,7 +93,7 @@ export function evaluateCounterItems(
       const name = norm(h.chinese_hero_name) + ' ' + norm(h.english_hero_name);
       return name.includes('cai yan') || name.includes('bian') || name.includes('cheng yaojin') || name.includes('sang qi');
     });
-    const targetItemIds = ['mortal-punisher', 'venomous-staff', 'sea-tremor'];
+    const targetItemIds = ['mortal-punisher', 'venomous-staff', 'blazing-cape'];
     for (const id of targetItemIds) {
       const item = itemMap.get(id);
       if (item) {
@@ -122,7 +118,7 @@ export function evaluateCounterItems(
   });
 
   if (marksmanThreats.length > 0) {
-    const targetItemIds = ['ominous-premonition', 'cuirass-of-savagery'];
+    const targetItemIds = ['ominous-premonition', 'cuirass-of-savagery', 'boots-of-fortitude'];
     for (const id of targetItemIds) {
       const item = itemMap.get(id);
       if (item) {
@@ -131,8 +127,8 @@ export function evaluateCounterItems(
           triggerCategory: 'attack-speed',
           categoryKey: 'catAntiPhys',
           defaultCategory: 'Physical Defense',
-          reasonKey: 'reasonAttackSpeed',
-          defaultReason: 'Reduce enemy attack speed and physical DPS',
+          reasonKey: 'reasonPhysicalDefense',
+          defaultReason: 'Physical defense against basic attacks; only Ominous Premonition slows attack speed',
           triggerHeroes: marksmanThreats,
           priority: 'high',
         });
@@ -161,21 +157,20 @@ export function evaluateCounterItems(
     }
   }
 
-  // 5. Heavy Shields
-  const shieldThreats = enemyPicks.filter(h => heroMatches(h, SHIELD_NAMES));
-  if (shieldThreats.length > 0) {
-    const targetItemIds = ['shadow-blade', 'armor-piercing'];
+  const tankThreats = enemyPicks.filter(h => rolesOf(h).some(role => role.toLowerCase() === 'tank'));
+  if (tankThreats.length > 0) {
+    const targetItemIds = ['starbreaker', 'doomsday', 'breakthrough-robe'];
     for (const id of targetItemIds) {
       const item = itemMap.get(id);
       if (item) {
         recommendations.push({
           item,
-          triggerCategory: 'shield',
-          categoryKey: 'catAntiShield',
-          defaultCategory: 'Anti-Shield',
-          reasonKey: 'reasonShields',
-          defaultReason: 'Penetrate and destroy enemy shields and barriers',
-          triggerHeroes: shieldThreats,
+          triggerCategory: 'tank',
+          categoryKey: 'catAntiTank',
+          defaultCategory: 'Armor / High HP',
+          reasonKey: 'reasonTanks',
+          defaultReason: 'Enemy tanks: armor penetration or damage based on maximum HP',
+          triggerHeroes: tankThreats,
           priority: 'medium',
         });
       }

@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 import type { DraftHero } from '../types/draft';
 import { displayHeroName } from '../lib/hero';
+import { resolveCounterReason } from '../lib/counterReason';
 import type { CounterRecommendation, StructuredCounterReason } from '../lib/counter';
 
 interface CounterRecommendationsProps {
@@ -16,22 +17,6 @@ interface CounterRecommendationsProps {
     local: string;
     live: string;
   };
-}
-
-function resolveReason(reason: string, t: ReturnType<typeof import('react-i18next').useTranslation>['t']): string {
-  if (reason.startsWith('__LIVE_META__:')) {
-    const [_, candidate, enemy] = reason.split(':');
-    return t('liveMetaCounter', { candidate, enemy });
-  }
-  if (reason.startsWith('__FALLBACK__:')) {
-    const [_, candidate, enemy] = reason.split(':');
-    return t('fallbackCounter', { candidate, enemy });
-  }
-  if (reason.startsWith('__VERIFIED__:')) {
-    const [_, counter, target] = reason.split(':');
-    return t('verifiedMatchup', { counter, target });
-  }
-  return reason;
 }
 
 export function CounterRecommendations({
@@ -50,7 +35,7 @@ export function CounterRecommendations({
     return () => i18n.off('languageChanged', handleLanguageChange);
   }, [i18n]);
   
-  const isId = language === 'id';
+  const isId = language.startsWith('id');
   const targetNames = targets.map(hero => displayHeroName(hero, nameMode)).join(', ');
 
   return (
@@ -110,7 +95,7 @@ export function CounterRecommendations({
                         const targetHero = sr.targetHero ?? rec.targets.find(t => t.id === sr.targetHeroId) ?? targets.find(t => t.id === sr.targetHeroId);
                         const targetName = targetHero ? displayHeroName(targetHero, nameMode) : sr.targetHeroName;
                         const reason = isId && sr.reason_id ? sr.reason_id : sr.reason;
-                        const displayReason = resolveReason(reason, t);
+                        const displayReason = resolveCounterReason(reason, t);
 
                         return (
                           <div key={sr.targetHeroId} className="rec-reason-row">

@@ -128,6 +128,11 @@ function resolveOptions(
   return { limit, usedIds, bluePicks };
 }
 
+export function getCounterMetaTier(hero: DraftHero): string {
+  const meta = metaMap.get(canonical(hero.chinese_hero_name)) ?? metaMap.get(canonical(hero.english_hero_name));
+  return meta?.tier || (typeof hero.popularity === 'string' && hero.popularity.length === 1 ? hero.popularity : hero.tier || 'B');
+}
+
 export function buildCounterRecommendations(
   heroes: DraftHero[],
   enemyPicksInput: DraftHero[],
@@ -207,6 +212,9 @@ export function buildCounterRecommendations(
       let isMeta = false;
       const rawReasons: string[] = [];
       const rawReasons_id: string[] = [];
+      const fallbackReason = `${isMetaCounter ? '__LIVE_META__' : '__FALLBACK__'}:${isMetaCounter
+        ? JSON.stringify({ candidate: heroDisplayName(candidate), enemy: heroDisplayName(enemy) })
+        : `${heroDisplayName(candidate)}|${heroDisplayName(enemy)}`}`;
 
       if (localRows.length > 0) {
         isLocal = true;
@@ -221,15 +229,16 @@ export function buildCounterRecommendations(
             rawReasons.push(row.reason.trim());
             if (row.reason_id && row.reason_id.trim()) {
               rawReasons_id.push(row.reason_id.trim());
+            } else {
+              rawReasons_id.push(fallbackReason);
             }
           }
         }
       } else if (isMetaCounter) {
         isMeta = true;
         weight = 3.5;
-        // Use a key for i18n translation in the component
-        rawReasons.push(`__LIVE_META__:${heroDisplayName(candidate)}|${heroDisplayName(enemy)}`);
-        rawReasons_id.push(`__LIVE_META__:${heroDisplayName(candidate)}|${heroDisplayName(enemy)}`);
+        rawReasons.push(fallbackReason);
+        rawReasons_id.push(fallbackReason);
       }
 
       // Deduplicate reasons
@@ -245,8 +254,8 @@ export function buildCounterRecommendations(
         return 0;
       });
 
-      const bestReason = uniqueReasons[0] || `${heroDisplayName(candidate)} counters ${heroDisplayName(enemy)}.`;
-      const bestReason_id = uniqueReasons_id[0] || `__FALLBACK__:${heroDisplayName(candidate)}|${heroDisplayName(enemy)}`;
+      const bestReason = uniqueReasons[0] || fallbackReason;
+      const bestReason_id = uniqueReasons_id[0] || fallbackReason;
 
       targetMatchups.push({
         target: enemy,
@@ -272,7 +281,7 @@ export function buildCounterRecommendations(
     const S_matchup = effectiveSum * 10.0;
 
     // Meta / Tier score
-    const metaTier = candidateMeta?.tier || (typeof candidate.popularity === 'string' && candidate.popularity.length === 1 ? candidate.popularity : candidate.tier || 'B');
+    const metaTier = getCounterMetaTier(candidate);
     const tierPointsMap: Record<string, number> = { S: 14, A: 9, B: 4, C: 0 };
     const tierPoints = tierPointsMap[metaTier.toUpperCase()] ?? 4;
 
